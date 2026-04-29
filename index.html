@@ -253,6 +253,108 @@
     letter-spacing: 1px; margin-bottom: 12px; font-weight: 700;
   }
   .info-social { display: flex; flex-direction: column; gap: 8px; font-size: 0.95rem; }
+
+  /* ── Header-right wrapper ── */
+  .header-right { display: flex; align-items: center; gap: 16px; }
+
+  /* ════════════════════════════════════════
+     DESKTOP  (≥ 1100px)
+  ════════════════════════════════════════ */
+  @media (min-width: 1100px) {
+    body { font-size: 17px; }
+    .header-titles h1 { font-size: 1.35rem; }
+    .header-titles span { font-size: 0.88rem; }
+    .header-brand span { font-size: 0.92rem; }
+    nav button { font-size: 1rem; padding: 10px 22px 12px; }
+    .tab { padding: 36px 36px; max-width: 1080px; }
+    .hint { font-size: 0.9rem; }
+    select { font-size: 1rem; padding: 10px 14px; }
+    .center-field label { font-size: 0.82rem; }
+    .slot-label { font-size: 0.82rem; }
+    .value-hero-name { font-size: 1.35rem; }
+    .value-hero-number { font-size: 3.8rem; }
+    .value-hero-sub { font-size: 1rem; }
+    .fd-move-name { font-size: 1.5rem; }
+    .fd-stat-value { font-size: 2.3rem; }
+    .fd-stat-label { font-size: 0.8rem; }
+    table { font-size: 1rem; }
+    th { font-size: 0.8rem; padding: 10px 16px; }
+    td { padding: 11px 16px; }
+    .info-body { font-size: 1.05rem; }
+  }
+
+  /* ════════════════════════════════════════
+     MOBILE  (≤ 640px)
+  ════════════════════════════════════════ */
+  @media (max-width: 640px) {
+    body { font-size: 13px; }
+
+    /* Header */
+    header { padding: 8px 12px; gap: 8px; }
+    .header-cotw { height: 28px; }
+    .header-titles h1 { font-size: 0.88rem; letter-spacing: 0.5px; }
+    .header-titles span { font-size: 0.62rem; }
+    .header-right { flex-direction: column; align-items: flex-end; gap: 2px; }
+    .header-brand img { height: 20px; }
+    .header-brand span { font-size: 0.68rem; }
+    .lang-btn { font-size: 0.68rem; padding: 2px 5px; }
+
+    /* Nav — wrap to 2 lines, tighten spacing */
+    nav { padding: 6px 8px 0; gap: 2px; flex-wrap: wrap; }
+    nav button {
+      font-size: 0.68rem;
+      padding: 5px 8px 7px;
+      letter-spacing: 0;
+    }
+
+    /* Tabs */
+    .tab { padding: 14px 10px; max-width: 100%; }
+    .hint { font-size: 0.72rem; margin-bottom: 14px; }
+
+    /* Selector rows — shrink portrait columns */
+    .selector-row {
+      grid-template-columns: 90px 1fr 90px;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .selector-row.two-col { grid-template-columns: 90px 1fr; }
+
+    /* Portraits */
+    .portrait-frame { width: 75px; height: 75px; }
+    .portrait-frame .no-portrait { font-size: 1.5rem; }
+
+    /* Selects */
+    select { font-size: 0.8rem; padding: 6px 8px; }
+
+    /* Center controls */
+    .center-field { max-width: 100%; }
+    .center-field label { font-size: 0.68rem; margin-bottom: 4px; }
+    .center-field select { max-width: 100%; }
+    .feint-toggle, .brake-toggle { font-size: 0.72rem; padding: 5px 10px; }
+
+    /* Results */
+    .result-box { padding: 14px; }
+    .value-hero-name { font-size: 0.95rem; }
+    .value-hero-number { font-size: 2.4rem; }
+    .value-hero-sub { font-size: 0.78rem; }
+
+    /* Tables */
+    table { font-size: 0.8rem; }
+    th { padding: 6px 10px; font-size: 0.65rem; }
+    td { padding: 7px 10px; }
+
+    /* Frame Data card */
+    .fd-card { min-height: 200px; }
+    .fd-render { width: 55%; }
+    .fd-content { padding: 18px 16px; }
+    .fd-move-name { font-size: 1rem; margin-bottom: 16px; }
+    .fd-stat-value { font-size: 1.6rem; }
+    .fd-stat-label { font-size: 0.65rem; min-width: 72px; }
+
+    /* Info tab — hide decorative image on mobile */
+    #info > img[src*="freak lentes"] { display: none; }
+    .info-body { font-size: 0.88rem; }
+  }
 </style>
 </head>
 <body>
@@ -265,14 +367,16 @@
     <h1>FFCOTW FRAME CALCULATOR</h1>
     <span>Fatal Fury: City of the Wolves — data from DreamCancel Wiki</span>
   </div>
-  <div class="header-brand">
-    <img src="portraits/Angelfreak logo.png" alt="AngelFreak" onerror="this.style.display='none'">
-    <span>by AngelFreak</span>
-  </div>
-  <div class="lang-toggle">
-    <button id="lang-en" class="lang-btn active" onclick="setLang('en')">EN</button>
-    <span class="lang-sep">—</span>
-    <button id="lang-es" class="lang-btn" onclick="setLang('es')">ESP</button>
+  <div class="header-right">
+    <div class="header-brand">
+      <img src="portraits/Angelfreak logo.png" alt="AngelFreak" onerror="this.style.display='none'">
+      <span>by AngelFreak</span>
+    </div>
+    <div class="lang-toggle">
+      <button id="lang-en" class="lang-btn active" onclick="setLang('en')">EN</button>
+      <span class="lang-sep">—</span>
+      <button id="lang-es" class="lang-btn" onclick="setLang('es')">ESP</button>
+    </div>
   </div>
 </header>
 

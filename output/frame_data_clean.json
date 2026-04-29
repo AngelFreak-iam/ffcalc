@@ -1,0 +1,9213 @@
+{
+  "Andy Bogard": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 3,
+      "on_block": 1,
+      "on_block_feint": -3,
+      "on_hit": 3,
+      "on_hit_feint": -1
+    },
+    {
+      "move": "cl.B",
+      "startup": 5,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": -4,
+      "on_hit": 6,
+      "on_hit_feint": -1
+    },
+    {
+      "move": "cl.C",
+      "startup": 6,
+      "active": 3,
+      "on_block": -8,
+      "on_block_feint": 2,
+      "on_hit": -5,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "cl.D",
+      "startup": 9,
+      "active": 5,
+      "on_block": -3,
+      "on_block_feint": 4,
+      "on_hit": 1,
+      "on_hit_feint": 8
+    },
+    {
+      "move": "f.A",
+      "startup": 6,
+      "active": 3,
+      "on_block": 1,
+      "on_block_feint": -3,
+      "on_hit": 2,
+      "on_hit_feint": -2
+    },
+    {
+      "move": "f.B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": -1
+    },
+    {
+      "move": "f.C",
+      "startup": 12,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 1
+    },
+    {
+      "move": "f.D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 4
+    },
+    {
+      "move": "2A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -7,
+      "on_hit": 3,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "2C",
+      "startup": 8,
+      "active": 4,
+      "on_block": -5,
+      "on_block_feint": 0,
+      "on_hit": -3,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "2D",
+      "startup": 9,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 59
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 7,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": -2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 13,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 1
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": 77
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 24,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 10,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 58
+    },
+    {
+      "move": "f.B",
+      "startup": 10,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": 85
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 54
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 68
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 5,
+      "on_block": -3,
+      "on_hit": 63
+    },
+    {
+      "move": "j.CD",
+      "startup": 17,
+      "active": 11,
+      "on_block": -3,
+      "on_hit": 63
+    },
+    {
+      "move": "2C+Rev",
+      "startup": 10,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -1,
+      "on_hit_feint": 7
+    },
+    {
+      "move": "5C+Rev",
+      "startup": 24,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "214A",
+      "startup": 13,
+      "active": null,
+      "on_block": -3,
+      "on_hit": -1
+    },
+    {
+      "move": "214C",
+      "startup": 15,
+      "active": null,
+      "on_block": -3,
+      "on_hit": -1
+    },
+    {
+      "move": "214AC",
+      "startup": 23,
+      "active": null,
+      "on_block": 4,
+      "on_hit": 94
+    },
+    {
+      "move": "236A",
+      "startup": 10,
+      "active": 7,
+      "on_block": -3,
+      "on_hit": 1
+    },
+    {
+      "move": "236C",
+      "startup": 15,
+      "active": 9,
+      "on_block": -5,
+      "on_hit": 0
+    },
+    {
+      "move": "236AC",
+      "startup": 15,
+      "active": 10,
+      "on_block": -4,
+      "on_hit": 2
+    },
+    {
+      "move": "236C",
+      "startup": 9,
+      "active": 5,
+      "on_block": -6,
+      "on_hit": 74
+    },
+    {
+      "move": "236AC",
+      "startup": 9,
+      "active": 5,
+      "on_block": -9,
+      "on_hit": 79
+    },
+    {
+      "move": "236C",
+      "startup": 12,
+      "active": 2,
+      "on_block": -5,
+      "on_hit": 67
+    },
+    {
+      "move": "236AC",
+      "startup": 12,
+      "active": 2,
+      "on_block": -5,
+      "on_hit": 62
+    },
+    {
+      "move": "623A",
+      "startup": 6,
+      "active": 14,
+      "on_block": -31,
+      "on_hit": 57
+    },
+    {
+      "move": "623C",
+      "startup": 8,
+      "active": 18,
+      "on_block": -39,
+      "on_block_brake": -2,
+      "on_hit": 56,
+      "on_hit_brake": 56
+    },
+    {
+      "move": "623AC",
+      "startup": 7,
+      "active": 16,
+      "on_block": -40,
+      "on_block_brake": -2,
+      "on_hit": 89,
+      "on_hit_brake": 89
+    },
+    {
+      "move": "236B",
+      "startup": 14,
+      "active": 5,
+      "on_block": -4,
+      "on_hit": 75
+    },
+    {
+      "move": "236D",
+      "startup": 17,
+      "active": 5,
+      "on_block": -4,
+      "on_block_brake": -2,
+      "on_hit": 73
+    },
+    {
+      "move": "236BD",
+      "startup": 16,
+      "active": 5,
+      "on_block": -5,
+      "on_hit": 77
+    },
+    {
+      "move": "214B/D",
+      "startup": 13,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "214BD",
+      "startup": 13,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": -1
+    },
+    {
+      "move": "214B/D",
+      "startup": 13,
+      "active": 5,
+      "on_block": 0,
+      "on_hit": 2
+    },
+    {
+      "move": "214BD",
+      "startup": 17,
+      "active": 6,
+      "on_block": 1,
+      "on_hit": 3
+    },
+    {
+      "move": "214B/D",
+      "startup": 46,
+      "active": 11,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "214BD",
+      "startup": 44,
+      "active": 11,
+      "on_block": -4,
+      "on_hit": 80
+    },
+    {
+      "move": "214B/D",
+      "startup": 5,
+      "active": 8,
+      "on_hit": 40
+    },
+    {
+      "move": "214BD",
+      "startup": 5,
+      "active": 8,
+      "on_hit": 40
+    },
+    {
+      "move": "236236A",
+      "startup": 8,
+      "active": 5,
+      "on_block": -27,
+      "on_hit": 66
+    },
+    {
+      "move": "236236C",
+      "startup": 7,
+      "active": 5,
+      "on_block": -17,
+      "on_hit": 42,
+      "on_hit_brake": 42
+    },
+    {
+      "move": "236236B",
+      "startup": 10,
+      "active": 33,
+      "on_block": -25,
+      "on_hit": 72
+    },
+    {
+      "move": "236236D",
+      "startup": 9,
+      "active": 33,
+      "on_block": -30,
+      "on_hit": 60
+    },
+    {
+      "move": "236236Rev",
+      "startup": 6,
+      "active": null,
+      "on_block": -9,
+      "on_hit": 11
+    }
+  ],
+  "B. Jenet": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 3,
+      "on_block": 1,
+      "on_block_feint": -6,
+      "on_hit": 3,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "cl.B",
+      "startup": 5,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": -6,
+      "on_hit": 6,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "cl.C",
+      "startup": 6,
+      "active": 4,
+      "on_block": -7,
+      "on_block_feint": 1,
+      "on_hit": -1,
+      "on_hit_feint": 7
+    },
+    {
+      "move": "cl.D",
+      "startup": 8,
+      "active": 5,
+      "on_block": 1,
+      "on_block_feint": 4,
+      "on_hit": 3,
+      "on_hit_feint": 6
+    },
+    {
+      "move": "f.A",
+      "startup": 6,
+      "active": 3,
+      "on_block": -4,
+      "on_hit": -3
+    },
+    {
+      "move": "f.B",
+      "startup": 6,
+      "active": 4,
+      "on_block": 0,
+      "on_block_feint": -3,
+      "on_hit": 0,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "f.C",
+      "startup": 7,
+      "active": 3,
+      "on_block": -7,
+      "on_block_feint": -2,
+      "on_hit": -3,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "f.D",
+      "startup": 9,
+      "active": 4,
+      "on_block": -1,
+      "on_hit": 2
+    },
+    {
+      "move": "2A",
+      "startup": 5,
+      "active": 3,
+      "on_block": 0,
+      "on_block_feint": -8,
+      "on_hit": 4,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "2C",
+      "startup": 9,
+      "active": 3,
+      "on_block": -10,
+      "on_block_feint": -2,
+      "on_hit": -6,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "2D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 59
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 9,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 7,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 1
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 9,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": 83
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 23,
+      "active": 3,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 10,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 62
+    },
+    {
+      "move": "f.C",
+      "startup": 5,
+      "active": 4,
+      "on_block": -7,
+      "on_block_feint": -2,
+      "on_hit": -2,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "j.6B",
+      "startup": 19,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 53
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 35
+    },
+    {
+      "move": "j.AB",
+      "startup": 5,
+      "active": 2,
+      "on_hit": 40
+    },
+    {
+      "move": "CD",
+      "startup": 13,
+      "active": 5,
+      "on_block": -3,
+      "on_hit": 67
+    },
+    {
+      "move": "j.CD",
+      "startup": 19,
+      "active": 6,
+      "on_block": -7
+    },
+    {
+      "move": "2C+Rev",
+      "startup": 12,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -4
+    },
+    {
+      "move": "5C+Rev",
+      "startup": 22,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "236A",
+      "startup": 18,
+      "active": null,
+      "on_block": -4,
+      "on_hit": 0
+    },
+    {
+      "move": "236C",
+      "startup": 22,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "236AC",
+      "startup": 18,
+      "active": null,
+      "on_block": 1,
+      "on_hit": 1
+    },
+    {
+      "move": "214A",
+      "startup": 14,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 83
+    },
+    {
+      "move": "214C",
+      "startup": 18,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": 85
+    },
+    {
+      "move": "214AC",
+      "startup": 19,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 88
+    },
+    {
+      "move": "214B",
+      "startup": 25,
+      "active": 7,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "214D",
+      "startup": 38,
+      "active": 8,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "214BD",
+      "startup": 19,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": 88
+    },
+    {
+      "move": "236B",
+      "startup": 9,
+      "active": 27,
+      "on_block": -17,
+      "on_hit": 80
+    },
+    {
+      "move": "236D",
+      "startup": 20,
+      "active": 28,
+      "on_block": -21,
+      "on_hit": 77,
+      "on_hit_brake": 77
+    },
+    {
+      "move": "236BD",
+      "startup": 16,
+      "active": 32,
+      "on_block": -21,
+      "on_hit": 78,
+      "on_hit_brake": 78
+    },
+    {
+      "move": "j.2B/D",
+      "startup": 8,
+      "active": 6,
+      "on_block": -15,
+      "on_hit": -11
+    },
+    {
+      "move": "j.2BD",
+      "startup": 8,
+      "active": 6,
+      "on_block": -14,
+      "on_hit": -12
+    },
+    {
+      "move": "j.2B/D",
+      "startup": 7,
+      "active": 6,
+      "on_block": -14,
+      "on_hit": -10
+    },
+    {
+      "move": "j.2BD",
+      "startup": 8,
+      "active": 6,
+      "on_block": -14,
+      "on_hit": -8
+    },
+    {
+      "move": "j.2B/D",
+      "startup": 7,
+      "active": 6,
+      "on_block": -14,
+      "on_hit": -10
+    },
+    {
+      "move": "j.2BD",
+      "startup": 8,
+      "active": 6,
+      "on_block": -12,
+      "on_hit": 63
+    },
+    {
+      "move": "j.2B/D",
+      "startup": 6,
+      "active": 6,
+      "on_block": -32
+    },
+    {
+      "move": "j.2BD",
+      "startup": 7,
+      "active": 6,
+      "on_block": -26,
+      "on_hit": 86
+    },
+    {
+      "move": "623A/C",
+      "startup": 3,
+      "active": 40,
+      "on_hit": 78
+    },
+    {
+      "move": "623AC",
+      "startup": 3,
+      "active": 38,
+      "on_hit": 78
+    },
+    {
+      "move": "623AC",
+      "startup": 5,
+      "active": 3,
+      "on_block": -7,
+      "on_hit": 80
+    },
+    {
+      "move": "236236A",
+      "startup": 8,
+      "active": 33,
+      "on_block": -40,
+      "on_hit": 51
+    },
+    {
+      "move": "236236C",
+      "startup": 7,
+      "active": 38,
+      "on_block": -49,
+      "on_hit": 42
+    },
+    {
+      "move": "236236B",
+      "startup": 9,
+      "active": 35,
+      "on_block": -83,
+      "on_hit": 39
+    },
+    {
+      "move": "236236D",
+      "startup": 8,
+      "active": 66,
+      "on_block": -101,
+      "on_hit": 43
+    },
+    {
+      "move": "236236Rev",
+      "startup": 6,
+      "active": 5,
+      "on_block": -18,
+      "on_hit": 19
+    }
+  ],
+  "Billy Kane": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 4,
+      "on_block": 1,
+      "on_block_feint": -8,
+      "on_hit": 3,
+      "on_hit_feint": -6
+    },
+    {
+      "move": "cl.B",
+      "startup": 6,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": -9,
+      "on_hit": 6,
+      "on_hit_feint": -6
+    },
+    {
+      "move": "cl.C",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4,
+      "on_block_feint": -2,
+      "on_hit": 2,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "cl.D",
+      "startup": 7,
+      "active": 4,
+      "on_block": 0,
+      "on_block_feint": 4,
+      "on_hit": 4,
+      "on_hit_feint": 8
+    },
+    {
+      "move": "f.A",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4,
+      "on_block_feint": -7,
+      "on_hit": -4,
+      "on_hit_feint": -7
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -8,
+      "on_hit": 1,
+      "on_hit_feint": -6
+    },
+    {
+      "move": "f.C",
+      "startup": 14,
+      "active": 4,
+      "on_block": -15,
+      "on_block_feint": -5,
+      "on_hit": -8,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "f.D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 1
+    },
+    {
+      "move": "2A",
+      "startup": 7,
+      "active": 3,
+      "on_block": -4,
+      "on_block_feint": -9,
+      "on_hit": -1,
+      "on_hit_feint": -6
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "2C",
+      "startup": 9,
+      "active": 4,
+      "on_block": -6,
+      "on_block_feint": -2,
+      "on_hit": -2,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "2D",
+      "startup": 10,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 52
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 8,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 14,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 0
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 9,
+      "active": 3,
+      "on_block": -8,
+      "on_hit": 84
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 10,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 48
+    },
+    {
+      "move": "6A",
+      "startup": 11,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "6B",
+      "startup": 20,
+      "active": 11,
+      "on_block": -7,
+      "on_hit": -3
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 41
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 42
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 53
+    },
+    {
+      "move": "j.CD",
+      "startup": 24,
+      "active": 5,
+      "on_block": -3
+    },
+    {
+      "move": "2CRev",
+      "startup": 12,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -3,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "5CRev",
+      "startup": 24,
+      "active": 3,
+      "on_block": -3,
+      "on_hit": 3
+    },
+    {
+      "move": "623A",
+      "startup": 11,
+      "active": 20,
+      "on_block": 1,
+      "on_hit": 5
+    },
+    {
+      "move": "623AC",
+      "startup": 15,
+      "active": 42,
+      "on_block": 3,
+      "on_hit": 4
+    },
+    {
+      "move": "236A",
+      "startup": 17,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": -1
+    },
+    {
+      "move": "236C",
+      "startup": 21,
+      "active": 4,
+      "on_block": -10,
+      "on_hit": 1
+    },
+    {
+      "move": "236AC",
+      "startup": 17,
+      "active": 6,
+      "on_block": -10,
+      "on_hit": -3
+    },
+    {
+      "move": "236C",
+      "startup": 7,
+      "active": 4,
+      "on_block": -12,
+      "on_hit": 56
+    },
+    {
+      "move": "236AC",
+      "startup": 11,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 59
+    },
+    {
+      "move": "236C",
+      "startup": 7,
+      "active": 1,
+      "on_block": -1,
+      "on_hit": 1
+    },
+    {
+      "move": "236AC",
+      "startup": 11,
+      "active": 1,
+      "on_block": 0,
+      "on_hit": 2
+    },
+    {
+      "move": "236B",
+      "startup": 14,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": 66
+    },
+    {
+      "move": "236D",
+      "startup": 16,
+      "active": 4,
+      "on_block": 0,
+      "on_hit": -2
+    },
+    {
+      "move": "236D",
+      "startup": 16,
+      "active": 2,
+      "on_block": -5,
+      "on_hit": 103
+    },
+    {
+      "move": "236BD",
+      "startup": 15,
+      "active": 4,
+      "on_block": 0,
+      "on_hit": 85
+    },
+    {
+      "move": "236BD",
+      "startup": 15,
+      "active": 2,
+      "on_block": 5,
+      "on_hit": 105
+    },
+    {
+      "move": "214B",
+      "startup": 12,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "214D",
+      "startup": 16,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "214BD",
+      "startup": 15,
+      "active": 3,
+      "on_block": 0,
+      "on_hit": 3
+    },
+    {
+      "move": "214B",
+      "startup": 16,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": 2
+    },
+    {
+      "move": "214D",
+      "startup": 18,
+      "active": 4,
+      "on_block": -7,
+      "on_hit": 3
+    },
+    {
+      "move": "214BD",
+      "startup": 16,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 5
+    },
+    {
+      "move": "214B~4/6K",
+      "startup": 16,
+      "active": 3,
+      "on_block": -12,
+      "on_hit": 72
+    },
+    {
+      "move": "214D~4/6K",
+      "startup": 16,
+      "active": 3,
+      "on_block": -12,
+      "on_hit": 72
+    },
+    {
+      "move": "214BD~4/6K",
+      "startup": 16,
+      "active": 3,
+      "on_block": -14,
+      "on_hit": 62
+    },
+    {
+      "move": "236236A",
+      "startup": 7,
+      "active": 68,
+      "on_block": -30,
+      "on_hit": 44
+    },
+    {
+      "move": "236236C",
+      "startup": 6,
+      "active": 90,
+      "on_block": -42,
+      "on_hit": 28
+    },
+    {
+      "move": "236236B",
+      "startup": 10,
+      "active": 11,
+      "on_block": -72,
+      "on_hit": 60
+    },
+    {
+      "move": "236236D",
+      "startup": 11,
+      "active": 6,
+      "on_block": -24,
+      "on_hit": 58,
+      "on_hit_brake": 58
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": 5,
+      "on_block": -34,
+      "on_hit": 42
+    }
+  ],
+  "Chun-Li": [
+    {
+      "move": "5A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -6,
+      "on_hit": 1,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "5B",
+      "startup": 6,
+      "active": 4,
+      "on_block": 2,
+      "on_block_feint": -7,
+      "on_hit": 7,
+      "on_hit_feint": -2
+    },
+    {
+      "move": "5C",
+      "startup": 6,
+      "active": 3,
+      "on_block": 3,
+      "on_block_feint": -1,
+      "on_hit": 8,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "5D",
+      "startup": 11,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "2A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -7,
+      "on_hit": 2,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -1,
+      "on_hit": -1
+    },
+    {
+      "move": "2C",
+      "startup": 7,
+      "active": 3,
+      "on_block": -3,
+      "on_block_feint": -2,
+      "on_hit": 3,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "2D",
+      "startup": 9,
+      "active": 3,
+      "on_block": -6,
+      "on_block_feint": -5,
+      "on_hit": -2,
+      "on_hit_feint": -1
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 10,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 9,
+      "active": 6,
+      "on_block": -4,
+      "on_hit": 0
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 11,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": 79
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 9,
+      "active": 4,
+      "on_block": -10,
+      "on_hit": 59
+    },
+    {
+      "move": "6A",
+      "startup": 8,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "3A",
+      "startup": 21,
+      "active": 3,
+      "on_block": -8,
+      "on_hit": 5
+    },
+    {
+      "move": "4C",
+      "startup": 9,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 1
+    },
+    {
+      "move": "6C",
+      "startup": 11,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "3C",
+      "startup": 11,
+      "active": 2,
+      "on_block": -6,
+      "on_hit": 0
+    },
+    {
+      "move": "6B",
+      "startup": 7,
+      "active": 4,
+      "on_block": -1,
+      "on_hit": 1
+    },
+    {
+      "move": "3B",
+      "startup": 36,
+      "active": 2,
+      "on_block": 2,
+      "on_hit": 3
+    },
+    {
+      "move": "6D",
+      "startup": 16,
+      "active": 5,
+      "on_block": -3,
+      "on_hit": 3
+    },
+    {
+      "move": "3D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -10,
+      "on_hit": 59
+    },
+    {
+      "move": "j.2B",
+      "startup": 7,
+      "active": 16,
+      "on_hit": 50
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 34
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 36
+    },
+    {
+      "move": "j.AB",
+      "startup": 5,
+      "active": 2,
+      "on_hit": 22
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 62
+    },
+    {
+      "move": "j.CD",
+      "startup": 20,
+      "active": 4,
+      "on_hit": 66
+    },
+    {
+      "move": "2C+REV",
+      "startup": 12,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -1
+    },
+    {
+      "move": "5C+REV",
+      "startup": 23,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "236A",
+      "startup": 17,
+      "active": null,
+      "on_block": -5,
+      "on_hit": -3
+    },
+    {
+      "move": "236C",
+      "startup": 15,
+      "active": null,
+      "on_block": -8,
+      "on_hit": -6
+    },
+    {
+      "move": "236AC",
+      "startup": 17,
+      "active": null,
+      "on_block": 3,
+      "on_hit": 3
+    },
+    {
+      "move": "236B",
+      "startup": 10,
+      "active": null,
+      "on_block": -3,
+      "on_hit": 1
+    },
+    {
+      "move": "236D",
+      "startup": 23,
+      "active": null,
+      "on_block": -8,
+      "on_hit": 73
+    },
+    {
+      "move": "236BD",
+      "startup": 18,
+      "active": null,
+      "on_block": -8,
+      "on_block_brake": 0,
+      "on_hit": 82
+    },
+    {
+      "move": "28B",
+      "startup": 10,
+      "active": null,
+      "on_block": -16,
+      "on_hit": 52
+    },
+    {
+      "move": "28D",
+      "startup": 16,
+      "active": null,
+      "on_block": -8,
+      "on_hit": 75
+    },
+    {
+      "move": "28BD",
+      "startup": 10,
+      "active": null,
+      "on_block": -14,
+      "on_hit": 81
+    },
+    {
+      "move": "214B",
+      "startup": 26,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "214D",
+      "startup": 28,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "214BD",
+      "startup": 25,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "623",
+      "startup": 5,
+      "active": null,
+      "on_block": -33,
+      "on_hit": 59
+    },
+    {
+      "move": "623",
+      "startup": 7,
+      "active": null,
+      "on_block": -28,
+      "on_hit": 60
+    },
+    {
+      "move": "623",
+      "startup": 6,
+      "active": null,
+      "on_block": -47,
+      "on_hit": 60
+    },
+    {
+      "move": "236236A",
+      "startup": 8,
+      "active": null,
+      "on_block": -46,
+      "on_hit": 46
+    },
+    {
+      "move": "236236C",
+      "startup": 7,
+      "active": null,
+      "on_block": -35,
+      "on_hit": 42
+    },
+    {
+      "move": "236236B",
+      "startup": 11,
+      "active": null,
+      "on_block": -29,
+      "on_hit": 55
+    },
+    {
+      "move": "236236D",
+      "startup": 10,
+      "active": null,
+      "on_block": -29,
+      "on_hit": 17
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": 6,
+      "on_block": -30,
+      "on_hit": 16
+    }
+  ],
+  "Cristiano Ronaldo": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 3,
+      "on_block": 1,
+      "on_hit": 5
+    },
+    {
+      "move": "cl.B",
+      "startup": 6,
+      "active": 4,
+      "on_block": 3,
+      "on_hit": 5
+    },
+    {
+      "move": "cl.C",
+      "startup": 6,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 3
+    },
+    {
+      "move": "cl.D",
+      "startup": 9,
+      "active": 5,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "f.A",
+      "startup": 5,
+      "active": 10,
+      "on_block": -4,
+      "on_hit": 9
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 6,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "f.C",
+      "startup": 12,
+      "active": 8,
+      "on_block": -3,
+      "on_hit": 3
+    },
+    {
+      "move": "f.D",
+      "startup": 12,
+      "active": 6,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "2A",
+      "startup": 5,
+      "active": 2,
+      "on_block": -1,
+      "on_hit": 3
+    },
+    {
+      "move": "2B",
+      "startup": 6,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "2C",
+      "startup": 8,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -1
+    },
+    {
+      "move": "2D",
+      "startup": 11,
+      "active": 10,
+      "on_block": -11,
+      "on_hit": 60
+    },
+    {
+      "move": "4BD~HP",
+      "startup": 16,
+      "active": 5,
+      "on_block": -1,
+      "on_hit": 2
+    },
+    {
+      "move": "4BD~LP",
+      "startup": 8,
+      "active": 5,
+      "on_block": -7,
+      "on_hit": 2
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": null,
+      "on_hit": 43
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": null,
+      "on_hit": 33
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 5,
+      "on_block": -3,
+      "on_hit": 59
+    },
+    {
+      "move": "j.CD",
+      "startup": 24,
+      "active": null,
+      "on_block": 1,
+      "on_hit": 63
+    },
+    {
+      "move": "2CRev",
+      "startup": 12,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -1
+    },
+    {
+      "move": "5CRev",
+      "startup": 24,
+      "active": 5,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "236B",
+      "startup": 15,
+      "active": null,
+      "on_block": -4,
+      "on_hit": -4
+    },
+    {
+      "move": "236D",
+      "startup": 18,
+      "active": null,
+      "on_block": -2,
+      "on_hit": -2
+    },
+    {
+      "move": "236BD",
+      "startup": 17,
+      "active": null,
+      "on_block": -7,
+      "on_hit": 73
+    },
+    {
+      "move": "214B",
+      "startup": 22,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 4
+    },
+    {
+      "move": "214D",
+      "startup": 22,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 4
+    },
+    {
+      "move": "214BD",
+      "startup": 17,
+      "active": null,
+      "on_block": 16,
+      "on_hit": 41
+    },
+    {
+      "move": "623A",
+      "startup": 6,
+      "active": null,
+      "on_block": -33,
+      "on_hit": 55
+    },
+    {
+      "move": "623C",
+      "startup": 8,
+      "active": null,
+      "on_block": -35,
+      "on_hit": 58
+    },
+    {
+      "move": "623AC",
+      "startup": 7,
+      "active": null,
+      "on_block": -35,
+      "on_hit": 90
+    },
+    {
+      "move": "214P~B",
+      "startup": 12,
+      "active": 7,
+      "on_block": -9,
+      "on_hit": 61
+    },
+    {
+      "move": "214PP~B",
+      "startup": 12,
+      "active": 7,
+      "on_block": -7,
+      "on_hit": 69
+    },
+    {
+      "move": "214P~D",
+      "startup": 18,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 69
+    },
+    {
+      "move": "214PP~D",
+      "startup": 18,
+      "active": 3,
+      "on_block": -10,
+      "on_hit": 76
+    },
+    {
+      "move": "214P~C",
+      "startup": 8,
+      "active": 9,
+      "on_block": -4,
+      "on_hit": 1
+    },
+    {
+      "move": "214PP~C",
+      "startup": 8,
+      "active": 7,
+      "on_block": 1,
+      "on_hit": 63
+    },
+    {
+      "move": "236236A",
+      "startup": 7,
+      "active": null,
+      "on_block": -22,
+      "on_hit": 35
+    },
+    {
+      "move": "236236B",
+      "startup": 10,
+      "active": null,
+      "on_block": -56,
+      "on_hit": 47
+    },
+    {
+      "move": "236236C",
+      "startup": 6,
+      "active": null,
+      "on_block": -32,
+      "on_hit": 55
+    },
+    {
+      "move": "236236D",
+      "startup": 18,
+      "active": null,
+      "on_block": -57,
+      "on_hit": 46
+    },
+    {
+      "move": "236236Rev",
+      "startup": 10,
+      "active": 16,
+      "on_block": -32,
+      "on_hit": 10
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 7,
+      "active": 3,
+      "on_block": -2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 5,
+      "on_block": -8
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 9,
+      "active": 3,
+      "on_block": -11
+    }
+  ],
+  "Gato": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 4,
+      "on_block": 1,
+      "on_block_feint": -7,
+      "on_hit": 4,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "cl.B",
+      "startup": 5,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": -3,
+      "on_hit": 6,
+      "on_hit_feint": 0
+    },
+    {
+      "move": "cl.C",
+      "startup": 6,
+      "active": 4,
+      "on_block": 2,
+      "on_block_feint": 3,
+      "on_hit": 7,
+      "on_hit_feint": 8
+    },
+    {
+      "move": "cl.D",
+      "startup": 7,
+      "active": 2,
+      "on_block": 3,
+      "on_hit": 5
+    },
+    {
+      "move": "f.A",
+      "startup": 6,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -6,
+      "on_hit": 1,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 3,
+      "on_block": -4,
+      "on_hit": 2
+    },
+    {
+      "move": "f.C",
+      "startup": 9,
+      "active": 3,
+      "on_block": -5,
+      "on_block_feint": -2,
+      "on_hit": 0,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "f.D",
+      "startup": 9,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 3
+    },
+    {
+      "move": "2.A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -7,
+      "on_hit": 2,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "2.B",
+      "startup": 6,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "2.C",
+      "startup": 8,
+      "active": 4,
+      "on_block": -7,
+      "on_block_feint": -2,
+      "on_hit": 0,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "2.D",
+      "startup": 10,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 57
+    },
+    {
+      "move": "j.A",
+      "startup": 4,
+      "active": 6,
+      "on_block": 6,
+      "on_hit": 8
+    },
+    {
+      "move": "j.B",
+      "startup": 6,
+      "active": 6,
+      "on_block": 1,
+      "on_hit": 5
+    },
+    {
+      "move": "j.C",
+      "startup": 8,
+      "active": 6,
+      "on_block": 5,
+      "on_hit": 6
+    },
+    {
+      "move": "j.D",
+      "startup": 10,
+      "active": 5,
+      "on_block": 1,
+      "on_hit": -3
+    },
+    {
+      "move": "cl.AC",
+      "startup": 6,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "cl.ACC",
+      "startup": 9,
+      "active": 3,
+      "on_block": -4,
+      "on_hit": 3
+    },
+    {
+      "move": "cl.AC",
+      "startup": 10,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": 82
+    },
+    {
+      "move": "cl.ACC",
+      "startup": 10,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": 82
+    },
+    {
+      "move": "cl.AC",
+      "startup": 17,
+      "active": 3,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "cl.ACC",
+      "startup": 17,
+      "active": 3,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "cl.AC",
+      "startup": 10,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 60
+    },
+    {
+      "move": "cl.ACC",
+      "startup": 10,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 60
+    },
+    {
+      "move": "2C+REV",
+      "startup": 11,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -5
+    },
+    {
+      "move": "5C+REV",
+      "startup": 17,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 60
+    },
+    {
+      "move": "j.CD",
+      "startup": 28,
+      "active": 10,
+      "on_block": -1,
+      "on_hit": 57
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 26
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 37
+    },
+    {
+      "move": "6A",
+      "startup": 19,
+      "active": 3,
+      "on_block": -8,
+      "on_hit": 5
+    },
+    {
+      "move": "6B",
+      "startup": 13,
+      "active": 5,
+      "on_block": -3,
+      "on_hit": 1
+    },
+    {
+      "move": "cl.B>D",
+      "startup": 6,
+      "active": 2,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "cl.B>D>C",
+      "startup": 11,
+      "active": 3,
+      "on_block": -4
+    },
+    {
+      "move": "cl.B>D>C>CD",
+      "startup": 25,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 60
+    },
+    {
+      "move": "j.B>j.A",
+      "startup": 4,
+      "active": 5,
+      "on_block": 5,
+      "on_hit": 5
+    },
+    {
+      "move": "236A",
+      "startup": 12,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": 2
+    },
+    {
+      "move": "236C",
+      "startup": 18,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": 4
+    },
+    {
+      "move": "236AC",
+      "startup": 17,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 4
+    },
+    {
+      "move": "6P",
+      "startup": 9,
+      "active": 8,
+      "on_block": -10,
+      "on_hit": 69
+    },
+    {
+      "move": "6P",
+      "startup": 9,
+      "active": 8,
+      "on_block": -5,
+      "on_hit": 0
+    },
+    {
+      "move": "C",
+      "startup": 10,
+      "active": 3,
+      "on_block": -33,
+      "on_hit": -25
+    },
+    {
+      "move": "C",
+      "startup": 10,
+      "active": 3,
+      "on_block": -28,
+      "on_hit": 85
+    },
+    {
+      "move": "D",
+      "startup": 6,
+      "active": 2,
+      "on_hit": 38
+    },
+    {
+      "move": "D",
+      "startup": 5,
+      "active": 2,
+      "on_hit": 42
+    },
+    {
+      "move": "623K",
+      "startup": 5,
+      "active": 6,
+      "on_block": -51,
+      "on_hit": 57
+    },
+    {
+      "move": "623D",
+      "startup": 9,
+      "active": 5,
+      "on_block": -64,
+      "on_hit": 50
+    },
+    {
+      "move": "623BD",
+      "startup": 7,
+      "active": 5,
+      "on_block": -64,
+      "on_hit": 51
+    },
+    {
+      "move": "214B",
+      "startup": 9,
+      "active": 4,
+      "on_block": -18,
+      "on_hit": -16
+    },
+    {
+      "move": "214D",
+      "startup": 14,
+      "active": 3,
+      "on_block": -31,
+      "on_hit": -24
+    },
+    {
+      "move": "214BD",
+      "startup": 13,
+      "active": 4,
+      "on_block": -23,
+      "on_hit": 76
+    },
+    {
+      "move": "A",
+      "startup": 6,
+      "active": null,
+      "on_block": -4,
+      "on_hit": -2
+    },
+    {
+      "move": "A",
+      "startup": 6,
+      "active": null,
+      "on_block": -5,
+      "on_hit": -3
+    },
+    {
+      "move": "A",
+      "startup": 6,
+      "active": null,
+      "on_block": 2,
+      "on_hit": 4
+    },
+    {
+      "move": "B",
+      "startup": 4,
+      "active": 3,
+      "on_block": -8,
+      "on_hit": 85
+    },
+    {
+      "move": "B",
+      "startup": 3,
+      "active": 2,
+      "on_hit": 104
+    },
+    {
+      "move": "C",
+      "startup": 14,
+      "active": null,
+      "on_block": -1,
+      "on_hit": 3
+    },
+    {
+      "move": "C",
+      "startup": 12,
+      "active": null,
+      "on_block": 3,
+      "on_hit": 5
+    },
+    {
+      "move": "D",
+      "startup": 4,
+      "active": 10,
+      "on_block": -6,
+      "on_hit": -4
+    },
+    {
+      "move": "D",
+      "startup": 4,
+      "active": 10,
+      "on_block": -6,
+      "on_hit": -5
+    },
+    {
+      "move": "236236A",
+      "startup": 8,
+      "active": 5,
+      "on_block": -24,
+      "on_hit": 25
+    },
+    {
+      "move": "236236B",
+      "startup": 6,
+      "active": 4,
+      "on_block": -69,
+      "on_hit": 61
+    },
+    {
+      "move": "236236C",
+      "startup": 7,
+      "active": 5,
+      "on_block": -19,
+      "on_hit": 15
+    },
+    {
+      "move": "236236D",
+      "startup": 5,
+      "active": 39,
+      "on_block": -110,
+      "on_hit": 48
+    },
+    {
+      "move": "235236+REV",
+      "startup": 6,
+      "active": 5,
+      "on_block": -20,
+      "on_hit": 0
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 7,
+      "active": 3,
+      "on_block": -2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 5,
+      "on_block": -8
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 9,
+      "active": 3,
+      "on_block": -11
+    }
+  ],
+  "Hokutomaru": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": null,
+      "on_block": 1,
+      "on_hit": 3
+    },
+    {
+      "move": "cl.B",
+      "startup": 5,
+      "active": null,
+      "on_block": 3,
+      "on_hit": 7
+    },
+    {
+      "move": "cl.C",
+      "startup": 6,
+      "active": null,
+      "on_block": -3,
+      "on_hit": 0
+    },
+    {
+      "move": "cl.D",
+      "startup": 11,
+      "active": null,
+      "on_block": 1,
+      "on_hit": 4
+    },
+    {
+      "move": "f.A",
+      "startup": 5,
+      "active": null,
+      "on_block": 0,
+      "on_hit": 2
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": null,
+      "on_block": -4,
+      "on_hit": -4
+    },
+    {
+      "move": "f.C",
+      "startup": 11,
+      "active": null,
+      "on_block": -5,
+      "on_hit": -4
+    },
+    {
+      "move": "f.D",
+      "startup": 9,
+      "active": null,
+      "on_block": -4,
+      "on_hit": -2
+    },
+    {
+      "move": "2A",
+      "startup": 4,
+      "active": null,
+      "on_block": -1,
+      "on_hit": 2
+    },
+    {
+      "move": "2B",
+      "startup": 6,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "2C",
+      "startup": 9,
+      "active": null,
+      "on_block": -7,
+      "on_hit": -3
+    },
+    {
+      "move": "2D",
+      "startup": 9,
+      "active": null,
+      "on_block": -11,
+      "on_hit": 62
+    },
+    {
+      "move": "j.A",
+      "startup": 5,
+      "active": null,
+      "on_block": -3,
+      "on_hit": 2
+    },
+    {
+      "move": "j.B",
+      "startup": 6,
+      "active": null,
+      "on_block": -1,
+      "on_hit": 4
+    },
+    {
+      "move": "j.C",
+      "startup": 8,
+      "active": null,
+      "on_block": 2,
+      "on_hit": 3
+    },
+    {
+      "move": "j.D",
+      "startup": 9,
+      "active": null,
+      "on_block": 1,
+      "on_hit": 2
+    },
+    {
+      "move": "3B",
+      "startup": 7,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -4
+    },
+    {
+      "move": "3D",
+      "startup": 7,
+      "active": null,
+      "on_block": -13,
+      "on_hit": 65
+    },
+    {
+      "move": "CD",
+      "startup": 18,
+      "active": null,
+      "on_block": -5,
+      "on_hit": 51
+    },
+    {
+      "move": "j.CD",
+      "startup": 21,
+      "active": null,
+      "on_block": -8,
+      "on_hit": 61
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": null,
+      "on_hit": 58
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": null,
+      "on_hit": 39
+    },
+    {
+      "move": "j.AB",
+      "startup": 5,
+      "active": null,
+      "on_hit": 55
+    },
+    {
+      "move": "CD",
+      "startup": 18,
+      "active": null,
+      "on_block": -5,
+      "on_hit": 51
+    },
+    {
+      "move": "j.CD",
+      "startup": 21,
+      "active": null,
+      "on_block": -8,
+      "on_hit": 61
+    },
+    {
+      "move": "2C+REV",
+      "startup": 9,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -5
+    },
+    {
+      "move": "5C+REV",
+      "startup": 23,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "214A",
+      "startup": 14,
+      "active": null,
+      "on_block": -4,
+      "on_hit": -4
+    },
+    {
+      "move": "214C",
+      "startup": 20,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "214AC",
+      "startup": 14,
+      "active": null,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "214B",
+      "startup": 14,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -4
+    },
+    {
+      "move": "214D",
+      "startup": 20,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "214BD",
+      "startup": 14,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "236B",
+      "startup": 13,
+      "active": null,
+      "on_block": -8,
+      "on_hit": 63
+    },
+    {
+      "move": "236D",
+      "startup": 18,
+      "active": null,
+      "on_block": -8,
+      "on_hit": 67
+    },
+    {
+      "move": "236BD",
+      "startup": 17,
+      "active": null,
+      "on_block": -4,
+      "on_hit": 76
+    },
+    {
+      "move": "236A",
+      "startup": 10,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "236C",
+      "startup": 16,
+      "active": null,
+      "on_block": -6,
+      "on_hit": 68
+    },
+    {
+      "move": "236AC",
+      "startup": 16,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "623D",
+      "startup": 25,
+      "active": null,
+      "on_block": -1,
+      "on_hit": 1
+    },
+    {
+      "move": "623BD",
+      "startup": 23,
+      "active": null,
+      "on_block": 2,
+      "on_hit": 3
+    },
+    {
+      "move": "22C",
+      "startup": 34,
+      "active": null,
+      "on_block": -1,
+      "on_hit": 2
+    },
+    {
+      "move": "22AC",
+      "startup": 25,
+      "active": null,
+      "on_block": 5,
+      "on_hit": 6
+    },
+    {
+      "move": "j.22C",
+      "startup": 34,
+      "active": null,
+      "on_block": -1,
+      "on_hit": 2
+    },
+    {
+      "move": "j.22AC",
+      "startup": 25,
+      "active": null,
+      "on_block": 2,
+      "on_hit": 3
+    },
+    {
+      "move": "236236A",
+      "startup": 7,
+      "active": null,
+      "on_block": -17,
+      "on_hit": 79
+    },
+    {
+      "move": "236236C",
+      "startup": 6,
+      "active": null,
+      "on_block": -28,
+      "on_hit": 67
+    },
+    {
+      "move": "236236B",
+      "startup": 8,
+      "active": null,
+      "on_block": -41,
+      "on_hit": 62
+    },
+    {
+      "move": "236236D",
+      "startup": 7,
+      "active": null,
+      "on_block": -40,
+      "on_hit": 63
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": null,
+      "on_block": -20,
+      "on_hit": 26
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 7,
+      "active": 3,
+      "on_block": -2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 5,
+      "on_block": -8
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 9,
+      "active": 3,
+      "on_block": -11
+    }
+  ],
+  "Hotaru Futaba": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 4,
+      "on_block": 1,
+      "on_block_feint": -9,
+      "on_hit": 5,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "cl.B",
+      "startup": 5,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": -5,
+      "on_hit": 6,
+      "on_hit_feint": -2
+    },
+    {
+      "move": "cl.C",
+      "startup": 6,
+      "active": 4,
+      "on_block": -2,
+      "on_block_feint": 0,
+      "on_hit": 1,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "cl.D",
+      "startup": 9,
+      "active": 5,
+      "on_block": 0,
+      "on_block_feint": 4,
+      "on_hit": 2,
+      "on_hit_feint": 6
+    },
+    {
+      "move": "f.A",
+      "startup": 5,
+      "active": 3,
+      "on_block": 0,
+      "on_block_feint": -7,
+      "on_hit": 4,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "f.B",
+      "startup": 6,
+      "active": 3,
+      "on_block": -2,
+      "on_block_feint": -5,
+      "on_hit": 0,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "f.C",
+      "startup": 9,
+      "active": 4,
+      "on_block": -6,
+      "on_block_feint": -3,
+      "on_hit": -1,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "f.D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 1
+    },
+    {
+      "move": "2A",
+      "startup": 4,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -7,
+      "on_hit": 3,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "2C",
+      "startup": 8,
+      "active": 3,
+      "on_block": -7,
+      "on_block_feint": -1,
+      "on_hit": -5,
+      "on_hit_feint": 1
+    },
+    {
+      "move": "2D",
+      "startup": 9,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 59
+    },
+    {
+      "move": "j.A",
+      "startup": 5,
+      "active": 7,
+      "on_block": 0,
+      "on_hit": 4
+    },
+    {
+      "move": "j.B",
+      "startup": 6,
+      "active": 6,
+      "on_block": 0,
+      "on_hit": 4
+    },
+    {
+      "move": "j.C",
+      "startup": 7,
+      "active": 4,
+      "on_block": 6,
+      "on_hit": 7
+    },
+    {
+      "move": "j.D",
+      "startup": 8,
+      "active": 4,
+      "on_block": -1,
+      "on_hit": 0
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 6,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 9,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": -1
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 11,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": 81
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 23,
+      "active": 3,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 10,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 60
+    },
+    {
+      "move": "j.2B",
+      "startup": 7,
+      "active": null,
+      "on_block": -29,
+      "on_hit": -23
+    },
+    {
+      "move": "cl.C",
+      "startup": 7,
+      "active": 3,
+      "on_block": -15,
+      "on_hit": -10
+    },
+    {
+      "move": "cl.C~6D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -30,
+      "on_hit": 54
+    },
+    {
+      "move": "j.A",
+      "startup": 5,
+      "active": 6,
+      "on_block": 4,
+      "on_hit": 5
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 48
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 77
+    },
+    {
+      "move": "j.AB",
+      "startup": 5,
+      "active": 2,
+      "on_hit": 42
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 62
+    },
+    {
+      "move": "j.CD",
+      "startup": 15,
+      "active": 6,
+      "on_block": -4,
+      "on_hit": 61
+    },
+    {
+      "move": "2C+REV",
+      "startup": 9,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -5,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "5C+REV",
+      "startup": 23,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "214A",
+      "startup": 12,
+      "active": 5,
+      "on_block": -6,
+      "on_hit": 77
+    },
+    {
+      "move": "214C",
+      "startup": 17,
+      "active": 4,
+      "on_block": -6,
+      "on_block_brake": -3,
+      "on_hit": 75
+    },
+    {
+      "move": "214AC",
+      "startup": 16,
+      "active": 4,
+      "on_block": -6,
+      "on_block_brake": 1,
+      "on_hit": 80
+    },
+    {
+      "move": "236A",
+      "startup": 18,
+      "active": null,
+      "on_block": -4,
+      "on_hit": -2
+    },
+    {
+      "move": "236C",
+      "startup": 16,
+      "active": null,
+      "on_block": -7,
+      "on_hit": -5
+    },
+    {
+      "move": "236AC",
+      "startup": 16,
+      "active": null,
+      "on_block": 1,
+      "on_hit": 76
+    },
+    {
+      "move": "214B",
+      "startup": 15,
+      "active": 6,
+      "on_block": -5,
+      "on_hit": 77
+    },
+    {
+      "move": "214D",
+      "startup": 21,
+      "active": 6,
+      "on_block": -2,
+      "on_hit": 83
+    },
+    {
+      "move": "214BD",
+      "startup": 16,
+      "active": 5,
+      "on_block": 3,
+      "on_hit": 84
+    },
+    {
+      "move": "623A",
+      "startup": 5,
+      "active": 10,
+      "on_block": -33,
+      "on_hit": 56
+    },
+    {
+      "move": "623C",
+      "startup": 6,
+      "active": 18,
+      "on_block": -42,
+      "on_block_brake": -2,
+      "on_hit": 56,
+      "on_hit_brake": 56
+    },
+    {
+      "move": "623AC",
+      "startup": 5,
+      "active": 16,
+      "on_block": -44,
+      "on_block_brake": -2,
+      "on_hit": 55,
+      "on_hit_brake": 55
+    },
+    {
+      "move": "236B/D",
+      "startup": 10,
+      "active": 2,
+      "on_hit": 43
+    },
+    {
+      "move": "236BD",
+      "startup": 9,
+      "active": 2,
+      "on_hit": 43
+    },
+    {
+      "move": "j.214B",
+      "startup": 13,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 47
+    },
+    {
+      "move": "j.214D",
+      "startup": 13,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 47
+    },
+    {
+      "move": "j.214BD",
+      "startup": 13,
+      "active": null,
+      "on_block": -7,
+      "on_hit": 64
+    },
+    {
+      "move": "236236A",
+      "startup": 13,
+      "active": 61,
+      "on_block": -40,
+      "on_hit": 40
+    },
+    {
+      "move": "236236C",
+      "startup": 8,
+      "active": 52,
+      "on_block": -55,
+      "on_hit": 44
+    },
+    {
+      "move": "236236B",
+      "startup": 7,
+      "active": 6,
+      "on_block": -48,
+      "on_hit": 9
+    },
+    {
+      "move": "236236D",
+      "startup": 6,
+      "active": 6,
+      "on_block": -48,
+      "on_hit": 10
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": 5,
+      "on_block": -28,
+      "on_hit": 1
+    }
+  ],
+  "Joe Higashi": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 3,
+      "on_block": 1,
+      "on_block_feint": -4,
+      "on_hit": 3,
+      "on_hit_feint": -2
+    },
+    {
+      "move": "cl.B",
+      "startup": 6,
+      "active": 5,
+      "on_block": 3,
+      "on_block_feint": -6,
+      "on_hit": 7,
+      "on_hit_feint": -2
+    },
+    {
+      "move": "cl.C",
+      "startup": 8,
+      "active": 4,
+      "on_block": -5,
+      "on_block_feint": 2,
+      "on_hit": 4,
+      "on_hit_feint": 11
+    },
+    {
+      "move": "cl.D",
+      "startup": 8,
+      "active": 4,
+      "on_block": 4,
+      "on_hit": 6
+    },
+    {
+      "move": "f.A",
+      "startup": 6,
+      "active": 3,
+      "on_block": 0,
+      "on_block_feint": -2,
+      "on_hit": 0,
+      "on_hit_feint": -2
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 0
+    },
+    {
+      "move": "f.C",
+      "startup": 11,
+      "active": 4,
+      "on_block": -4,
+      "on_block_feint": -2,
+      "on_hit": 3,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "f.D",
+      "startup": 9,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "cr.A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -6,
+      "on_hit": 2,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "cr.B",
+      "startup": 5,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "cr.C",
+      "startup": 7,
+      "active": 3,
+      "on_block": -6,
+      "on_block_feint": -2,
+      "on_hit": 0,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "cr.D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 59
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 7,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 11,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": -1
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 3,
+      "on_block": -8,
+      "on_hit": 79
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 10,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 59
+    },
+    {
+      "move": "6B",
+      "startup": 16,
+      "active": 2,
+      "on_block": -2,
+      "on_hit": 4
+    },
+    {
+      "move": "3D",
+      "startup": 11,
+      "active": 10,
+      "on_block": -12,
+      "on_hit": 59
+    },
+    {
+      "move": "f.D",
+      "startup": 10,
+      "active": 3,
+      "on_block": -8,
+      "on_hit": 0
+    },
+    {
+      "move": "f.D",
+      "startup": 16,
+      "active": 3,
+      "on_block": -13,
+      "on_hit": 56
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 30
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 47
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 60
+    },
+    {
+      "move": "j.CD",
+      "startup": 21,
+      "active": null,
+      "on_block": -7,
+      "on_hit": 73
+    },
+    {
+      "move": "2CRev",
+      "startup": 12,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -3,
+      "on_hit_feint": 7
+    },
+    {
+      "move": "5CRev",
+      "startup": 22,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "236A",
+      "startup": 15,
+      "active": null,
+      "on_block": -5,
+      "on_hit": -3
+    },
+    {
+      "move": "236C",
+      "startup": 17,
+      "active": null,
+      "on_block": -5,
+      "on_block_brake": -9,
+      "on_hit": -3,
+      "on_hit_brake": -7
+    },
+    {
+      "move": "236AC",
+      "startup": 19,
+      "active": null,
+      "on_block": 1,
+      "on_hit": 3
+    },
+    {
+      "move": "236AC",
+      "startup": 20,
+      "active": null,
+      "on_block": 1,
+      "on_hit": 3
+    },
+    {
+      "move": "236B",
+      "startup": 13,
+      "active": 10,
+      "on_block": -11,
+      "on_hit": 72
+    },
+    {
+      "move": "236D",
+      "startup": 17,
+      "active": 11,
+      "on_block": -11,
+      "on_hit": 72
+    },
+    {
+      "move": "236BD",
+      "startup": 16,
+      "active": 12,
+      "on_block": -7,
+      "on_hit": 86
+    },
+    {
+      "move": "623B",
+      "startup": 6,
+      "active": 9,
+      "on_block": -27,
+      "on_hit": 70
+    },
+    {
+      "move": "623D",
+      "startup": 8,
+      "active": 6,
+      "on_block": -31,
+      "on_hit": 60
+    },
+    {
+      "move": "623BD",
+      "startup": 11,
+      "active": 8,
+      "on_block": -25,
+      "on_hit": 62
+    },
+    {
+      "move": "623A/C",
+      "startup": 9,
+      "active": 32,
+      "on_block": 0,
+      "on_hit": 2
+    },
+    {
+      "move": "623AC",
+      "startup": 15,
+      "active": 14,
+      "on_block": -3,
+      "on_hit": -1
+    },
+    {
+      "move": "623A/C",
+      "startup": 7,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "623AC",
+      "startup": 6,
+      "active": 3,
+      "on_block": 1,
+      "on_hit": 2
+    },
+    {
+      "move": "623A/C",
+      "startup": 15,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": 59
+    },
+    {
+      "move": "623AC",
+      "startup": 8,
+      "active": 3,
+      "on_block": -40,
+      "on_hit": 49
+    },
+    {
+      "move": "214B",
+      "startup": 22,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 1
+    },
+    {
+      "move": "214D",
+      "startup": 27,
+      "active": 6,
+      "on_block": 1,
+      "on_hit": 1
+    },
+    {
+      "move": "214BD",
+      "startup": 19,
+      "active": 2,
+      "on_block": 1,
+      "on_hit": 1
+    },
+    {
+      "move": "214A/C",
+      "startup": 23,
+      "active": 3,
+      "on_block": -3,
+      "on_hit": 65
+    },
+    {
+      "move": "214AC",
+      "startup": 23,
+      "active": 3,
+      "on_block": -3,
+      "on_hit": 67
+    },
+    {
+      "move": "214A/C",
+      "startup": 23,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": 3
+    },
+    {
+      "move": "214AC",
+      "startup": 24,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": 6
+    },
+    {
+      "move": "214A/C",
+      "startup": 15,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 0
+    },
+    {
+      "move": "214AC",
+      "startup": 15,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 0
+    },
+    {
+      "move": "214A/C",
+      "startup": 20,
+      "active": 2,
+      "on_hit": 36
+    },
+    {
+      "move": "214AC",
+      "startup": 20,
+      "active": 2,
+      "on_hit": 72
+    },
+    {
+      "move": "236236A",
+      "startup": 9,
+      "active": 7,
+      "on_block": -44,
+      "on_hit": 59
+    },
+    {
+      "move": "236236C",
+      "startup": 8,
+      "active": 7,
+      "on_block": -63,
+      "on_hit": 39
+    },
+    {
+      "move": "236236B",
+      "startup": 14,
+      "active": 13,
+      "on_block": -32,
+      "on_hit": 38
+    },
+    {
+      "move": "236236D",
+      "startup": 10,
+      "active": 13,
+      "on_block": -38,
+      "on_hit": 64
+    },
+    {
+      "move": "236236D",
+      "startup": 21,
+      "active": 13,
+      "on_block": -41,
+      "on_hit": 78
+    },
+    {
+      "move": "236236Rev",
+      "startup": 6,
+      "active": 5,
+      "on_block": -36,
+      "on_hit": 17
+    }
+  ],
+  "Kain R. Heinlein": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": null,
+      "on_block": 1,
+      "on_hit": 6
+    },
+    {
+      "move": "cl.B",
+      "startup": 5,
+      "active": null,
+      "on_block": 3,
+      "on_hit": 3
+    },
+    {
+      "move": "cl.C",
+      "startup": 6,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -3
+    },
+    {
+      "move": "cl.D",
+      "startup": 7,
+      "active": null,
+      "on_block": -3,
+      "on_hit": 6
+    },
+    {
+      "move": "f.A",
+      "startup": 5,
+      "active": null,
+      "on_block": -1,
+      "on_hit": 1
+    },
+    {
+      "move": "f.B",
+      "startup": 6,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "f.C",
+      "startup": 8,
+      "active": null,
+      "on_block": -7,
+      "on_hit": -2
+    },
+    {
+      "move": "f.D",
+      "startup": 10,
+      "active": null,
+      "on_block": -5,
+      "on_hit": 1
+    },
+    {
+      "move": "2A",
+      "startup": 5,
+      "active": null,
+      "on_block": -1,
+      "on_hit": 1
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "2C",
+      "startup": 8,
+      "active": null,
+      "on_block": -3,
+      "on_hit": 3
+    },
+    {
+      "move": "2D",
+      "startup": 10,
+      "active": null,
+      "on_block": -11
+    },
+    {
+      "move": "2X~2C",
+      "startup": 8,
+      "active": null,
+      "on_block": -3,
+      "on_hit": 3
+    },
+    {
+      "move": "2CRev~C",
+      "startup": 9,
+      "active": null,
+      "on_block": -6
+    },
+    {
+      "move": "CD",
+      "startup": 23,
+      "active": 5,
+      "on_block": -4
+    },
+    {
+      "move": "j.CD",
+      "startup": 24,
+      "active": null,
+      "on_block": -4
+    },
+    {
+      "move": "2CRev",
+      "startup": 9,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -6
+    },
+    {
+      "move": "5CRev",
+      "startup": 25,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "236A",
+      "startup": 13,
+      "active": null,
+      "on_block": -7,
+      "on_hit": -5
+    },
+    {
+      "move": "236AC",
+      "startup": 13,
+      "active": null,
+      "on_block": 0
+    },
+    {
+      "move": "236B",
+      "startup": 14,
+      "active": null,
+      "on_block": -18
+    },
+    {
+      "move": "236D",
+      "startup": 8,
+      "active": null,
+      "on_block": -18
+    },
+    {
+      "move": "236BD",
+      "startup": 18,
+      "active": null,
+      "on_block": -18
+    },
+    {
+      "move": "28B",
+      "startup": 6,
+      "active": null,
+      "on_block": -57
+    },
+    {
+      "move": "28D",
+      "startup": 8,
+      "active": null,
+      "on_block": -51
+    },
+    {
+      "move": "28BD",
+      "startup": 7,
+      "active": null,
+      "on_block": -16
+    },
+    {
+      "move": "214A/C",
+      "startup": 7,
+      "active": null,
+      "on_block": 24,
+      "on_hit": 28
+    },
+    {
+      "move": "214AC",
+      "startup": 13,
+      "active": null,
+      "on_block": 25,
+      "on_hit": 28
+    },
+    {
+      "move": "236236A",
+      "startup": 9,
+      "active": null,
+      "on_block": -20
+    },
+    {
+      "move": "236236B",
+      "startup": 11,
+      "active": null,
+      "on_block": 8
+    },
+    {
+      "move": "236236C",
+      "startup": 8,
+      "active": null,
+      "on_block": -21
+    },
+    {
+      "move": "236236D",
+      "startup": 6,
+      "active": null,
+      "on_block": 28
+    },
+    {
+      "move": "236236Rev",
+      "startup": 8,
+      "active": null,
+      "on_block": -28,
+      "on_hit": 4
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 7,
+      "active": 3,
+      "on_block": -2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 5,
+      "on_block": -8
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 9,
+      "active": 3,
+      "on_block": -11
+    }
+  ],
+  "Ken Masters": [
+    {
+      "move": "5A",
+      "startup": 5,
+      "active": 3,
+      "on_block": 1,
+      "on_block_feint": -7,
+      "on_hit": 4,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "5B",
+      "startup": 6,
+      "active": 4,
+      "on_block": -1,
+      "on_block_feint": -4,
+      "on_hit": -1,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "5C",
+      "startup": 6,
+      "active": 3,
+      "on_block": -2,
+      "on_block_feint": -1,
+      "on_hit": 2,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "5D",
+      "startup": 8,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": -2
+    },
+    {
+      "move": "2A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -7,
+      "on_hit": 2,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "2C",
+      "startup": 7,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": 1,
+      "on_hit": 6,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "2D",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": -2
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 6,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 9,
+      "active": 5,
+      "on_block": -4,
+      "on_hit": 0
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 11,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": 79
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 9,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 58
+    },
+    {
+      "move": "6C",
+      "startup": 9,
+      "active": 5,
+      "on_block": -10,
+      "on_block_feint": 1,
+      "on_hit": 2,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "6D",
+      "startup": 11,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 0
+    },
+    {
+      "move": "3C",
+      "startup": 8,
+      "active": 4,
+      "on_block": -11,
+      "on_block_feint": -2,
+      "on_hit": -4,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "3D",
+      "startup": 9,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 58
+    },
+    {
+      "move": "6B",
+      "startup": 22,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": 1
+    },
+    {
+      "move": "C",
+      "startup": 10,
+      "active": 5,
+      "on_block": -14,
+      "on_block_feint": 1,
+      "on_hit": -10,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "D",
+      "startup": 19,
+      "active": 2,
+      "on_block": -7,
+      "on_block_feint": -2,
+      "on_hit": 0,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "D~D",
+      "startup": 21,
+      "active": 3,
+      "on_block": -9,
+      "on_hit": 80
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 42
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 34
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 5,
+      "on_block": -3,
+      "on_hit": 61
+    },
+    {
+      "move": "2C+REV",
+      "startup": 12,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -2,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "5C+REV",
+      "startup": 22,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 3
+    },
+    {
+      "move": "236A",
+      "startup": 15,
+      "active": null,
+      "on_block": -4,
+      "on_hit": -2
+    },
+    {
+      "move": "236C",
+      "startup": 14,
+      "active": null,
+      "on_block": -8,
+      "on_hit": -4
+    },
+    {
+      "move": "236AC",
+      "startup": 14,
+      "active": null,
+      "on_block": -2,
+      "on_hit": -4
+    },
+    {
+      "move": "623A",
+      "startup": 5,
+      "active": 12,
+      "on_block": -32,
+      "on_hit": 50
+    },
+    {
+      "move": "623C",
+      "startup": 8,
+      "active": 13,
+      "on_block": -32,
+      "on_block_brake": -2,
+      "on_hit": 64,
+      "on_hit_brake": 64
+    },
+    {
+      "move": "623AC",
+      "startup": 7,
+      "active": 13,
+      "on_block": -36,
+      "on_block_brake": -2,
+      "on_hit": 64,
+      "on_hit_brake": 64
+    },
+    {
+      "move": "214B",
+      "startup": 4,
+      "active": 2,
+      "on_block": -9,
+      "on_hit": 88
+    },
+    {
+      "move": "214D",
+      "startup": 18,
+      "active": 29,
+      "on_block": -10,
+      "on_block_brake": -15,
+      "on_hit": 85,
+      "on_hit_brake": 85
+    },
+    {
+      "move": "214BD",
+      "startup": 9,
+      "active": 51,
+      "on_block": -59,
+      "on_block_brake": -11,
+      "on_hit": 59,
+      "on_hit_brake": 75
+    },
+    {
+      "move": "623B",
+      "startup": 20,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 1
+    },
+    {
+      "move": "623D",
+      "startup": 28,
+      "active": 4,
+      "on_block": 1,
+      "on_hit": 1
+    },
+    {
+      "move": "623BD",
+      "startup": 11,
+      "active": 3,
+      "on_block": 1,
+      "on_hit": 1
+    },
+    {
+      "move": "236B",
+      "startup": 13,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": -2
+    },
+    {
+      "move": "236D",
+      "startup": 22,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": 86
+    },
+    {
+      "move": "236BD",
+      "startup": 18,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 0
+    },
+    {
+      "move": "236B",
+      "startup": 16,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 1
+    },
+    {
+      "move": "236D",
+      "startup": 16,
+      "active": 5,
+      "on_block": -4,
+      "on_hit": 1
+    },
+    {
+      "move": "236BD",
+      "startup": 14,
+      "active": 5,
+      "on_block": -3,
+      "on_hit": 1
+    },
+    {
+      "move": "236B",
+      "startup": 26,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "236D",
+      "startup": 26,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "236BD",
+      "startup": 24,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 0
+    },
+    {
+      "move": "236B",
+      "startup": 20,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 78
+    },
+    {
+      "move": "236D",
+      "startup": 20,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 85
+    },
+    {
+      "move": "236BD",
+      "startup": 18,
+      "active": 4,
+      "on_block": -7,
+      "on_hit": 81
+    },
+    {
+      "move": "236BD~6B",
+      "startup": 20,
+      "active": 5,
+      "on_block": -7,
+      "on_hit": 84
+    },
+    {
+      "move": "236BD~4D",
+      "startup": 19,
+      "active": 5,
+      "on_block": -7,
+      "on_hit": 82
+    },
+    {
+      "move": "236BD~6D",
+      "startup": 22,
+      "active": 5,
+      "on_block": -11,
+      "on_hit": 81
+    },
+    {
+      "move": "214A/C",
+      "startup": 26,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": 1
+    },
+    {
+      "move": "214AC",
+      "startup": 26,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 1
+    },
+    {
+      "move": "214A/C",
+      "startup": 19,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 1
+    },
+    {
+      "move": "214AC",
+      "startup": 19,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "214A/C",
+      "startup": 16,
+      "active": 14,
+      "on_block": -35,
+      "on_hit": 68
+    },
+    {
+      "move": "214AC",
+      "startup": 16,
+      "active": 14,
+      "on_block": -35,
+      "on_hit": 67
+    },
+    {
+      "move": "214A/C",
+      "startup": 22,
+      "active": 41,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "214AC",
+      "startup": 22,
+      "active": 41,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "214A/C",
+      "startup": 18,
+      "active": 3,
+      "on_block": -3,
+      "on_hit": 1
+    },
+    {
+      "move": "214AC",
+      "startup": 18,
+      "active": 3,
+      "on_block": 3,
+      "on_hit": 3
+    },
+    {
+      "move": "236236A",
+      "startup": 7,
+      "active": 7,
+      "on_block": -50,
+      "on_hit": 35
+    },
+    {
+      "move": "236236C",
+      "startup": 7,
+      "active": 7,
+      "on_block": -64,
+      "on_hit": 30
+    },
+    {
+      "move": "236236B",
+      "startup": 9,
+      "active": 53,
+      "on_block": -22,
+      "on_hit": 43
+    },
+    {
+      "move": "236236D",
+      "startup": 8,
+      "active": 130,
+      "on_block": -22,
+      "on_hit": 67
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": 5,
+      "on_block": -27,
+      "on_hit": 6
+    }
+  ],
+  "Kevin Rian": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 3,
+      "on_block": 1,
+      "on_block_feint": -4,
+      "on_hit": 2,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "cl.B",
+      "startup": 5,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": -6,
+      "on_hit": 7,
+      "on_hit_feint": -2
+    },
+    {
+      "move": "cl.C",
+      "startup": 7,
+      "active": 3,
+      "on_block": -6,
+      "on_block_feint": 1,
+      "on_hit": -2,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "cl.D",
+      "startup": 8,
+      "active": 4,
+      "on_block": -1,
+      "on_block_feint": 3,
+      "on_hit": 3,
+      "on_hit_feint": 7
+    },
+    {
+      "move": "f.A",
+      "startup": 6,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -7,
+      "on_hit": 1,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": -3
+    },
+    {
+      "move": "f.C",
+      "startup": 10,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 3
+    },
+    {
+      "move": "f.D",
+      "startup": 11,
+      "active": 3,
+      "on_block": -3,
+      "on_hit": 3
+    },
+    {
+      "move": "2A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -5,
+      "on_hit": 2,
+      "on_hit_feint": -2
+    },
+    {
+      "move": "2B",
+      "startup": 6,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 4
+    },
+    {
+      "move": "2C",
+      "startup": 10,
+      "active": 3,
+      "on_block": -7,
+      "on_block_feint": -2,
+      "on_hit": -2,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "2D",
+      "startup": 9,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 63
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 7,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": -1
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 5,
+      "on_block": -8,
+      "on_hit": 84
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 9,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 63
+    },
+    {
+      "move": "6B",
+      "startup": 8,
+      "active": 5,
+      "on_block": -2,
+      "on_hit": 4
+    },
+    {
+      "move": "22B/D",
+      "startup": 16,
+      "active": 3,
+      "on_block": -11,
+      "on_block_feint": 1,
+      "on_hit": -7,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "22B/D",
+      "startup": 19,
+      "active": 7,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 28
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 20
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 65
+    },
+    {
+      "move": "j.CD",
+      "startup": 22,
+      "active": 9,
+      "on_block": -1,
+      "on_hit": 55
+    },
+    {
+      "move": "2C+Rev",
+      "startup": 10,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -6,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "5C+Rev",
+      "startup": 23,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "214A",
+      "startup": 14,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": 4
+    },
+    {
+      "move": "214C",
+      "startup": 22,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": 63
+    },
+    {
+      "move": "214AC",
+      "startup": 18,
+      "active": 3,
+      "on_block": -6,
+      "on_block_brake": 3,
+      "on_hit": 79,
+      "on_hit_brake": 79
+    },
+    {
+      "move": "236A",
+      "startup": 25,
+      "active": 6,
+      "on_block": -3,
+      "on_hit": 1
+    },
+    {
+      "move": "236C",
+      "startup": 28,
+      "active": 5,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "236AC",
+      "startup": 25,
+      "active": 5,
+      "on_block": 2,
+      "on_hit": 1
+    },
+    {
+      "move": "236B",
+      "startup": 10,
+      "active": 4,
+      "on_block": -20,
+      "on_hit": 62
+    },
+    {
+      "move": "236D",
+      "startup": 18,
+      "active": 4,
+      "on_block": -27,
+      "on_block_brake": -2,
+      "on_hit": 62,
+      "on_hit_brake": 70
+    },
+    {
+      "move": "236BD",
+      "startup": 16,
+      "active": 4,
+      "on_block": -19,
+      "on_block_brake": 1,
+      "on_hit": 62,
+      "on_hit_brake": 62
+    },
+    {
+      "move": "623B/D",
+      "startup": 10,
+      "active": 2,
+      "on_hit": 46
+    },
+    {
+      "move": "623BD",
+      "startup": 9,
+      "active": 2,
+      "on_hit": 58
+    },
+    {
+      "move": "623A",
+      "startup": 26,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "623C",
+      "startup": 33,
+      "active": 5,
+      "on_block": 1,
+      "on_hit": 2
+    },
+    {
+      "move": "623AC",
+      "startup": 24,
+      "active": 3,
+      "on_block": 2,
+      "on_hit": 5
+    },
+    {
+      "move": "236236A",
+      "startup": 8,
+      "active": 62,
+      "on_block": -24,
+      "on_hit": 84
+    },
+    {
+      "move": "236236C",
+      "startup": 7,
+      "active": 62,
+      "on_block": -24,
+      "on_hit": 79
+    },
+    {
+      "move": "236236B",
+      "startup": 9,
+      "active": 5,
+      "on_block": -22,
+      "on_hit": 99
+    },
+    {
+      "move": "236236D",
+      "startup": 8,
+      "active": 40,
+      "on_block": -25,
+      "on_hit": 22
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": 2,
+      "on_block": -33,
+      "on_hit": 38
+    }
+  ],
+  "Kim Dong Hwan": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 4,
+      "on_block": 1,
+      "on_hit": 3
+    },
+    {
+      "move": "cl.B",
+      "startup": 5,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 6
+    },
+    {
+      "move": "cl.C",
+      "startup": 6,
+      "active": 2,
+      "on_block": -5,
+      "on_hit": 1
+    },
+    {
+      "move": "cl.D",
+      "startup": 7,
+      "active": 2,
+      "on_block": 3,
+      "on_hit": 6
+    },
+    {
+      "move": "f.A",
+      "startup": 6,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "f.B",
+      "startup": 6,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "f.C",
+      "startup": 10,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 3
+    },
+    {
+      "move": "f.D",
+      "startup": 12,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 1
+    },
+    {
+      "move": "2A",
+      "startup": 6,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": 1
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "2C",
+      "startup": 8,
+      "active": 3,
+      "on_block": -7,
+      "on_hit": -3
+    },
+    {
+      "move": "2D",
+      "startup": 10,
+      "active": 3,
+      "on_block": -11
+    },
+    {
+      "move": "j.4/6C",
+      "startup": 7,
+      "active": null,
+      "on_block": 0,
+      "on_hit": 2
+    },
+    {
+      "move": "cl.B~D",
+      "startup": 7,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -4
+    },
+    {
+      "move": "cl.B~D~6D",
+      "startup": 18,
+      "active": null,
+      "on_block": -3,
+      "on_hit": 2
+    },
+    {
+      "move": "cl.B~D~6D~CD",
+      "startup": 18,
+      "active": null,
+      "on_block": -3
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": null,
+      "on_block": -2
+    },
+    {
+      "move": "j.CD",
+      "startup": 8,
+      "active": null,
+      "on_block": -7
+    },
+    {
+      "move": "2CRev",
+      "startup": 10,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -5
+    },
+    {
+      "move": "5CRev",
+      "startup": 24,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "214B",
+      "startup": 21,
+      "active": 1,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "214D",
+      "startup": 25,
+      "active": 3,
+      "on_block": -3,
+      "on_hit": 2
+    },
+    {
+      "move": "214BD",
+      "startup": 24,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "j.214B",
+      "startup": 21,
+      "active": 2,
+      "on_block": -5,
+      "on_hit": -1
+    },
+    {
+      "move": "j.214D",
+      "startup": 27,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": -1
+    },
+    {
+      "move": "j.214BD",
+      "startup": 24,
+      "active": 4,
+      "on_block": -1,
+      "on_hit": -1
+    },
+    {
+      "move": "236B",
+      "startup": 16,
+      "active": 7,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "236D",
+      "startup": 21,
+      "active": 4,
+      "on_block": -6
+    },
+    {
+      "move": "236BD",
+      "startup": 20,
+      "active": 3,
+      "on_block": 3,
+      "on_hit": 4
+    },
+    {
+      "move": "623A",
+      "startup": 5,
+      "active": 7,
+      "on_block": -42
+    },
+    {
+      "move": "623C",
+      "startup": 8,
+      "active": 5,
+      "on_block": -55
+    },
+    {
+      "move": "623AC",
+      "startup": 7,
+      "active": 5,
+      "on_block": -55
+    },
+    {
+      "move": "214A",
+      "startup": 9,
+      "active": 20,
+      "on_block": -10
+    },
+    {
+      "move": "214C",
+      "startup": 16,
+      "active": 19,
+      "on_block": -10
+    },
+    {
+      "move": "214AC",
+      "startup": 15,
+      "active": 21,
+      "on_block": -7
+    },
+    {
+      "move": "j.236B",
+      "startup": 12,
+      "active": 18,
+      "on_block": -6,
+      "on_hit": -1
+    },
+    {
+      "move": "j.236D",
+      "startup": 12,
+      "active": 20,
+      "on_block": -7,
+      "on_hit": -2
+    },
+    {
+      "move": "j.236BD",
+      "startup": 10,
+      "active": 21,
+      "on_block": -3,
+      "on_hit": -2
+    },
+    {
+      "move": "236236B",
+      "startup": 9,
+      "active": 4,
+      "on_block": -18
+    },
+    {
+      "move": "j.236236B",
+      "startup": 5,
+      "active": 13,
+      "on_block": -8
+    },
+    {
+      "move": "236236D",
+      "startup": 6,
+      "active": 5,
+      "on_block": -19
+    },
+    {
+      "move": "j.236236D",
+      "startup": 4,
+      "active": 13,
+      "on_block": -20
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": 6,
+      "on_block": -23
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 7,
+      "active": 3,
+      "on_block": -2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 5,
+      "on_block": -8
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 9,
+      "active": 3,
+      "on_block": -11
+    }
+  ],
+  "Kim Jae Hoon": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 3,
+      "on_block": 1,
+      "on_block_feint": -9,
+      "on_hit": 4,
+      "on_hit_feint": -6
+    },
+    {
+      "move": "cl.B",
+      "startup": 5,
+      "active": 4,
+      "on_block": 2,
+      "on_block_feint": -8,
+      "on_hit": 7,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "cl.C",
+      "startup": 7,
+      "active": 5,
+      "on_block": -7,
+      "on_block_feint": 0,
+      "on_hit": -1,
+      "on_hit_feint": 6
+    },
+    {
+      "move": "cl.D",
+      "startup": 9,
+      "active": 5,
+      "on_block": -2,
+      "on_block_feint": 3,
+      "on_hit": 3,
+      "on_hit_feint": 8
+    },
+    {
+      "move": "f.A",
+      "startup": 6,
+      "active": 3,
+      "on_block": -4,
+      "on_hit": 1
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 4,
+      "on_block": 0,
+      "on_hit": 2
+    },
+    {
+      "move": "f.C",
+      "startup": 11,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": 2
+    },
+    {
+      "move": "f.D",
+      "startup": 11,
+      "active": 3,
+      "on_block": 2,
+      "on_hit": 5
+    },
+    {
+      "move": "cr.A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -8,
+      "on_hit": 1,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "cr.B",
+      "startup": 6,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "cr.C",
+      "startup": 8,
+      "active": 3,
+      "on_block": -4,
+      "on_block_feint": -1,
+      "on_hit": -1,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "cr.D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 60
+    },
+    {
+      "move": "cl.AC",
+      "startup": 12,
+      "active": 4,
+      "on_hit": 0
+    },
+    {
+      "move": "44,6B",
+      "startup": 17,
+      "active": 4,
+      "on_block": -2,
+      "on_block_feint": 0,
+      "on_hit": 0,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "j.A,D",
+      "startup": 10,
+      "active": 5,
+      "on_block": 9,
+      "on_hit": 7
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 65
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 36
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 54
+    },
+    {
+      "move": "j.CD",
+      "startup": 19,
+      "active": null,
+      "on_block": -6,
+      "on_hit": 53
+    },
+    {
+      "move": "2CRev",
+      "startup": 10,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -5,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "5CRev",
+      "startup": 24,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "214B",
+      "startup": 15,
+      "active": 4,
+      "on_block": -12,
+      "on_hit": 66
+    },
+    {
+      "move": "214D",
+      "startup": 17,
+      "active": 4,
+      "on_block": -13,
+      "on_hit": 65
+    },
+    {
+      "move": "214BD",
+      "startup": 16,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 74
+    },
+    {
+      "move": "236A",
+      "startup": 24,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 0
+    },
+    {
+      "move": "236C",
+      "startup": 28,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "236AC",
+      "startup": 25,
+      "active": 4,
+      "on_block": 1,
+      "on_hit": 1
+    },
+    {
+      "move": "236B",
+      "startup": 12,
+      "active": 4,
+      "on_block": -10,
+      "on_hit": 62
+    },
+    {
+      "move": "236D",
+      "startup": 18,
+      "active": 3,
+      "on_block": -7,
+      "on_block_brake": -3,
+      "on_hit": 63
+    },
+    {
+      "move": "236BD",
+      "startup": 16,
+      "active": 3,
+      "on_block": -6,
+      "on_block_brake": -1,
+      "on_hit": 73
+    },
+    {
+      "move": "214A",
+      "startup": 18,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": 64
+    },
+    {
+      "move": "214C",
+      "startup": 24,
+      "active": 3,
+      "on_hit": 54
+    },
+    {
+      "move": "214AC",
+      "startup": 23,
+      "active": 3,
+      "on_block": -8,
+      "on_hit": 70
+    },
+    {
+      "move": "28B",
+      "startup": 5,
+      "active": 12,
+      "on_block": -24,
+      "on_hit": 65
+    },
+    {
+      "move": "28D",
+      "startup": 8,
+      "active": 14,
+      "on_block": -35,
+      "on_block_brake": -3,
+      "on_hit": 57,
+      "on_hit_brake": 80
+    },
+    {
+      "move": "28D,",
+      "startup": 20,
+      "active": 3,
+      "on_hit": 60
+    },
+    {
+      "move": "28BD",
+      "startup": 8,
+      "active": 11,
+      "on_block": -35,
+      "on_block_brake": -3,
+      "on_hit": 54,
+      "on_hit_brake": 86
+    },
+    {
+      "move": "28BD,",
+      "startup": 19,
+      "active": 3,
+      "on_hit": 64
+    },
+    {
+      "move": "j.236B",
+      "startup": 11,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": -1
+    },
+    {
+      "move": "j.236D",
+      "startup": 11,
+      "active": 2,
+      "on_block": -5,
+      "on_hit": 0
+    },
+    {
+      "move": "j.236BD",
+      "startup": 12,
+      "active": 2,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "j.236D,6B",
+      "startup": 12,
+      "active": 5,
+      "on_block": -8,
+      "on_hit": 58
+    },
+    {
+      "move": "j.236BD,6B",
+      "startup": 12,
+      "active": 5,
+      "on_block": -8,
+      "on_hit": 57
+    },
+    {
+      "move": "j.236D,6D",
+      "startup": 20,
+      "active": 7,
+      "on_block": -7,
+      "on_hit": -6
+    },
+    {
+      "move": "j.236BD,6D",
+      "startup": 12,
+      "active": 5,
+      "on_block": -6,
+      "on_hit": 82
+    },
+    {
+      "move": "236236A",
+      "startup": 10,
+      "active": 3,
+      "on_block": -18,
+      "on_hit": 80
+    },
+    {
+      "move": "236236C",
+      "startup": 9,
+      "active": 3,
+      "on_block": -25,
+      "on_hit": 97
+    },
+    {
+      "move": "236236B",
+      "startup": 8,
+      "active": 2,
+      "on_block": -30,
+      "on_hit": 41
+    },
+    {
+      "move": "236236D",
+      "startup": 7,
+      "active": 2,
+      "on_block": -28,
+      "on_hit": 10
+    },
+    {
+      "move": "236236Rev",
+      "startup": 6,
+      "active": 2,
+      "on_block": -27,
+      "on_hit": 31
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 7,
+      "active": 3,
+      "on_block": -2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 5,
+      "on_block": -8
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 9,
+      "active": 3,
+      "on_block": -11
+    }
+  ],
+  "Mai Shiranui": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 4,
+      "on_block": 1,
+      "on_hit": 2
+    },
+    {
+      "move": "cl.B",
+      "startup": 5,
+      "active": 4,
+      "on_block": 3,
+      "on_hit": 8
+    },
+    {
+      "move": "cl.C",
+      "startup": 6,
+      "active": 2,
+      "on_block": -3,
+      "on_hit": 4
+    },
+    {
+      "move": "cl.D",
+      "startup": 11,
+      "active": 3,
+      "on_block": -1,
+      "on_hit": 3
+    },
+    {
+      "move": "f.A",
+      "startup": 7,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": -2
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 2
+    },
+    {
+      "move": "f.C",
+      "startup": 11,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -5
+    },
+    {
+      "move": "f.D",
+      "startup": 12,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "2A",
+      "startup": 6,
+      "active": 3,
+      "on_block": -1,
+      "on_hit": 0
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "2C",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 0
+    },
+    {
+      "move": "2D",
+      "startup": 9,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 37
+    },
+    {
+      "move": "j.2B",
+      "startup": 11,
+      "active": null,
+      "on_block": -3,
+      "on_hit": 0
+    },
+    {
+      "move": "3D",
+      "startup": 12,
+      "active": 6,
+      "on_block": -2,
+      "on_hit": 4
+    },
+    {
+      "move": "cl.C~3D",
+      "startup": 12,
+      "active": 9,
+      "on_block": -9,
+      "on_hit": 2
+    },
+    {
+      "move": "cl.C~3D~D",
+      "startup": 26,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 41
+    },
+    {
+      "move": "cl.C~3D~CD",
+      "startup": 26,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 59
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 63
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": null,
+      "on_hit": 41
+    },
+    {
+      "move": "j.AB",
+      "startup": 5,
+      "active": 2,
+      "on_hit": 44
+    },
+    {
+      "move": "CD",
+      "startup": 21,
+      "active": 3,
+      "on_block": -5
+    },
+    {
+      "move": "j.CD",
+      "startup": 11,
+      "active": 3,
+      "on_block": -14
+    },
+    {
+      "move": "2CRev",
+      "startup": 10,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -5
+    },
+    {
+      "move": "5CRev",
+      "startup": 25,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "236A/C",
+      "startup": 15,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -4
+    },
+    {
+      "move": "236AC",
+      "startup": 15,
+      "active": null,
+      "on_block": 2
+    },
+    {
+      "move": "214A",
+      "startup": 21,
+      "active": 6,
+      "on_block": -5
+    },
+    {
+      "move": "214C",
+      "startup": 12,
+      "active": 4,
+      "on_block": -8
+    },
+    {
+      "move": "214AC",
+      "startup": 14,
+      "active": 4,
+      "on_block": -1
+    },
+    {
+      "move": "236B",
+      "startup": 12,
+      "active": 3,
+      "on_block": -16
+    },
+    {
+      "move": "236D",
+      "startup": 15,
+      "active": null,
+      "on_block": -18
+    },
+    {
+      "move": "236BD",
+      "startup": 15,
+      "active": null,
+      "on_block": -18
+    },
+    {
+      "move": "214B",
+      "startup": 15,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 6
+    },
+    {
+      "move": "214D",
+      "startup": 23,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 6
+    },
+    {
+      "move": "214BD",
+      "startup": 18,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 4
+    },
+    {
+      "move": "623B",
+      "startup": 6,
+      "active": null,
+      "on_block": -56
+    },
+    {
+      "move": "623D",
+      "startup": 9,
+      "active": null,
+      "on_block": -60
+    },
+    {
+      "move": "623BD",
+      "startup": 8,
+      "active": null,
+      "on_block": -60
+    },
+    {
+      "move": "[2]7/8/9A/C",
+      "startup": 12,
+      "active": null,
+      "on_block": -11
+    },
+    {
+      "move": "[2]7/8/9A/C",
+      "startup": 12,
+      "active": null,
+      "on_block": -11
+    },
+    {
+      "move": "[2]7/8/9AC",
+      "startup": 12,
+      "active": null,
+      "on_block": -8
+    },
+    {
+      "move": "[2]7/8/9AC",
+      "startup": 12,
+      "active": null,
+      "on_block": -8
+    },
+    {
+      "move": "j.214A",
+      "startup": 12,
+      "active": null,
+      "on_block": -11
+    },
+    {
+      "move": "j.214C",
+      "startup": 12,
+      "active": null,
+      "on_block": -11
+    },
+    {
+      "move": "j.214AC",
+      "startup": 12,
+      "active": null,
+      "on_block": -8
+    },
+    {
+      "move": "236236A",
+      "startup": 8,
+      "active": null,
+      "on_block": -20
+    },
+    {
+      "move": "236236B",
+      "startup": 10,
+      "active": null,
+      "on_block": -27
+    },
+    {
+      "move": "236236C",
+      "startup": 6,
+      "active": null,
+      "on_block": -19
+    },
+    {
+      "move": "236236D",
+      "startup": 8,
+      "active": null,
+      "on_block": -29
+    },
+    {
+      "move": "236236REV",
+      "startup": 7,
+      "active": 4,
+      "on_block": -19
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 7,
+      "active": 3,
+      "on_block": -2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 5,
+      "on_block": -8
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 9,
+      "active": 3,
+      "on_block": -11
+    }
+  ],
+  "Marco Rodrigues": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": null,
+      "on_block": 1,
+      "on_hit": 4
+    },
+    {
+      "move": "cl.B",
+      "startup": 7,
+      "active": null,
+      "on_block": 3,
+      "on_hit": 6
+    },
+    {
+      "move": "cl.C",
+      "startup": 9,
+      "active": null,
+      "on_block": -8,
+      "on_hit": -1
+    },
+    {
+      "move": "cl.D",
+      "startup": 10,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "f.A",
+      "startup": 6,
+      "active": null,
+      "on_block": 0,
+      "on_hit": 2
+    },
+    {
+      "move": "f.B",
+      "startup": 8,
+      "active": null,
+      "on_block": -4,
+      "on_hit": 1
+    },
+    {
+      "move": "f.C",
+      "startup": 10,
+      "active": null,
+      "on_block": -4,
+      "on_hit": 0
+    },
+    {
+      "move": "f.D",
+      "startup": 11,
+      "active": null,
+      "on_block": -3,
+      "on_hit": 4
+    },
+    {
+      "move": "2A",
+      "startup": 5,
+      "active": null,
+      "on_block": -1,
+      "on_hit": 2
+    },
+    {
+      "move": "2B",
+      "startup": 6,
+      "active": null,
+      "on_block": -1,
+      "on_hit": 2
+    },
+    {
+      "move": "2C",
+      "startup": 6,
+      "active": null,
+      "on_block": -10,
+      "on_hit": -7
+    },
+    {
+      "move": "2D",
+      "startup": 11,
+      "active": null,
+      "on_block": -11,
+      "on_hit": 60
+    },
+    {
+      "move": "6A",
+      "startup": 19,
+      "active": null,
+      "on_block": -8,
+      "on_hit": 5
+    },
+    {
+      "move": "cl.C~D~D",
+      "startup": 9,
+      "active": null,
+      "on_block": -8,
+      "on_hit": -1
+    },
+    {
+      "move": "cl.C~D~CD",
+      "startup": 17,
+      "active": null,
+      "on_block": -3
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": null,
+      "on_hit": 59
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": null,
+      "on_hit": 26
+    },
+    {
+      "move": "CD",
+      "startup": 17,
+      "active": null,
+      "on_block": -3,
+      "on_hit": 85
+    },
+    {
+      "move": "CD~P",
+      "startup": 9,
+      "active": null,
+      "on_block": -3,
+      "on_hit": 85
+    },
+    {
+      "move": "j.CD",
+      "startup": 21,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 58
+    },
+    {
+      "move": "2CRev",
+      "startup": 10,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -4
+    },
+    {
+      "move": "5CRev",
+      "startup": 25,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "236A",
+      "startup": 13,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -1
+    },
+    {
+      "move": "236C",
+      "startup": 16,
+      "active": null,
+      "on_block": -5,
+      "on_hit": 0
+    },
+    {
+      "move": "236C",
+      "startup": 17,
+      "active": null,
+      "on_block": 0,
+      "on_hit": 85
+    },
+    {
+      "move": "623A",
+      "startup": 5,
+      "active": null,
+      "on_block": -34,
+      "on_hit": 55
+    },
+    {
+      "move": "623C",
+      "startup": 7,
+      "active": null,
+      "on_block": -44,
+      "on_hit": 41
+    },
+    {
+      "move": "623C",
+      "startup": 7,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 83
+    },
+    {
+      "move": "623AC",
+      "startup": 6,
+      "active": null,
+      "on_block": -43,
+      "on_hit": 47
+    },
+    {
+      "move": "623AC",
+      "startup": 6,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 88
+    },
+    {
+      "move": "236B",
+      "startup": 13,
+      "active": null,
+      "on_block": -17,
+      "on_hit": 75
+    },
+    {
+      "move": "236D",
+      "startup": 13,
+      "active": null,
+      "on_block": -24,
+      "on_hit": 67
+    },
+    {
+      "move": "236BD",
+      "startup": 11,
+      "active": null,
+      "on_block": -8,
+      "on_hit": 59
+    },
+    {
+      "move": "236BD",
+      "startup": 11,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "[P]",
+      "startup": 19,
+      "active": null,
+      "on_block": -4,
+      "on_hit": 4
+    },
+    {
+      "move": "[AC]",
+      "startup": 15,
+      "active": null,
+      "on_block": 4,
+      "on_hit": 64
+    },
+    {
+      "move": "[K]",
+      "startup": 15,
+      "active": null,
+      "on_block": -9,
+      "on_hit": 57
+    },
+    {
+      "move": "[BD]",
+      "startup": 13,
+      "active": null,
+      "on_block": -10,
+      "on_hit": 72
+    },
+    {
+      "move": "236236A",
+      "startup": 8,
+      "active": null,
+      "on_block": -22,
+      "on_hit": 78
+    },
+    {
+      "move": "236236B",
+      "startup": 7,
+      "active": null,
+      "on_block": -76,
+      "on_hit": 60
+    },
+    {
+      "move": "236236C",
+      "startup": 7,
+      "active": null,
+      "on_block": -27,
+      "on_hit": 63
+    },
+    {
+      "move": "236236D",
+      "startup": 6,
+      "active": null,
+      "on_block": -69,
+      "on_hit": 58
+    },
+    {
+      "move": "236236D~Brake",
+      "startup": 6,
+      "active": null,
+      "on_block": -69,
+      "on_hit": 90
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": null,
+      "on_block": -35,
+      "on_hit": 12
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 7,
+      "active": 3,
+      "on_block": -2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 5,
+      "on_block": -8
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 9,
+      "active": 3,
+      "on_block": -11
+    }
+  ],
+  "Mr. Big": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 3,
+      "on_block": 1,
+      "on_block_feint": -6,
+      "on_hit": 3,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "cl.AA",
+      "startup": 9,
+      "active": 3,
+      "on_block": -4,
+      "on_block_feint": -6,
+      "on_hit": -3,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "cl.B",
+      "startup": 5,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": -5,
+      "on_hit": 5,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "cl.C",
+      "startup": 8,
+      "active": 4,
+      "on_block": -6,
+      "on_block_feint": 3,
+      "on_hit": 0,
+      "on_hit_feint": 9
+    },
+    {
+      "move": "cl.D",
+      "startup": 6,
+      "active": 3,
+      "on_block": 5,
+      "on_hit": 7
+    },
+    {
+      "move": "f.A",
+      "startup": 7,
+      "active": 3,
+      "on_block": -4,
+      "on_block_feint": -6,
+      "on_hit": -3,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "f.AA",
+      "startup": 10,
+      "active": 3,
+      "on_block": -4,
+      "on_block_feint": -6,
+      "on_hit": -3,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 4,
+      "on_block": -2,
+      "on_block_feint": -6,
+      "on_hit": 0,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "f.C",
+      "startup": 12,
+      "active": 3,
+      "on_block": -6,
+      "on_block_feint": -2,
+      "on_hit": -2,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "f.D",
+      "startup": 9,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": -2,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "cr.A",
+      "startup": 6,
+      "active": 3,
+      "on_block": -2,
+      "on_block_feint": -9,
+      "on_hit": 0,
+      "on_hit_feint": -7
+    },
+    {
+      "move": "cr.A",
+      "startup": 8,
+      "active": 3,
+      "on_block": -2,
+      "on_block_feint": -7,
+      "on_hit": 0,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "cr.B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "cr.C",
+      "startup": 10,
+      "active": 3,
+      "on_block": -9,
+      "on_block_feint": -4,
+      "on_hit": -3,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "cr.D",
+      "startup": 9,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 62
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 12,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 11,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": -2
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": 85
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 10,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 56
+    },
+    {
+      "move": "6A",
+      "startup": 21,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": 6
+    },
+    {
+      "move": "f.C",
+      "startup": 9,
+      "active": 4,
+      "on_block": -8,
+      "on_block_feint": -2,
+      "on_hit": -2,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 41
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 40
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 60
+    },
+    {
+      "move": "j.CD",
+      "startup": 19,
+      "active": null,
+      "on_block": -7,
+      "on_hit": 56
+    },
+    {
+      "move": "2CRev",
+      "startup": 10,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": 2,
+      "on_hit_feint": 6
+    },
+    {
+      "move": "5CRev",
+      "startup": 24,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "236A",
+      "startup": 16,
+      "active": null,
+      "on_block": -1,
+      "on_hit": 2
+    },
+    {
+      "move": "236C",
+      "startup": 23,
+      "active": null,
+      "on_block": 1,
+      "on_hit": 3
+    },
+    {
+      "move": "236AC",
+      "startup": 16,
+      "active": null,
+      "on_block": 2,
+      "on_hit": 3
+    },
+    {
+      "move": "236B",
+      "startup": 14,
+      "active": 10,
+      "on_block": -14,
+      "on_hit": 76
+    },
+    {
+      "move": "236D",
+      "startup": 18,
+      "active": 12,
+      "on_block": -14,
+      "on_hit": 75
+    },
+    {
+      "move": "236BD",
+      "startup": 17,
+      "active": 12,
+      "on_block": -14,
+      "on_hit": 86
+    },
+    {
+      "move": "623B",
+      "startup": 9,
+      "active": 2,
+      "on_hit": 30
+    },
+    {
+      "move": "623D",
+      "startup": 9,
+      "active": 2,
+      "on_hit": 30
+    },
+    {
+      "move": "623BD",
+      "startup": 9,
+      "active": 2,
+      "on_hit": 68
+    },
+    {
+      "move": "623A",
+      "startup": 6,
+      "active": 14,
+      "on_block": -30,
+      "on_hit": 56
+    },
+    {
+      "move": "623C",
+      "startup": 16,
+      "active": 15,
+      "on_block": -30,
+      "on_hit": 56
+    },
+    {
+      "move": "623AC",
+      "startup": 10,
+      "active": 15,
+      "on_block": -30,
+      "on_hit": 56
+    },
+    {
+      "move": "214B",
+      "startup": 11,
+      "active": 27,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "214D",
+      "startup": 20,
+      "active": 27,
+      "on_block": -5,
+      "on_hit": 76
+    },
+    {
+      "move": "214BD",
+      "startup": 17,
+      "active": 44,
+      "on_block": -8,
+      "on_hit": 77
+    },
+    {
+      "move": "214A",
+      "startup": 23,
+      "active": 2,
+      "on_block": -5,
+      "on_hit": 0
+    },
+    {
+      "move": "214C",
+      "startup": 23,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 1
+    },
+    {
+      "move": "214AC",
+      "startup": 24,
+      "active": 3,
+      "on_block": -3,
+      "on_hit": 2
+    },
+    {
+      "move": "214AC",
+      "startup": 20,
+      "active": 3,
+      "on_block": -3,
+      "on_hit": 64
+    },
+    {
+      "move": "236236A",
+      "startup": 8,
+      "active": null,
+      "on_block": -32,
+      "on_hit": 63
+    },
+    {
+      "move": "236236C",
+      "startup": 7,
+      "active": null,
+      "on_block": -44,
+      "on_hit": 51
+    },
+    {
+      "move": "236236B",
+      "startup": 4,
+      "active": 2,
+      "on_hit": 24
+    },
+    {
+      "move": "236236D",
+      "startup": 1,
+      "active": 1,
+      "on_hit": 38
+    },
+    {
+      "move": "236236Rev",
+      "startup": 6,
+      "active": 4,
+      "on_block": -37,
+      "on_hit": 3
+    }
+  ],
+  "Nightmare Geese": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 3,
+      "on_block": 2,
+      "on_block_feint": -6,
+      "on_hit": 3,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "cl.B",
+      "startup": 6,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": -6,
+      "on_hit": 6,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "cl.C",
+      "startup": 9,
+      "active": 3,
+      "on_block": -2,
+      "on_block_feint": 3,
+      "on_hit": 4,
+      "on_hit_feint": 9
+    },
+    {
+      "move": "cl.D",
+      "startup": 8,
+      "active": 3,
+      "on_block": -3,
+      "on_block_feint": 2,
+      "on_hit": 8,
+      "on_hit_feint": 13
+    },
+    {
+      "move": "f.A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -6,
+      "on_hit": 1,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 4,
+      "on_block": -4,
+      "on_block_feint": -5,
+      "on_hit": -3,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "f.C",
+      "startup": 13,
+      "active": 4,
+      "on_block": -1,
+      "on_block_feint": 0,
+      "on_hit": 1,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "f.D",
+      "startup": 15,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 1
+    },
+    {
+      "move": "cr.A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -5,
+      "on_hit": -1,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "cr.B",
+      "startup": 6,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "cr.C",
+      "startup": 8,
+      "active": 3,
+      "on_block": -7,
+      "on_block_feint": -2,
+      "on_hit": -3,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "cr.D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 59
+    },
+    {
+      "move": "cl.AC",
+      "startup": 12,
+      "active": 4,
+      "on_hit": 0
+    },
+    {
+      "move": "AC",
+      "startup": 8,
+      "active": 5,
+      "on_block": -3,
+      "on_hit": 1
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 50
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 50
+    },
+    {
+      "move": "CD",
+      "startup": 23,
+      "active": 9,
+      "on_block": -3,
+      "on_hit": 74
+    },
+    {
+      "move": "2CRev",
+      "startup": 11,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -3,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "5CRev",
+      "startup": 23,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "236A",
+      "startup": 15,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -4
+    },
+    {
+      "move": "236C",
+      "startup": 12,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "236AC",
+      "startup": 18,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 76
+    },
+    {
+      "move": "623A",
+      "startup": 30,
+      "active": null,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "623C",
+      "startup": 35,
+      "active": 8,
+      "on_block": 3,
+      "on_hit": 5
+    },
+    {
+      "move": "623AC",
+      "startup": 32,
+      "active": 8,
+      "on_block": 2,
+      "on_hit": 3
+    },
+    {
+      "move": "236B",
+      "startup": 13,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "236D",
+      "startup": 27,
+      "active": 4,
+      "on_block": 3,
+      "on_hit": 3
+    },
+    {
+      "move": "236BD",
+      "startup": 19,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "214B",
+      "startup": 3,
+      "active": 12,
+      "on_hit": 43
+    },
+    {
+      "move": "214D",
+      "startup": 3,
+      "active": 12,
+      "on_hit": 70
+    },
+    {
+      "move": "214BD",
+      "startup": 3,
+      "active": 12,
+      "on_hit": 70
+    },
+    {
+      "move": "632146B",
+      "startup": 13,
+      "active": 2,
+      "on_hit": 55
+    },
+    {
+      "move": "632146D",
+      "startup": 13,
+      "active": 2,
+      "on_hit": 55
+    },
+    {
+      "move": "632146BD",
+      "startup": 13,
+      "active": 2,
+      "on_hit": 72
+    },
+    {
+      "move": "632146A",
+      "startup": 5,
+      "active": 1,
+      "on_hit": 30
+    },
+    {
+      "move": "632146C",
+      "startup": 5,
+      "active": 1,
+      "on_hit": 30
+    },
+    {
+      "move": "632146AC",
+      "startup": 7,
+      "active": 1,
+      "on_hit": 10
+    },
+    {
+      "move": "214A",
+      "startup": 12,
+      "active": 4,
+      "on_block": -7,
+      "on_hit": -3
+    },
+    {
+      "move": "214C",
+      "startup": 16,
+      "active": 18,
+      "on_block": -10,
+      "on_hit": 81
+    },
+    {
+      "move": "214AC",
+      "startup": 16,
+      "active": 4,
+      "on_block": -6,
+      "on_hit": -2
+    },
+    {
+      "move": "214A",
+      "startup": 11,
+      "active": 4,
+      "on_block": -9,
+      "on_hit": 67
+    },
+    {
+      "move": "214A",
+      "startup": 12,
+      "active": 3,
+      "on_block": -3,
+      "on_hit": 61
+    },
+    {
+      "move": "214A",
+      "startup": 12,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "214A",
+      "startup": 19,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 54
+    },
+    {
+      "move": "214AC",
+      "startup": 11,
+      "active": 4,
+      "on_block": -9,
+      "on_hit": 69
+    },
+    {
+      "move": "214AC",
+      "startup": 12,
+      "active": 3,
+      "on_block": -3,
+      "on_hit": 61
+    },
+    {
+      "move": "214AC",
+      "startup": 12,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "214AC",
+      "startup": 20,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 49
+    },
+    {
+      "move": "236236A",
+      "startup": 8,
+      "active": 23,
+      "on_block": -35,
+      "on_hit": 49
+    },
+    {
+      "move": "236236C",
+      "startup": 8,
+      "active": 27,
+      "on_block": -36,
+      "on_hit": 50
+    },
+    {
+      "move": "1632143A",
+      "startup": 8,
+      "active": 23,
+      "on_block": -31,
+      "on_hit": 53
+    },
+    {
+      "move": "1632143C",
+      "startup": 8,
+      "active": 27,
+      "on_block": -36,
+      "on_hit": 50
+    },
+    {
+      "move": "236236D",
+      "startup": 8,
+      "active": 1,
+      "on_hit": 61
+    },
+    {
+      "move": "2141236B",
+      "startup": 8,
+      "active": 11,
+      "on_hit": 61
+    },
+    {
+      "move": "2141236D",
+      "startup": 8,
+      "active": 11,
+      "on_hit": 39
+    },
+    {
+      "move": "236236Rev",
+      "startup": 6,
+      "active": 10,
+      "on_block": -29,
+      "on_hit": 26
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 7,
+      "active": 3,
+      "on_block": -2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 8,
+      "active": 4,
+      "on_block": -4
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 5,
+      "on_block": -8
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 9,
+      "active": 3,
+      "on_block": -11
+    }
+  ],
+  "Preecha": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 4,
+      "on_block": 2,
+      "on_block_feint": -6,
+      "on_hit": 3,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "cl.B",
+      "startup": 6,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": -6,
+      "on_hit": 6,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "cl.C",
+      "startup": 6,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": 2,
+      "on_hit": 4,
+      "on_hit_feint": 7
+    },
+    {
+      "move": "cl.D",
+      "startup": 8,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": 4,
+      "on_hit": 5,
+      "on_hit_feint": 6
+    },
+    {
+      "move": "f.A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -2,
+      "on_block_feint": -6,
+      "on_hit": 0,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "f.B",
+      "startup": 6,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "f.C",
+      "startup": 8,
+      "active": 4,
+      "on_block": -3,
+      "on_block_feint": 0,
+      "on_hit": 1,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "f.D",
+      "startup": 9,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "2A",
+      "startup": 4,
+      "active": 4,
+      "on_block": -1,
+      "on_block_feint": -7,
+      "on_hit": 1,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "2C",
+      "startup": 7,
+      "active": 3,
+      "on_block": -3,
+      "on_block_feint": -1,
+      "on_hit": 3,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "2D",
+      "startup": 8,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 59
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 6,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": -1
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 7,
+      "active": 3,
+      "on_block": -4,
+      "on_hit": -2
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 3,
+      "on_block": -8,
+      "on_hit": 83
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 8,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 59
+    },
+    {
+      "move": "f.B",
+      "startup": 9,
+      "active": 3,
+      "on_block": -4,
+      "on_hit": 2
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 71
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 32
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 4,
+      "on_block": -2
+    },
+    {
+      "move": "j.CD",
+      "startup": 20,
+      "active": null,
+      "on_block": -4
+    },
+    {
+      "move": "2C+REV",
+      "startup": 9,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -6,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "5C+REV",
+      "startup": 24,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "623B",
+      "startup": 5,
+      "active": 3,
+      "on_block": -40,
+      "on_hit": 41
+    },
+    {
+      "move": "623D",
+      "startup": 7,
+      "active": 3,
+      "on_block": -40,
+      "on_block_brake": -2,
+      "on_hit": 42,
+      "on_hit_brake": 42
+    },
+    {
+      "move": "623BD",
+      "startup": 6,
+      "active": 3,
+      "on_block": -40,
+      "on_block_brake": -2,
+      "on_hit": 42,
+      "on_hit_brake": 42
+    },
+    {
+      "move": "623B",
+      "startup": 20,
+      "active": 3,
+      "on_hit": 49
+    },
+    {
+      "move": "623D",
+      "startup": 30,
+      "active": 3,
+      "on_hit": 50
+    },
+    {
+      "move": "623BD",
+      "startup": 30,
+      "active": 3,
+      "on_hit": 57
+    },
+    {
+      "move": "214P",
+      "startup": 18,
+      "active": 7,
+      "on_block": -5,
+      "on_hit": 70
+    },
+    {
+      "move": "214AC",
+      "startup": 15,
+      "active": 9,
+      "on_block": 0,
+      "on_hit": 73
+    },
+    {
+      "move": "214P",
+      "startup": 21,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 4
+    },
+    {
+      "move": "214AC",
+      "startup": 21,
+      "active": 3,
+      "on_block": 2,
+      "on_hit": 4
+    },
+    {
+      "move": "214A/C",
+      "startup": 20,
+      "active": 3,
+      "on_block": -4,
+      "on_hit": 38
+    },
+    {
+      "move": "214AC",
+      "startup": 20,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 38
+    },
+    {
+      "move": "236B",
+      "startup": 14,
+      "active": null,
+      "on_block": -8,
+      "on_hit": -6
+    },
+    {
+      "move": "236D",
+      "startup": 14,
+      "active": null,
+      "on_block": -1,
+      "on_block_brake": -3,
+      "on_hit": 1,
+      "on_hit_brake": -1
+    },
+    {
+      "move": "236BD",
+      "startup": 14,
+      "active": null,
+      "on_block": -2,
+      "on_block_brake": -5,
+      "on_hit": 77
+    },
+    {
+      "move": "214B",
+      "startup": 25,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "214D",
+      "startup": 28,
+      "active": 7,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "214BD",
+      "startup": 21,
+      "active": 6,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "236A/C",
+      "startup": 14,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": -3
+    },
+    {
+      "move": "236AC",
+      "startup": 14,
+      "active": 3,
+      "on_block": 3,
+      "on_hit": 4
+    },
+    {
+      "move": "236A/C",
+      "startup": 13,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": -2
+    },
+    {
+      "move": "236AC",
+      "startup": 13,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": -2
+    },
+    {
+      "move": "236A/C",
+      "startup": 9,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": -4
+    },
+    {
+      "move": "236AC",
+      "startup": 9,
+      "active": 4,
+      "on_block": -10,
+      "on_hit": -5
+    },
+    {
+      "move": "236A/C",
+      "startup": 14,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": -6
+    },
+    {
+      "move": "236AC",
+      "startup": 14,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": -9
+    },
+    {
+      "move": "236A/C",
+      "startup": 17,
+      "active": 3,
+      "on_block": -19,
+      "on_hit": 64
+    },
+    {
+      "move": "236AC",
+      "startup": 17,
+      "active": 3,
+      "on_block": -19,
+      "on_hit": 64
+    },
+    {
+      "move": "236236A",
+      "startup": 9,
+      "active": null,
+      "on_block": -80,
+      "on_hit": 10
+    },
+    {
+      "move": "236236A",
+      "startup": 9,
+      "active": null,
+      "on_block": -80,
+      "on_hit": 15
+    },
+    {
+      "move": "236236C",
+      "startup": 7,
+      "active": null,
+      "on_block": -63,
+      "on_hit": 33
+    },
+    {
+      "move": "236236C",
+      "startup": 7,
+      "active": null,
+      "on_block": -63
+    },
+    {
+      "move": "236236B",
+      "startup": 9,
+      "active": 10,
+      "on_block": -55,
+      "on_hit": 40
+    },
+    {
+      "move": "236236D",
+      "startup": 6,
+      "active": 8,
+      "on_block": -54,
+      "on_hit": 19,
+      "on_hit_brake": 19
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": null,
+      "on_block": -39,
+      "on_hit": 9
+    }
+  ],
+  "Rock Howard": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 3,
+      "on_block": 1,
+      "on_block_feint": -11,
+      "on_hit": 5,
+      "on_hit_feint": -7
+    },
+    {
+      "move": "cl.B",
+      "startup": 5,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": -9,
+      "on_hit": 6,
+      "on_hit_feint": -6
+    },
+    {
+      "move": "cl.C",
+      "startup": 6,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": 2,
+      "on_hit": 0,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "cl.D",
+      "startup": 7,
+      "active": 5,
+      "on_block": -3,
+      "on_block_feint": 2,
+      "on_hit": 0,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "f.A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -11,
+      "on_hit": 3,
+      "on_hit_feint": -7
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 3,
+      "on_block": -5,
+      "on_block_feint": -6,
+      "on_hit": -2,
+      "on_hit_feint": -6
+    },
+    {
+      "move": "f.C",
+      "startup": 9,
+      "active": 3,
+      "on_block": -8,
+      "on_block_feint": -3,
+      "on_hit": -3,
+      "on_hit_feint": 2
+    },
+    {
+      "move": "f.D",
+      "startup": 11,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "2A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -9,
+      "on_hit": 2,
+      "on_hit_feint": -6
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "2C",
+      "startup": 6,
+      "active": 4,
+      "on_block": -6,
+      "on_block_feint": -3,
+      "on_hit": -3,
+      "on_hit_feint": 0
+    },
+    {
+      "move": "2D",
+      "startup": 8,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 58
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 8,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 11,
+      "active": 3,
+      "on_block": -4,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": 82
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 24,
+      "active": 3,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 8,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 58
+    },
+    {
+      "move": "cl.D",
+      "startup": 18,
+      "active": 3,
+      "on_block": -4,
+      "on_block_brake": -2,
+      "on_hit": 2,
+      "on_hit_brake": 4
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 40
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 24
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 5,
+      "on_block": -2,
+      "on_hit": 54
+    },
+    {
+      "move": "j.CD",
+      "startup": 28,
+      "active": 6,
+      "on_block": -3
+    },
+    {
+      "move": "2C+REV",
+      "startup": 12,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -1,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "5C+REV",
+      "startup": 24,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "236A",
+      "startup": 13,
+      "active": null,
+      "on_block": -9,
+      "on_hit": -6
+    },
+    {
+      "move": "236C",
+      "startup": 11,
+      "active": null,
+      "on_block": 2,
+      "on_hit": -2
+    },
+    {
+      "move": "236AC",
+      "startup": 10,
+      "active": null,
+      "on_block": 2,
+      "on_hit": 68
+    },
+    {
+      "move": "623A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -47,
+      "on_hit": 49
+    },
+    {
+      "move": "623C",
+      "startup": 7,
+      "active": 3,
+      "on_block": -43,
+      "on_block_brake": -2,
+      "on_hit": 48,
+      "on_hit_brake": 48
+    },
+    {
+      "move": "623AC",
+      "startup": 5,
+      "active": 3,
+      "on_block": -45,
+      "on_block_brake": -2,
+      "on_hit": 54,
+      "on_hit_brake": 54
+    },
+    {
+      "move": "214A",
+      "startup": 11,
+      "active": 9,
+      "on_block": -9,
+      "on_hit": 74
+    },
+    {
+      "move": "214C",
+      "startup": 15,
+      "active": 10,
+      "on_block": -11,
+      "on_hit": 82
+    },
+    {
+      "move": "214AC",
+      "startup": 15,
+      "active": 8,
+      "on_block": -11,
+      "on_hit": 82
+    },
+    {
+      "move": "236B",
+      "startup": 3,
+      "active": 1,
+      "on_hit": 48
+    },
+    {
+      "move": "236D",
+      "startup": 3,
+      "active": 3,
+      "on_hit": 48
+    },
+    {
+      "move": "236BD",
+      "startup": 3,
+      "active": 3,
+      "on_hit": 77
+    },
+    {
+      "move": "214B/D",
+      "startup": 31,
+      "active": 5,
+      "on_block": 1,
+      "on_hit": 1
+    },
+    {
+      "move": "214BD",
+      "startup": 26,
+      "active": 7,
+      "on_block": 1,
+      "on_hit": 3
+    },
+    {
+      "move": "214B/D",
+      "startup": 12,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 2
+    },
+    {
+      "move": "214BD",
+      "startup": 12,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 5
+    },
+    {
+      "move": "214B/D",
+      "startup": 20,
+      "active": 5,
+      "on_block": -3,
+      "on_hit": 1
+    },
+    {
+      "move": "214BD",
+      "startup": 20,
+      "active": 5,
+      "on_block": 2,
+      "on_hit": 3
+    },
+    {
+      "move": "214K~D",
+      "startup": 11,
+      "active": 2,
+      "on_hit": 37
+    },
+    {
+      "move": "214K~D",
+      "startup": 16,
+      "active": 2,
+      "on_hit": 37,
+      "on_hit_brake": 37
+    },
+    {
+      "move": "214K~D",
+      "startup": 11,
+      "active": 2,
+      "on_hit": 100
+    },
+    {
+      "move": "632146A",
+      "startup": 11,
+      "active": 2,
+      "on_hit": 37
+    },
+    {
+      "move": "632146C",
+      "startup": 16,
+      "active": 2,
+      "on_hit": 37,
+      "on_hit_brake": 37
+    },
+    {
+      "move": "632146AC",
+      "startup": 11,
+      "active": 2,
+      "on_hit": 100
+    },
+    {
+      "move": "236236A",
+      "startup": 8,
+      "active": 45,
+      "on_block": -46,
+      "on_hit": 57
+    },
+    {
+      "move": "236236C",
+      "startup": 6,
+      "active": 49,
+      "on_block": -31,
+      "on_hit": 61
+    },
+    {
+      "move": "236236B",
+      "startup": 10,
+      "active": 15,
+      "on_block": -27,
+      "on_hit": 60
+    },
+    {
+      "move": "236236D",
+      "startup": 9,
+      "active": 20,
+      "on_block": -23,
+      "on_hit": 50,
+      "on_hit_brake": 50
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": 6,
+      "on_block": -31,
+      "on_hit": 25
+    }
+  ],
+  "Salvatore Ganacci": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 4,
+      "on_block": 1,
+      "on_block_feint": -5,
+      "on_hit": 3,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "cl.B",
+      "startup": 5,
+      "active": 3,
+      "on_block": 3,
+      "on_block_feint": -6,
+      "on_hit": 7,
+      "on_hit_feint": -2
+    },
+    {
+      "move": "cl.C",
+      "startup": 9,
+      "active": 3,
+      "on_block": -3,
+      "on_block_feint": 4,
+      "on_hit": 1,
+      "on_hit_feint": 8
+    },
+    {
+      "move": "cl.D",
+      "startup": 11,
+      "active": 3,
+      "on_block": 3,
+      "on_hit": 8
+    },
+    {
+      "move": "f.A",
+      "startup": 5,
+      "active": 3,
+      "on_block": 1,
+      "on_block_feint": -6,
+      "on_hit": 3,
+      "on_hit_feint": -4
+    },
+    {
+      "move": "f.B",
+      "startup": 6,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 0
+    },
+    {
+      "move": "f.C",
+      "startup": 10,
+      "active": 3,
+      "on_block": 1,
+      "on_hit": 5
+    },
+    {
+      "move": "f.D",
+      "startup": 11,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 1
+    },
+    {
+      "move": "2A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -7,
+      "on_hit": 3,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "2B",
+      "startup": 6,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "2C",
+      "startup": 8,
+      "active": 4,
+      "on_block": -8,
+      "on_block_feint": -1,
+      "on_hit": -2,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "2D",
+      "startup": 9,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 58
+    },
+    {
+      "move": "h.A",
+      "startup": 5,
+      "active": 13,
+      "on_block": 2,
+      "on_hit": 5
+    },
+    {
+      "move": "j.A",
+      "startup": 5,
+      "active": 13,
+      "on_block": 2,
+      "on_hit": 5
+    },
+    {
+      "move": "j.B",
+      "startup": 6,
+      "active": 8,
+      "on_block": 1,
+      "on_hit": 5
+    },
+    {
+      "move": "j.C",
+      "startup": 10,
+      "active": null,
+      "on_block": 5,
+      "on_hit": 6
+    },
+    {
+      "move": "j.D",
+      "startup": 11,
+      "active": null,
+      "on_block": -1,
+      "on_hit": 3
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 7,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 7,
+      "active": 3,
+      "on_block": -4,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 13,
+      "active": 4,
+      "on_block": -8
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 21,
+      "active": 3,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 11,
+      "active": 4,
+      "on_block": -11
+    },
+    {
+      "move": "4/6AC",
+      "startup": 12,
+      "active": 4,
+      "on_block": -11,
+      "on_block_feint": 1,
+      "on_hit": -7,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "4/6AC",
+      "startup": 26,
+      "active": 8,
+      "on_block": -6,
+      "on_hit": 2
+    },
+    {
+      "move": "4/6AC",
+      "startup": 25,
+      "active": 7,
+      "on_block": -14,
+      "on_hit": 2
+    },
+    {
+      "move": "4/6AC",
+      "startup": 42,
+      "active": 6,
+      "on_block": -15,
+      "on_hit": 63
+    },
+    {
+      "move": "4/6AC",
+      "startup": 22,
+      "active": 8,
+      "on_block": -6,
+      "on_hit": 2
+    },
+    {
+      "move": "4/6AC",
+      "startup": 33,
+      "active": 7,
+      "on_block": -6,
+      "on_hit": 2
+    },
+    {
+      "move": "cl.B",
+      "startup": 4,
+      "active": 3,
+      "on_block": 3,
+      "on_block_feint": -5,
+      "on_hit": 8,
+      "on_hit_feint": 0
+    },
+    {
+      "move": "f.B",
+      "startup": 11,
+      "active": 3,
+      "on_block": -3,
+      "on_hit": 0
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 39
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 38
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 58
+    },
+    {
+      "move": "j.CD",
+      "startup": 23,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 68
+    },
+    {
+      "move": "2C+Rev",
+      "startup": 12,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": 2,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "5C+Rev",
+      "startup": 21,
+      "active": 3,
+      "on_block": -1,
+      "on_hit": 3
+    },
+    {
+      "move": "214B/D",
+      "startup": 8,
+      "active": 6,
+      "on_block": -5,
+      "on_hit": 59
+    },
+    {
+      "move": "214BD",
+      "startup": 8,
+      "active": 6,
+      "on_block": -3,
+      "on_hit": 63
+    },
+    {
+      "move": "214B/D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 68
+    },
+    {
+      "move": "214BD",
+      "startup": 8,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 68
+    },
+    {
+      "move": "236B",
+      "startup": 14,
+      "active": 8,
+      "on_block": -3,
+      "on_hit": 2
+    },
+    {
+      "move": "236D",
+      "startup": 25,
+      "active": 6,
+      "on_block": -2,
+      "on_hit": 8
+    },
+    {
+      "move": "236BD",
+      "startup": 16,
+      "active": 4,
+      "on_block": 2,
+      "on_block_brake": 3,
+      "on_hit": 63
+    },
+    {
+      "move": "236A",
+      "startup": 7,
+      "active": 9,
+      "on_block": -79,
+      "on_hit": 25
+    },
+    {
+      "move": "236C",
+      "startup": 9,
+      "active": 7,
+      "on_block": -77,
+      "on_hit": 27
+    },
+    {
+      "move": "236AC",
+      "startup": 6,
+      "active": 10,
+      "on_block": -76,
+      "on_hit": 28
+    },
+    {
+      "move": "236A/C",
+      "startup": 14,
+      "active": 8,
+      "on_block": -26
+    },
+    {
+      "move": "236AC",
+      "startup": 14,
+      "active": 7,
+      "on_block": -32
+    },
+    {
+      "move": "214A/C",
+      "startup": 2,
+      "active": 3,
+      "on_block": -3,
+      "on_hit": 3
+    },
+    {
+      "move": "214AC",
+      "startup": 2,
+      "active": 3,
+      "on_block": 2,
+      "on_hit": 3
+    },
+    {
+      "move": "214A/C",
+      "startup": 11,
+      "active": 10,
+      "on_block": -37,
+      "on_hit": 26
+    },
+    {
+      "move": "214AC",
+      "startup": 11,
+      "active": 9,
+      "on_block": -37,
+      "on_hit": 42
+    },
+    {
+      "move": "214A/C",
+      "startup": 17,
+      "active": 3,
+      "on_block": -37,
+      "on_hit": -35
+    },
+    {
+      "move": "214A/C~D",
+      "startup": 12,
+      "active": 6,
+      "on_block": -7,
+      "on_hit": 55
+    },
+    {
+      "move": "214AC",
+      "startup": 14,
+      "active": 3,
+      "on_block": -29,
+      "on_hit": -27
+    },
+    {
+      "move": "214AC~D",
+      "startup": 12,
+      "active": 8,
+      "on_block": -5,
+      "on_hit": 78
+    },
+    {
+      "move": "236236A",
+      "startup": 1,
+      "active": 26,
+      "on_hit": 44
+    },
+    {
+      "move": "236236C",
+      "startup": 1,
+      "active": 29,
+      "on_hit": 60
+    },
+    {
+      "move": "236236B",
+      "startup": 9,
+      "active": 112,
+      "on_block": -60,
+      "on_hit": 32
+    },
+    {
+      "move": "236236D",
+      "startup": 8,
+      "active": 250,
+      "on_block": -57,
+      "on_hit": 30
+    },
+    {
+      "move": "236236Rev",
+      "startup": 6,
+      "active": 8,
+      "on_block": -174,
+      "on_hit": 17
+    }
+  ],
+  "Terry Bogard": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 4,
+      "on_block": 2,
+      "on_block_feint": -1,
+      "on_hit": 3,
+      "on_hit_feint": 0
+    },
+    {
+      "move": "cl.B",
+      "startup": 6,
+      "active": 5,
+      "on_block": 2,
+      "on_block_feint": -1,
+      "on_hit": 4,
+      "on_hit_feint": 1
+    },
+    {
+      "move": "cl.C",
+      "startup": 6,
+      "active": 4,
+      "on_block": -6,
+      "on_block_feint": 1,
+      "on_hit": -1,
+      "on_hit_feint": 6
+    },
+    {
+      "move": "cl.D",
+      "startup": 11,
+      "active": 4,
+      "on_block": 3,
+      "on_hit": 5
+    },
+    {
+      "move": "f.A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -2,
+      "on_block_feint": -4,
+      "on_hit": 0,
+      "on_hit_feint": -2
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 3,
+      "on_block": -1,
+      "on_hit": 2
+    },
+    {
+      "move": "f.C",
+      "startup": 9,
+      "active": 4,
+      "on_block": -8,
+      "on_block_feint": -1,
+      "on_hit": -3,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "f.D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "2A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -3,
+      "on_hit": 2,
+      "on_hit_feint": 0
+    },
+    {
+      "move": "2B",
+      "startup": 6,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "2C",
+      "startup": 9,
+      "active": 3,
+      "on_block": -6,
+      "on_block_feint": -2,
+      "on_hit": 0,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "2D",
+      "startup": 9,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 58
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 10,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 10,
+      "active": 5,
+      "on_block": -4,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 9,
+      "active": 4,
+      "on_block": -8,
+      "on_hit": 79
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 22,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 9,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 58
+    },
+    {
+      "move": "cl.C",
+      "startup": 7,
+      "active": 5,
+      "on_block": -4,
+      "on_block_feint": 4,
+      "on_hit": 1,
+      "on_hit_feint": 9
+    },
+    {
+      "move": "cl.C~4/6C",
+      "startup": 19,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 68
+    },
+    {
+      "move": "cl.C~4/6C~6D",
+      "startup": 8,
+      "active": 2,
+      "on_block": -14,
+      "on_hit": 63
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 1
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 36
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 36
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 8,
+      "on_block": -2,
+      "on_hit": 46
+    },
+    {
+      "move": "j.CD",
+      "startup": 8,
+      "active": 3,
+      "on_block": -7
+    },
+    {
+      "move": "2C+REV",
+      "startup": 12,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -5,
+      "on_hit_feint": 6
+    },
+    {
+      "move": "5C+Rev",
+      "startup": 26,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "236A",
+      "startup": 14,
+      "active": null,
+      "on_block": -7,
+      "on_hit": -5
+    },
+    {
+      "move": "236C",
+      "startup": 18,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -1
+    },
+    {
+      "move": "236AC",
+      "startup": 16,
+      "active": null,
+      "on_block": -1,
+      "on_hit": 4
+    },
+    {
+      "move": "214A",
+      "startup": 13,
+      "active": 11,
+      "on_block": -13,
+      "on_hit": 72
+    },
+    {
+      "move": "214C",
+      "startup": 25,
+      "active": 12,
+      "on_block": -9,
+      "on_hit": 73
+    },
+    {
+      "move": "214AC",
+      "startup": 17,
+      "active": 12,
+      "on_block": -20,
+      "on_hit": 78
+    },
+    {
+      "move": "214B",
+      "startup": 21,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "214D",
+      "startup": 27,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 70
+    },
+    {
+      "move": "214BD",
+      "startup": 20,
+      "active": 4,
+      "on_block": 1,
+      "on_hit": 1
+    },
+    {
+      "move": "623B",
+      "startup": 5,
+      "active": 6,
+      "on_block": -14,
+      "on_hit": 55
+    },
+    {
+      "move": "623D",
+      "startup": 7,
+      "active": 3,
+      "on_block": -14,
+      "on_hit": 56,
+      "on_hit_brake": 56
+    },
+    {
+      "move": "623BD",
+      "startup": 6,
+      "active": 3,
+      "on_block": -13,
+      "on_hit": 87,
+      "on_hit_brake": 87
+    },
+    {
+      "move": "236B",
+      "startup": 12,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 2
+    },
+    {
+      "move": "236D",
+      "startup": 18,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 2
+    },
+    {
+      "move": "236BD",
+      "startup": 16,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 5
+    },
+    {
+      "move": "236B",
+      "startup": 20,
+      "active": 3,
+      "on_block": -7,
+      "on_hit": 1
+    },
+    {
+      "move": "236D",
+      "startup": 25,
+      "active": 4,
+      "on_block": -7,
+      "on_hit": 0
+    },
+    {
+      "move": "236BD",
+      "startup": 22,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "236B~6B",
+      "startup": 18,
+      "active": 1,
+      "on_block": -13,
+      "on_hit": 59
+    },
+    {
+      "move": "236D~6D",
+      "startup": 20,
+      "active": 1,
+      "on_block": -15,
+      "on_hit": 66
+    },
+    {
+      "move": "236BD~6K",
+      "startup": 20,
+      "active": 1,
+      "on_block": -10,
+      "on_hit": 65
+    },
+    {
+      "move": "236236A",
+      "startup": 9,
+      "active": null,
+      "on_block": -34,
+      "on_hit": 61
+    },
+    {
+      "move": "236236C",
+      "startup": 8,
+      "active": null,
+      "on_block": -46,
+      "on_hit": 48,
+      "on_hit_brake": 48
+    },
+    {
+      "move": "236236B",
+      "startup": 10,
+      "active": 16,
+      "on_block": -20,
+      "on_hit": 59
+    },
+    {
+      "move": "236236D",
+      "startup": 10,
+      "active": 15,
+      "on_block": -20,
+      "on_hit": 57
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": 5,
+      "on_block": -21,
+      "on_hit": 27
+    }
+  ],
+  "Tizoc": [
+    {
+      "move": "cl.A",
+      "startup": 5,
+      "active": 4,
+      "on_block": 1,
+      "on_block_feint": -2,
+      "on_hit": 3,
+      "on_hit_feint": 0
+    },
+    {
+      "move": "cl.B",
+      "startup": 6,
+      "active": 5,
+      "on_block": 4,
+      "on_block_feint": 1,
+      "on_hit": 6,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "cl.C",
+      "startup": 9,
+      "active": 3,
+      "on_block": -4,
+      "on_block_feint": 1,
+      "on_hit": 4,
+      "on_hit_feint": 9
+    },
+    {
+      "move": "cl.D",
+      "startup": 10,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": 5,
+      "on_hit": 7,
+      "on_hit_feint": 9
+    },
+    {
+      "move": "f.A",
+      "startup": 8,
+      "active": 4,
+      "on_block": -5,
+      "on_block_feint": -3,
+      "on_hit": 1,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 4,
+      "on_block": 1,
+      "on_hit": 3
+    },
+    {
+      "move": "f.C",
+      "startup": 12,
+      "active": 4,
+      "on_block": -8,
+      "on_block_feint": 0,
+      "on_hit": 1,
+      "on_hit_feint": 9
+    },
+    {
+      "move": "f.D",
+      "startup": 11,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 3
+    },
+    {
+      "move": "2A",
+      "startup": 6,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -4,
+      "on_hit": 3,
+      "on_hit_feint": 0
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "2C",
+      "startup": 10,
+      "active": 4,
+      "on_block": -1,
+      "on_hit": 3
+    },
+    {
+      "move": "2D",
+      "startup": 11,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 61
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 11,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 11,
+      "active": 3,
+      "on_block": -4,
+      "on_hit": 3
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 10,
+      "active": 3,
+      "on_block": -8,
+      "on_hit": 63
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 23,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 80
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 11,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 58
+    },
+    {
+      "move": "(after",
+      "startup": 5,
+      "active": 2,
+      "on_hit": 7
+    },
+    {
+      "move": "4[C]",
+      "startup": 24,
+      "active": 3,
+      "on_block": 1,
+      "on_block_feint": 5,
+      "on_hit": 9,
+      "on_hit_feint": 13
+    },
+    {
+      "move": "4[D]",
+      "startup": 23,
+      "active": 8,
+      "on_block": -3,
+      "on_hit": 5
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 47
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 45
+    },
+    {
+      "move": "[During",
+      "startup": 25,
+      "active": 6,
+      "on_block": -2,
+      "on_hit": 62
+    },
+    {
+      "move": "[During",
+      "startup": 23,
+      "active": null,
+      "on_block": -4,
+      "on_hit": 55
+    },
+    {
+      "move": "2C+REV",
+      "startup": 16,
+      "active": 6,
+      "on_block": -6,
+      "on_hit": -1,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "5C+REV",
+      "startup": 26,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 76
+    },
+    {
+      "move": "6248A",
+      "startup": 7,
+      "active": 2,
+      "on_hit": 45
+    },
+    {
+      "move": "6248C",
+      "startup": 5,
+      "active": 2,
+      "on_hit": 41
+    },
+    {
+      "move": "6248AC",
+      "startup": 5,
+      "active": 2,
+      "on_hit": 53
+    },
+    {
+      "move": "214A",
+      "startup": 15,
+      "active": 3,
+      "on_block": -9,
+      "on_hit": 68
+    },
+    {
+      "move": "214C",
+      "startup": 48,
+      "active": 3,
+      "on_block": 2,
+      "on_hit": 84
+    },
+    {
+      "move": "214AC",
+      "startup": 19,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 96
+    },
+    {
+      "move": "214B",
+      "startup": 9,
+      "active": 6,
+      "on_block": -5,
+      "on_hit": 57
+    },
+    {
+      "move": "214D",
+      "startup": 25,
+      "active": 6,
+      "on_block": -3,
+      "on_hit": 59
+    },
+    {
+      "move": "214BD",
+      "startup": 9,
+      "active": 5,
+      "on_block": -5,
+      "on_hit": 57
+    },
+    {
+      "move": "236A/C",
+      "startup": 9,
+      "active": 2,
+      "on_hit": 18
+    },
+    {
+      "move": "236AC",
+      "startup": 7,
+      "active": 2,
+      "on_hit": 103
+    },
+    {
+      "move": "623B",
+      "startup": 28,
+      "active": 10,
+      "on_hit": 37
+    },
+    {
+      "move": "623D",
+      "startup": 28,
+      "active": 8,
+      "on_hit": 37
+    },
+    {
+      "move": "623BD",
+      "startup": 28,
+      "active": 7,
+      "on_hit": 49
+    },
+    {
+      "move": "236B",
+      "startup": 20,
+      "active": 10,
+      "on_hit": 41
+    },
+    {
+      "move": "236D",
+      "startup": 24,
+      "active": 10,
+      "on_hit": 41
+    },
+    {
+      "move": "236BD",
+      "startup": 14,
+      "active": 11,
+      "on_block": -27,
+      "on_hit": 50
+    },
+    {
+      "move": "j.236A",
+      "startup": 6,
+      "active": 2,
+      "on_hit": 43
+    },
+    {
+      "move": "j.236C",
+      "startup": 8,
+      "active": 2,
+      "on_hit": 43
+    },
+    {
+      "move": "j.236AC",
+      "startup": 4,
+      "active": 2,
+      "on_hit": 45
+    },
+    {
+      "move": "62486248A",
+      "startup": 1,
+      "active": 2,
+      "on_hit": 52
+    },
+    {
+      "move": "62486248C",
+      "startup": 1,
+      "active": 2,
+      "on_hit": 31
+    },
+    {
+      "move": "236236B",
+      "startup": 10,
+      "active": 3,
+      "on_block": -19,
+      "on_hit": 68
+    },
+    {
+      "move": "236236D",
+      "startup": 6,
+      "active": 93,
+      "on_block": -62,
+      "on_hit": 36
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": 4,
+      "on_block": -22,
+      "on_hit": 8
+    },
+    {
+      "move": "B+REV",
+      "startup": 10,
+      "active": 3,
+      "on_block": -4,
+      "on_hit": 86
+    },
+    {
+      "move": "Lane+C",
+      "startup": 10,
+      "active": 4,
+      "on_block": -1,
+      "on_hit": 2
+    },
+    {
+      "move": "Lane+B",
+      "startup": 7,
+      "active": 25,
+      "on_block": 3,
+      "on_hit": 3
+    },
+    {
+      "move": "Lane+D",
+      "startup": 7,
+      "active": 28,
+      "on_block": 6,
+      "on_hit": 6
+    }
+  ],
+  "Vox Reaper": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 4,
+      "on_block": 1,
+      "on_block_feint": -8,
+      "on_hit": 3,
+      "on_hit_feint": -6
+    },
+    {
+      "move": "cl.B",
+      "startup": 6,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": -7,
+      "on_hit": 7,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "cl.C",
+      "startup": 8,
+      "active": 3,
+      "on_block": -6,
+      "on_block_feint": -2,
+      "on_hit": 0,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "cl.D",
+      "startup": 9,
+      "active": 4,
+      "on_block": -1,
+      "on_block_feint": 2,
+      "on_hit": 3,
+      "on_hit_feint": 6
+    },
+    {
+      "move": "f.A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -9,
+      "on_hit": 3,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "f.B",
+      "startup": 6,
+      "active": 3,
+      "on_block": -3,
+      "on_block_feint": -7,
+      "on_hit": -1,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "f.C",
+      "startup": 11,
+      "active": 3,
+      "on_block": -7,
+      "on_block_feint": -4,
+      "on_hit": -3,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "f.D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -7,
+      "on_hit": 1
+    },
+    {
+      "move": "2A",
+      "startup": 5,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -9,
+      "on_hit": 1,
+      "on_hit_feint": -7
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "2C",
+      "startup": 7,
+      "active": 4,
+      "on_block": -9,
+      "on_block_feint": -2,
+      "on_hit": -4,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "2D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 59
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 6,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 1
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 9,
+      "active": 3,
+      "on_block": -4,
+      "on_hit": 0
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 9,
+      "active": 3,
+      "on_block": -8,
+      "on_hit": 84
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 24,
+      "active": 3,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 10,
+      "active": 3,
+      "on_block": -11,
+      "on_hit": 57
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 23
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 53
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 61
+    },
+    {
+      "move": "j.CD",
+      "startup": 20,
+      "active": null,
+      "on_block": -3,
+      "on_hit": 59
+    },
+    {
+      "move": "2C+REV",
+      "startup": 10,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": 0,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "5C+REV",
+      "startup": 24,
+      "active": 3,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "214A",
+      "startup": 17,
+      "active": 14,
+      "on_block": -2,
+      "on_hit": 78
+    },
+    {
+      "move": "214C",
+      "startup": 22,
+      "active": 14,
+      "on_block": -8,
+      "on_hit": 93
+    },
+    {
+      "move": "214AC",
+      "startup": 16,
+      "active": 8,
+      "on_block": -10,
+      "on_block_brake": 3,
+      "on_hit": 87,
+      "on_hit_brake": 87
+    },
+    {
+      "move": "623A",
+      "startup": 6,
+      "active": 10,
+      "on_block": -35,
+      "on_hit": 50
+    },
+    {
+      "move": "623C",
+      "startup": 7,
+      "active": 13,
+      "on_block": -43,
+      "on_block_brake": -2,
+      "on_hit": 43
+    },
+    {
+      "move": "623AC",
+      "startup": 5,
+      "active": 15,
+      "on_block": -52,
+      "on_block_brake": -2,
+      "on_hit": 41,
+      "on_hit_brake": 41
+    },
+    {
+      "move": "j.2B",
+      "startup": 17,
+      "active": null,
+      "on_block": -10,
+      "on_hit": -4
+    },
+    {
+      "move": "j.2D",
+      "startup": 17,
+      "active": null,
+      "on_block": -10,
+      "on_hit": -4
+    },
+    {
+      "move": "j.2BD",
+      "startup": 15,
+      "active": null,
+      "on_block": -8,
+      "on_hit": 56
+    },
+    {
+      "move": "236A",
+      "startup": 12,
+      "active": 6,
+      "on_block": -7,
+      "on_hit": 74
+    },
+    {
+      "move": "236C",
+      "startup": 27,
+      "active": 3,
+      "on_block": 3,
+      "on_hit": 81
+    },
+    {
+      "move": "236AC",
+      "startup": 23,
+      "active": 3,
+      "on_block": -8,
+      "on_hit": 74
+    },
+    {
+      "move": "236B/D",
+      "startup": 10,
+      "active": 2,
+      "on_hit": 47
+    },
+    {
+      "move": "236BD",
+      "startup": 9,
+      "active": 2,
+      "on_hit": 49
+    },
+    {
+      "move": "236236A",
+      "startup": 10,
+      "active": 12,
+      "on_block": -24,
+      "on_hit": 33
+    },
+    {
+      "move": "236236C",
+      "startup": 8,
+      "active": 14,
+      "on_block": -19,
+      "on_hit": 23
+    },
+    {
+      "move": "236236B",
+      "startup": 8,
+      "active": 52,
+      "on_block": -26,
+      "on_hit": 70
+    },
+    {
+      "move": "236236D",
+      "startup": 6,
+      "active": 83,
+      "on_block": -35,
+      "on_hit": 73,
+      "on_hit_brake": 73
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": 9,
+      "on_block": -20,
+      "on_hit": 31
+    }
+  ]
+}

@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FFCOTW Frame Calculator by AngelFreak</title>
+<style>
+  :root {
+    --bg:      #0f0f13;
+    --surface: #1a1a22;
+    --border:  #2e2e3e;
+    --accent:  #e8622a;
+    --accent2: #f0a830;
+    --text:    #e8e8f0;
+    --muted:   #888899;
+    --good:    #3dba6e;
+    --bad:     #e84040;
+    --warn:    #e8c030;
+    --brake:   #30b8e8;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    background: var(--surface);
+    border-bottom: 2px solid var(--accent);
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .header-cotw { height: 40px; width: auto; object-fit: contain; opacity: 0.92; }
+  .header-titles { display: flex; flex-direction: column; gap: 2px; flex: 1; }
+  .header-titles h1 { font-size: 1.15rem; color: var(--accent); letter-spacing: 1px; line-height: 1; }
+  .header-titles span { color: var(--muted); font-size: 0.78rem; }
+  .header-brand { display: flex; align-items: center; gap: 8px; opacity: 0.85; }
+  .header-brand img { height: 28px; width: auto; object-fit: contain; }
+  .header-brand span { font-size: 0.8rem; color: var(--muted); white-space: nowrap; }
+
+  /* ── Language toggle ── */
+  .lang-toggle { display: flex; align-items: center; gap: 4px; }
+  .lang-btn {
+    background: none; border: none; cursor: pointer;
+    font-size: 0.8rem; font-weight: 700; color: var(--muted);
+    padding: 4px 7px; border-radius: 4px; letter-spacing: 0.5px;
+    transition: color 0.15s;
+  }
+  .lang-btn:hover { color: var(--text); }
+  .lang-btn.active { color: var(--accent); }
+  .lang-sep { color: var(--border); font-size: 0.9rem; }
+
+  /* ── Nav ── */
+  nav {
+    display: flex; gap: 4px;
+    padding: 16px 24px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  nav button {
+    background: none; border: none;
+    border-bottom: 3px solid transparent;
+    color: var(--muted);
+    padding: 8px 18px 10px;
+    cursor: pointer; font-size: 0.9rem; font-weight: 600;
+    letter-spacing: 0.5px; transition: color 0.15s; margin-bottom: -1px;
+  }
+  nav button:hover { color: var(--text); }
+  nav button.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  /* ── Tabs ── */
+  .tab { display: none; padding: 28px 24px; max-width: 960px; }
+  .tab.active { display: block; }
+  .hint { font-size: 0.8rem; color: var(--muted); margin-bottom: 24px; line-height: 1.6; }
+  .hint strong { color: var(--accent2); }
+
+  /* ── 3-column selector layout ── */
+  .selector-row {
+    display: grid;
+    grid-template-columns: 140px 1fr 140px;
+    gap: 20px;
+    align-items: end;
+    margin-bottom: 24px;
+  }
+  .selector-row.two-col { grid-template-columns: 140px 1fr; }
+
+  /* Portrait + label + dropdown stack */
+  .char-slot { display: flex; flex-direction: column; gap: 8px; }
+  .char-slot.right { align-items: flex-end; text-align: right; }
+
+  .portrait-frame {
+    width: 110px; height: 110px;
+    border-radius: 8px; border: 1px solid var(--border);
+    background: #12121a; overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .char-slot.right .portrait-frame { margin-left: auto; }
+  .portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
+  .portrait-frame .no-portrait { font-size: 2rem; color: var(--border); }
+
+  .slot-label {
+    font-size: 0.75rem; font-weight: 800;
+    color: var(--muted); text-transform: uppercase; letter-spacing: 1px;
+  }
+
+  select {
+    background: var(--surface); border: 1px solid var(--border);
+    color: var(--text); padding: 8px 12px; border-radius: 6px;
+    font-size: 0.95rem; outline: none; width: 100%;
+  }
+  select:focus { border-color: var(--accent); }
+
+  /* Center column */
+  .center-controls {
+    display: flex; flex-direction: column; gap: 12px;
+    align-items: center; justify-content: flex-end;
+  }
+  .center-field { width: 100%; max-width: 280px; }
+  .center-field label {
+    display: block; font-size: 0.75rem; font-weight: 800;
+    color: var(--muted); text-transform: uppercase;
+    letter-spacing: 1px; margin-bottom: 6px;
+  }
+  .center-field select { max-width: 280px; }
+
+  /* ── Toggle row ── */
+  .toggle-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: center; }
+
+  /* ── Feint / Brake toggles ── */
+  .feint-toggle, .brake-toggle {
+    display: flex; align-items: center; gap: 8px;
+    padding: 7px 16px; border-radius: 6px;
+    border: 1px solid var(--border); background: var(--surface);
+    cursor: pointer; user-select: none;
+    font-weight: 700; font-size: 0.82rem; color: var(--muted);
+    transition: border-color 0.15s, color 0.15s, background 0.15s;
+    width: fit-content;
+  }
+  .feint-toggle input, .brake-toggle input { display: none; }
+  .feint-toggle .box, .brake-toggle .box {
+    width: 15px; height: 15px; border-radius: 3px;
+    border: 2px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.65rem; flex-shrink: 0; color: transparent;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .feint-toggle.enabled { color: var(--accent2); border-color: rgba(240,168,48,0.4); }
+  .feint-toggle.enabled .box { border-color: var(--accent2); }
+  .feint-toggle.enabled.checked { background: #231e0e; }
+  .feint-toggle.enabled.checked .box { background: var(--accent2); border-color: var(--accent2); color: #111; }
+  .feint-toggle.disabled { opacity: 0.3; cursor: not-allowed; }
+
+  .brake-toggle.enabled { color: var(--brake); border-color: rgba(48,184,232,0.4); }
+  .brake-toggle.enabled .box { border-color: var(--brake); }
+  .brake-toggle.enabled.checked { background: #0b1a22; }
+  .brake-toggle.enabled.checked .box { background: var(--brake); border-color: var(--brake); color: #111; }
+  .brake-toggle.disabled { opacity: 0.3; cursor: not-allowed; }
+
+  /* ── Result boxes ── */
+  .result-box {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; padding: 20px; margin-bottom: 14px;
+  }
+  .result-box h3 {
+    font-size: 0.73rem; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.8px; margin-bottom: 14px;
+  }
+
+  /* ── Hero value display ── */
+  .value-hero { text-align: center; padding: 12px 0 8px; }
+  .value-hero-name { font-size: 1.2rem; font-weight: 700; color: var(--text); margin-bottom: 10px; }
+  .value-hero-label { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+  .value-hero-number { font-size: 3.4rem; font-weight: 800; line-height: 1; }
+  .value-hero-number.good  { color: var(--good); }
+  .value-hero-number.bad   { color: var(--bad); }
+  .value-hero-number.even  { color: var(--muted); }
+  .value-hero-sub { margin-top: 10px; font-size: 0.88rem; font-weight: 600; }
+  .value-hero-sub.good { color: var(--good); }
+  .value-hero-sub.bad  { color: var(--bad); }
+  .value-hero-sub.warn { color: var(--warn); }
+  .value-hero-note { font-size: 0.78rem; color: var(--muted); margin-top: 4px; }
+  .value-hero-alert {
+    font-size: 0.82rem; color: var(--warn); font-weight: 600;
+    margin-top: 12px; line-height: 1.5;
+    max-width: 440px; margin-left: auto; margin-right: auto;
+  }
+
+  /* ── Tables ── */
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  thead tr { background: #22222e; }
+  th {
+    text-align: center; padding: 8px 14px;
+    font-size: 0.72rem; text-transform: uppercase;
+    letter-spacing: 0.7px; color: var(--muted);
+    border-bottom: 1px solid var(--border);
+  }
+  th.left { text-align: left; }
+  td { padding: 9px 14px; border-bottom: 1px solid #1e1e28; text-align: center; }
+  td.left { text-align: left; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: #1e1e2a; }
+
+  .empty { color: var(--muted); font-style: italic; font-size: 0.88rem; padding: 6px 0; }
+
+  /* ── Loading ── */
+  #loading {
+    position: fixed; inset: 0; background: var(--bg);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem; color: var(--muted); z-index: 100;
+  }
+
+  /* ── Frame Data tab ── */
+  .fd-card {
+    position: relative;
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 8px; overflow: hidden;
+    min-height: 300px; max-width: 680px;
+    margin-bottom: 14px;
+  }
+  .fd-render {
+    position: absolute; top: 0; right: 0; bottom: 0; width: 65%;
+    background-size: contain; background-repeat: no-repeat;
+    background-position: right bottom; opacity: 1;
+  }
+  .fd-overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to right, var(--surface) 28%, rgba(26,26,34,0.55) 60%, transparent 100%);
+  }
+  .fd-content { position: relative; z-index: 1; padding: 32px 36px; }
+  .fd-move-name { font-size: 1.3rem; font-weight: 800; color: var(--text); margin-bottom: 26px; }
+  .fd-stats { display: flex; flex-direction: column; gap: 16px; }
+  .fd-stat-row { display: flex; align-items: baseline; gap: 12px; }
+  .fd-stat-label {
+    font-size: 0.72rem; font-weight: 800; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 1px; min-width: 90px;
+  }
+  .fd-stat-value { font-size: 2rem; font-weight: 800; line-height: 1; }
+  .fd-sub { font-size: 0.75em; font-weight: 700; }
+
+  /* ── Info tab ── */
+  .info-body { line-height: 1.85; color: var(--text); font-size: 0.97rem; text-align: left; width: 100%; }
+  .info-body p { margin-bottom: 16px; }
+  .info-body a { color: var(--accent2); text-decoration: none; }
+  .info-body a:hover { text-decoration: underline; }
+  .info-social-label {
+    color: var(--muted); font-size: 0.82rem; text-transform: uppercase;
+    letter-spacing: 1px; margin-bottom: 12px; font-weight: 700;
+  }
+  .info-social { display: flex; flex-direction: column; gap: 8px; font-size: 0.95rem; }
+</style>
+</head>
+<body>
+
+<div id="loading">Loading frame data...</div>
+
+<header>
+  <img class="header-cotw" src="portraits/cotw logo.png" alt="COTW" onerror="this.style.display='none'">
+  <div class="header-titles">
+    <h1>FFCOTW FRAME CALCULATOR</h1>
+    <span>Fatal Fury: City of the Wolves — data from DreamCancel Wiki</span>
+  </div>
+  <div class="header-brand">
+    <img src="portraits/Angelfreak logo.png" alt="AngelFreak" onerror="this.style.display='none'">
+    <span>by AngelFreak</span>
+  </div>
+  <div class="lang-toggle">
+    <button id="lang-en" class="lang-btn active" onclick="setLang('en')">EN</button>
+    <span class="lang-sep">—</span>
+    <button id="lang-es" class="lang-btn" onclick="setLang('es')">ESP</button>
+  </div>
+</header>
+
+<nav>
+  <button class="active" onclick="showTab('info', this)" data-i18n="nav_info">Info</button>
+  <button onclick="showTab('punisher', this)" data-i18n="nav_punisher">Move Punisher</button>
+  <button onclick="showTab('trap-calc', this)" data-i18n="nav_trap_calc">Frame Trap Calculator</button>
+  <button onclick="showTab('trap-check', this)" data-i18n="nav_trap_check">Frame Trap Checker</button>
+  <button onclick="showTab('fd', this)" data-i18n="nav_fd">Frame Data</button>
+</nav>
+
+<!-- ════════════════════════════════════════════════════════════
+     MOVE PUNISHER
+════════════════════════════════════════════════════════════════ -->
+<div id="punisher" class="tab">
+  <p class="hint" data-i18n="hint_punisher">
+    Choose your character and your opponent's, then select the move you want to punish.
+    <strong>FEINT</strong> and <strong>BRAKE</strong> toggles are only available for moves that have that data.
+  </p>
+
+  <div class="selector-row">
+    <div class="char-slot">
+      <div class="portrait-frame" id="p-portrait-you"><span class="no-portrait">?</span></div>
+      <div class="slot-label" data-i18n="you">You</div>
+      <select id="p-char" onchange="updatePortrait('p-portrait-you',this.value); runPunisher()"></select>
+    </div>
+
+    <div class="center-controls">
+      <div class="center-field">
+        <label data-i18n="opp_move">Opponent's Move</label>
+        <select id="p-move" onchange="onMoveChange('p','p-opp','p-move'); runPunisher()"></select>
+      </div>
+      <div class="toggle-row">
+        <label id="p-feint-toggle" class="feint-toggle disabled" onclick="toggleFeint('p-feint-toggle','p-feint','p-brake-toggle','p-brake', runPunisher)">
+          <input type="checkbox" id="p-feint">
+          <span class="box">✓</span>
+          FEINT
+        </label>
+        <label id="p-brake-toggle" class="brake-toggle disabled" onclick="toggleBrake('p-brake-toggle','p-brake','p-feint-toggle','p-feint', runPunisher)">
+          <input type="checkbox" id="p-brake">
+          <span class="box">✓</span>
+          BRAKE
+        </label>
+      </div>
+    </div>
+
+    <div class="char-slot right">
+      <div class="portrait-frame" id="p-portrait-opp"><span class="no-portrait">?</span></div>
+      <div class="slot-label" data-i18n="your_opponent">Your Opponent</div>
+      <select id="p-opp" onchange="updatePortrait('p-portrait-opp',this.value); populatePunisherMoves(); runPunisher()"></select>
+    </div>
+  </div>
+
+  <div id="p-results"></div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     FRAME TRAP CALCULATOR
+════════════════════════════════════════════════════════════════ -->
+<div id="trap-calc" class="tab">
+  <p class="hint" data-i18n="hint_trap_calc">
+    Select two of your moves in sequence. The <strong>gap</strong> is how many frames your opponent
+    can act between them. Gap ≤ 0 is a true blockstring. A small positive gap is a frame trap.
+  </p>
+
+  <div class="selector-row two-col">
+    <div class="char-slot">
+      <div class="portrait-frame" id="tc-portrait"><span class="no-portrait">?</span></div>
+      <div class="slot-label" data-i18n="your_character">Your Character</div>
+      <select id="tc-char" onchange="updatePortrait('tc-portrait',this.value); populateMoveDropdowns('tc'); runTrapCalc()"></select>
+    </div>
+
+    <div class="center-controls" style="align-items:flex-start">
+      <div class="center-field">
+        <label data-i18n="move1">Move 1</label>
+        <select id="tc-m1" onchange="onMoveChange('tc','tc-char','tc-m1'); runTrapCalc()"></select>
+      </div>
+      <div class="toggle-row" style="justify-content:flex-start">
+        <label id="tc-feint-toggle" class="feint-toggle disabled" onclick="toggleFeint('tc-feint-toggle','tc-feint','tc-brake-toggle','tc-brake', runTrapCalc)">
+          <input type="checkbox" id="tc-feint">
+          <span class="box">✓</span>
+          FEINT
+        </label>
+        <label id="tc-brake-toggle" class="brake-toggle disabled" onclick="toggleBrake('tc-brake-toggle','tc-brake','tc-feint-toggle','tc-feint', runTrapCalc)">
+          <input type="checkbox" id="tc-brake">
+          <span class="box">✓</span>
+          BRAKE
+        </label>
+      </div>
+      <div class="center-field">
+        <label data-i18n="move2">Move 2</label>
+        <select id="tc-m2" onchange="runTrapCalc()"></select>
+      </div>
+    </div>
+  </div>
+
+  <div id="tc-results"></div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     FRAME TRAP CHECKER
+════════════════════════════════════════════════════════════════ -->
+<div id="trap-check" class="tab">
+  <p class="hint" data-i18n="hint_trap_check">
+    Select your two moves and your opponent. The calculator shows which of your opponent's moves
+    can interrupt the gap between them.
+  </p>
+
+  <div class="selector-row">
+    <div class="char-slot">
+      <div class="portrait-frame" id="tck-portrait-you"><span class="no-portrait">?</span></div>
+      <div class="slot-label" data-i18n="your_character">Your Character</div>
+      <select id="tck-char" onchange="updatePortrait('tck-portrait-you',this.value); populateMoveDropdowns('tck'); runTrapCheck()"></select>
+    </div>
+
+    <div class="center-controls">
+      <div class="center-field">
+        <label data-i18n="move1">Move 1</label>
+        <select id="tck-m1" onchange="onMoveChange('tck','tck-char','tck-m1'); runTrapCheck()"></select>
+      </div>
+      <div class="toggle-row">
+        <label id="tck-feint-toggle" class="feint-toggle disabled" onclick="toggleFeint('tck-feint-toggle','tck-feint','tck-brake-toggle','tck-brake', runTrapCheck)">
+          <input type="checkbox" id="tck-feint">
+          <span class="box">✓</span>
+          FEINT
+        </label>
+        <label id="tck-brake-toggle" class="brake-toggle disabled" onclick="toggleBrake('tck-brake-toggle','tck-brake','tck-feint-toggle','tck-feint', runTrapCheck)">
+          <input type="checkbox" id="tck-brake">
+          <span class="box">✓</span>
+          BRAKE
+        </label>
+      </div>
+      <div class="center-field">
+        <label data-i18n="move2">Move 2</label>
+        <select id="tck-m2" onchange="runTrapCheck()"></select>
+      </div>
+    </div>
+
+    <div class="char-slot right">
+      <div class="portrait-frame" id="tck-portrait-opp"><span class="no-portrait">?</span></div>
+      <div class="slot-label" data-i18n="your_opponent">Your Opponent</div>
+      <select id="tck-opp" onchange="updatePortrait('tck-portrait-opp',this.value); runTrapCheck()"></select>
+    </div>
+  </div>
+
+  <div id="tck-results"></div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     INFO
+════════════════════════════════════════════════════════════════ -->
+<div id="info" class="tab active" style="position:relative;">
+  <div style="display:flex; flex-direction:column; align-items:center; max-width:600px; margin:0 auto;">
+
+    <div id="info-content" class="info-body"></div>
+
+  </div>
+
+  <img src="portraits/freak lentes.png" alt=""
+       style="position:absolute; bottom:30px; left:calc(50% + 100px); height:180px; width:auto; object-fit:contain; pointer-events:none;"
+       onerror="this.style.display='none'">
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     FRAME DATA
+════════════════════════════════════════════════════════════ -->
+<div id="fd" class="tab">
+  <p class="hint" data-i18n="hint_fd">
+    Select a character and an attack to view its frame data.
+  </p>
+
+  <div style="display:flex; gap:16px; margin-bottom:24px; max-width:560px;">
+    <div style="flex:1;">
+      <label style="display:block; font-size:0.75rem; font-weight:800; color:var(--muted); text-transform:uppercase; letter-spacing:1px; margin-bottom:6px;" data-i18n="your_character">Your Character</label>
+      <select id="fd-char" onchange="populateFdAttacks(); runFrameData()"></select>
+    </div>
+    <div style="flex:1;">
+      <label style="display:block; font-size:0.75rem; font-weight:800; color:var(--muted); text-transform:uppercase; letter-spacing:1px; margin-bottom:6px;" data-i18n="col_move">Move</label>
+      <select id="fd-attack" onchange="runFrameData()"></select>
+    </div>
+  </div>
+
+  <div id="fd-result"></div>
+</div>
+
+<!-- ════════════════════════════════════════════════════════════
+     SCRIPT
+════════════════════════════════════════════════════════════════ -->
+<script>
+let DATA = {};
+let LANG = 'en';
+
+// ── Translations ───────────────────────────────────────────────
+const T = {
+  en: {
+    nav_punisher:   'Move Punisher',
+    nav_trap_calc:  'Frame Trap Calculator',
+    nav_trap_check: 'Frame Trap Checker',
+    nav_info:       'Info',
+    nav_fd:         'Frame Data',
+    hint_fd:        'Select a character and an attack to view its frame data.',
+    fd_on_hit:      'On Hit',
+    fd_active:      'Active',
+    you:            'You',
+    your_opponent:  'Your Opponent',
+    your_character: 'Your Character',
+    opp_move:       "Opponent's Move",
+    move1:          'Move 1',
+    move2:          'Move 2',
+    hint_punisher:  'Choose your character and your opponent\'s, then select the move you want to punish. <strong>FEINT</strong> and <strong>BRAKE</strong> toggles are only available for moves that have that data.',
+    hint_trap_calc: 'Select two of your moves in sequence. The <strong>gap</strong> is how many frames your opponent can act between them. Gap ≤ 0 is a true blockstring. A small positive gap is a frame trap.',
+    hint_trap_check:'Select your two moves and your opponent. The calculator shows which of your opponent\'s moves can interrupt the gap between them.',
+    on_block:       'On Block',
+    gap_label:      'Gap',
+    col_move:       'Move',
+    col_startup:    'Startup',
+    move_details:   'Move Details',
+    punishing_moves:(char, thr) => `${char} — Punishing Moves (startup ≤ ${thr}f)`,
+    not_punishable:       'This move is not punishable.',
+    not_punishable_feint: 'This move is not punishable on feint.',
+    not_punishable_brake: 'This move is not punishable on brake.',
+    no_ob_data:     'No on-block data for this move.',
+    missing_data:   'One of the selected moves is missing frame data.',
+    no_punishers:   (char) => `${char} has no moves fast enough to punish this.`,
+    true_blockstring_verdict: 'True Blockstring — opponent cannot act',
+    frame_trap_verdict:       (gap) => `Frame Trap — opponent needs ≤${gap}f startup to interrupt`,
+    interruptible_verdict:    (gap) => `Interruptible — opponent can act with a ${gap}f move or faster`,
+    true_block_header: (opp) => `${opp} — True blockstring, cannot interrupt`,
+    interrupt_header:  (opp, gap) => `${opp} — Moves that can interrupt (startup ≤ ${gap}f)`,
+    no_interrupt_true: 'No move can interrupt a true blockstring.',
+    no_interrupt_fast: 'None — no moves fast enough to interrupt.',
+    overhead_note:  'NOTE: All combination attacks with overhead ender can be interrupted with high dodge before the overhead comes out.',
+  },
+  es: {
+    nav_punisher:   'Castigador',
+    nav_trap_calc:  'Calculadora de frame traps',
+    nav_trap_check: 'Interruptor de secuencias',
+    nav_info:       'Info',
+    nav_fd:         'Frame Data',
+    hint_fd:        'Selecciona un personaje y un ataque para ver su frame data.',
+    fd_on_hit:      'En Golpe',
+    fd_active:      'Activo',
+    you:            'Tú',
+    your_opponent:  'Tu Oponente',
+    your_character: 'Tu Personaje',
+    opp_move:       'Movimiento del Oponente',
+    move1:          'Movimiento 1',
+    move2:          'Movimiento 2',
+    hint_punisher:  'Elige tu personaje y el de tu oponente, luego selecciona el movimiento que quieres castigar. Los controles <strong>FEINT</strong> y <strong>BRAKE</strong> solo están disponibles para movimientos que tengan ese dato.',
+    hint_trap_calc: 'Selecciona dos de tus movimientos en secuencia. El <strong>hueco</strong> es cuántos frames tiene tu oponente para actuar entre ellos. Hueco ≤ 0 es un blockstring verdadero. Un hueco positivo pequeño es un frame trap.',
+    hint_trap_check:'Selecciona tus dos movimientos y tu oponente. La calculadora muestra cuáles movimientos de tu oponente pueden interrumpir el hueco entre ellos.',
+    on_block:       'En Defensa',
+    gap_label:      'Hueco',
+    col_move:       'Movimiento',
+    col_startup:    'Inicio',
+    move_details:   'Detalles del ataque',
+    punishing_moves:(char, thr) => `${char} — Movimientos que castigan (inicio ≤ ${thr}f)`,
+    not_punishable:       'Este movimiento no es castigable.',
+    not_punishable_feint: 'Este movimiento no es castigable en feint.',
+    not_punishable_brake: 'Este movimiento no es castigable en brake.',
+    no_ob_data:     'Sin datos en defensa para este movimiento.',
+    missing_data:   'A uno de los movimientos le faltan datos de frames.',
+    no_punishers:   (char) => `${char} no tiene movimientos suficientemente rápidos para castigar esto.`,
+    true_blockstring_verdict: 'Blockstring verdadero — el oponente no puede actuar',
+    frame_trap_verdict:       (gap) => `Frame Trap — El oponente necesita un movimiento ≤ a ${gap}f para interrumpir`,
+    interruptible_verdict:    (gap) => `Interrumpible — el oponente puede actuar con un movimiento de ${gap}f o más rápido`,
+    true_block_header: (opp) => `${opp} — Blockstring verdadero, no se puede interrumpir`,
+    interrupt_header:  (opp, gap) => `${opp} — Movimientos que pueden interrumpir (inicio ≤ ${gap}f)`,
+    no_interrupt_true: 'Ningún movimiento puede interrumpir un blockstring verdadero.',
+    no_interrupt_fast: 'Ninguno — no hay movimientos suficientemente rápidos para interrumpir.',
+    overhead_note:  'NOTA: Todos los combination attacks que terminan en overhead pueden ser interrumpidos con high dodge antes de que el overhead te golpee.',
+  }
+};
+
+function t(key, ...args) {
+  const val = T[LANG][key] ?? T.en[key];
+  return typeof val === 'function' ? val(...args) : val;
+}
+
+function setLang(lang) {
+  LANG = lang;
+  document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+  document.getElementById('lang-es').classList.toggle('active', lang === 'es');
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    const val = T[LANG][key];
+    if (val !== undefined && typeof val !== 'function') el.innerHTML = val;
+  });
+  populatePunisherMoves();
+  populateMoveDropdowns('tc');
+  populateMoveDropdowns('tck');
+  populateFdAttacks();
+  renderInfoTab();
+  runPunisher();
+  runTrapCalc();
+  runTrapCheck();
+  runFrameData();
+}
+
+function renderInfoTab() {
+  const dcLink     = `<a href="https://www.dreamcancel.com/wiki/Fatal_Fury:_City_of_the_Wolves" target="_blank">DreamCancel Wiki</a>`;
+  const donateLink = `<a href="https://streamelements.com/angelfreak_-bea40/tip" target="_blank" style="color:var(--good);">${LANG === 'es' ? 'Donaciones aquí.' : 'Donate here.'}</a>`;
+  const social = `
+    <p class="info-social-label">${LANG === 'es' ? 'Encuéntrame en redes sociales' : 'Find me on social media'}</p>
+    <div class="info-social">
+      <a href="https://x.com/angelfreak_" target="_blank">X</a>
+      <a href="https://www.facebook.com/AngelFreak4e" target="_blank">FB</a>
+      <a href="https://twitch.tv/angelfreak_" target="_blank">Twitch</a>
+      <a href="https://youtube.com/@angelfreak_" target="_blank">YouTube</a>
+      <span>Discord: <span style="color:var(--muted)">angelfreak</span></span>
+      ${donateLink}
+    </div>`;
+
+  const content = LANG === 'es' ? `
+    <p>¡Qué onda!</p>
+    <p>AngelFreak por acá. Esta herramienta fue creada para aquellos a quienes les cuesta trabajo recordar o aprender frame data. Sé que puede ser difícil, tedioso y aburrido, pero si ya llegaste a tu límite en el juego y no sabes como seguir mejorando, estoy seguro que esta herramienta te ayudará.</p>
+    <p>Si encuentras errores o glitches, o la información de los movimientos no es correcta, porfa toma una captura de pantalla y compártemela por X (puedes encontrar links a mis redes sociales abajo). Haré lo que pueda por actualizar o corregir lo que sea necesario tan pronto tenga tiempo.</p>
+    <p>Si te sirve esta herramienta, compártela con tus amigos en redes sociales y ve a ${dcLink} a ver toda la info que tienen sobre el juego. Toda la información que encontrarás aquí proviene de ellos &lt;3</p>
+    <p style="margin-bottom:28px;">¡Ggs!</p>
+    ${social}` : `
+    <p>Hi!</p>
+    <p>AngelFreak here! This tool was created for those players who aren't very familiar with frame data. I know frame data can be such a pain in the butt to learn, but if you already hit a plateau and don't know how to keep improving, I'm pretty sure this tool will help you.</p>
+    <p>If you find any errors or glitches or the information presented is not accurate, please make a screenshot and share it with me on X (you can find my social media links below). I'll do the best I can to update/correct anything as soon as I have time.</p>
+    <p>If you found this app useful, share it with your friends on social media and go over to ${dcLink} to check out more useful and detailed stuff. All of the information presented on this app comes from them &lt;3</p>
+    <p style="margin-bottom:28px;">Ggs!</p>
+    ${social}`;
+
+  document.getElementById('info-content').innerHTML = content;
+}
+
+// ── Portrait offsets (negative = up, positive = down) ─────────
+const PORTRAIT_OFFSET = {
+  'Billy Kane':        -50,
+  'Chun-Li':           -15,
+  'Gato':              -10,
+  'Hokutomaru':        -10,
+  'Joe Higashi':       -10,
+  'Kevin Rian':        -10,
+  'Kim Dong Hwan':     -5,
+  'Mai Shiranui':      -30,
+  'Preecha':            10,
+  'Rock Howard':       -30,
+  'Salvatore Ganacci': -10,
+  'Tizoc':             -10,
+  'Vox Reaper':        -10,
+};
+
+// ── Portrait map ───────────────────────────────────────────────
+const THROW_DISPLAY = {
+  en: { 'Front Throw': 'AB — Front Throw', 'Back Throw': '4AB — Back Throw' },
+  es: { 'Front Throw': 'AB — Agarre neutral', 'Back Throw': '4AB — Agarre hacia atrás' },
+};
+function throwDisplayName(name) {
+  return (THROW_DISPLAY[LANG] && THROW_DISPLAY[LANG][name]) || name;
+}
+
+const RENDER_MAP = {
+  'Andy Bogard':       'Andy.png',
+  'B. Jenet':          'B Jenet.png',
+  'Billy Kane':        'Billy.png',
+  'Blue Mary':         'Blue Mary.png',
+  'Chun-Li':           'Chun li.png',
+  'Cristiano Ronaldo': 'cr7.png',
+  'Gato':              'GATO.png',
+  'Nightmare Geese':   'nightmare geese.png',
+  'Hokutomaru':        'Hokutomaru.png',
+  'Hotaru Futaba':     'Hotaru.png',
+  'Joe Higashi':       'Joe.png',
+  'Kain R. Heinlein':  'Kain.png',
+  'Ken Masters':       'Ken.png',
+  'Kevin Rian':        'Kevin.png',
+  'Kim Dong Hwan':     'kim dong hwan.png',
+  'Kim Jae Hoon':      'Kim Jae Hoon.png',
+  'Mai Shiranui':      'Mai.png',
+  'Marco Rodrigues':   'Marco.png',
+  'Mr. Big':           'Mr Big.png',
+  'Preecha':           'Preecha.png',
+  'Rock Howard':       'Rock.png',
+  'Salvatore Ganacci': 'Salvatore.png',
+  'Terry Bogard':      'Terry.png',
+  'Tizoc':             'Tizoc.png',
+  'Vox Reaper':        'vox.png',
+};
+
+const PORTRAIT_MAP = {
+  'Andy Bogard':       'andy.png',
+  'B. Jenet':          'b jenet.png',
+  'Billy Kane':        'billy.png',
+  'Blue Mary':         'blue mary.png',
+  'Chun-Li':           'chun li.png',
+  'Cristiano Ronaldo': 'cr7.png',
+  'Gato':              'gato.png',
+  'Nightmare Geese':   'geese.png',
+  'Hokutomaru':        'hokutomaru.png',
+  'Hotaru Futaba':     'hotaru.png',
+  'Joe Higashi':       'joe.png',
+  'Kain R. Heinlein':  'kain.png',
+  'Ken Masters':       'ken.png',
+  'Kevin Rian':        'kevin.png',
+  'Kim Dong Hwan':     'kim dong hwan.png',
+  'Kim Jae Hoon':      'kim jae hoon.png',
+  'Mai Shiranui':      'mai.png',
+  'Marco Rodrigues':   'marco.png',
+  'Mr. Big':           'mr big.png',
+  'Preecha':           'preecha.png',
+  'Rock Howard':       'rock.png',
+  'Salvatore Ganacci': 'salvatore.png',
+  'Terry Bogard':      'terry.png',
+  'Tizoc':             'tizoc.png',
+  'Vox Reaper':        'vox.png',
+};
+
+// ── Bootstrap ─────────────────────────────────────────────────
+fetch('output/frame_data_clean.json')
+  .then(r => r.json())
+  .then(d => {
+    DATA = d;
+    document.getElementById('loading').style.display = 'none';
+    const chars = Object.keys(DATA).sort();
+    populateAllCharDropdowns(chars);
+  })
+  .catch(() => {
+    document.getElementById('loading').textContent =
+      'Error loading frame_data_clean.json — run clean_framedata.py first, then: python -m http.server 8000';
+  });
+
+function populateAllCharDropdowns(chars) {
+  const opts = chars.map(c => `<option value="${c}">${c}</option>`).join('');
+  ['p-char','p-opp','tc-char','tck-char','tck-opp','fd-char'].forEach(id => {
+    document.getElementById(id).innerHTML = opts;
+  });
+  ['p-opp','tck-opp'].forEach(id => {
+    const el = document.getElementById(id);
+    if (chars.length > 1) el.selectedIndex = 1;
+  });
+
+  updatePortrait('p-portrait-you',  document.getElementById('p-char').value);
+  updatePortrait('p-portrait-opp',  document.getElementById('p-opp').value);
+  updatePortrait('tc-portrait',     document.getElementById('tc-char').value);
+  updatePortrait('tck-portrait-you',document.getElementById('tck-char').value);
+  updatePortrait('tck-portrait-opp',document.getElementById('tck-opp').value);
+
+  populatePunisherMoves();
+  populateMoveDropdowns('tc');
+  populateMoveDropdowns('tck');
+
+  renderInfoTab();
+  runPunisher();
+  runTrapCalc();
+  runTrapCheck();
+}
+
+// ── Portrait ──────────────────────────────────────────────────
+function updatePortrait(frameId, charName) {
+  const frame  = document.getElementById(frameId);
+  const file   = PORTRAIT_MAP[charName];
+  const offset = PORTRAIT_OFFSET[charName] || 0;
+  const pos    = `50% ${offset}px`;
+  frame.innerHTML = file
+    ? `<img src="portraits/${file}" alt="${charName}" style="object-position:${pos}" onerror="this.parentElement.innerHTML='<span class=no-portrait>?</span>'">`
+    : '<span class="no-portrait">?</span>';
+}
+
+// ── Toggle helpers ─────────────────────────────────────────────
+function updateFeintToggle(toggleId, checkboxId, charSelectId, moveSelectId) {
+  const move     = getMove(document.getElementById(charSelectId).value, document.getElementById(moveSelectId).value);
+  const toggle   = document.getElementById(toggleId);
+  const checkbox = document.getElementById(checkboxId);
+  if (move && move.on_block_feint !== undefined) {
+    toggle.classList.remove('disabled'); toggle.classList.add('enabled');
+  } else {
+    toggle.classList.remove('enabled', 'checked'); toggle.classList.add('disabled');
+    checkbox.checked = false;
+  }
+}
+
+function updateBrakeToggle(toggleId, checkboxId, charSelectId, moveSelectId) {
+  const move     = getMove(document.getElementById(charSelectId).value, document.getElementById(moveSelectId).value);
+  const toggle   = document.getElementById(toggleId);
+  const checkbox = document.getElementById(checkboxId);
+  if (move && move.on_block_brake !== undefined) {
+    toggle.classList.remove('disabled'); toggle.classList.add('enabled');
+  } else {
+    toggle.classList.remove('enabled', 'checked'); toggle.classList.add('disabled');
+    checkbox.checked = false;
+  }
+}
+
+function onMoveChange(prefix, charSelectId, moveSelectId) {
+  ['feint', 'brake'].forEach(type => {
+    document.getElementById(`${prefix}-${type}-toggle`).classList.remove('checked');
+    document.getElementById(`${prefix}-${type}`).checked = false;
+  });
+  updateFeintToggle(`${prefix}-feint-toggle`, `${prefix}-feint`, charSelectId, moveSelectId);
+  updateBrakeToggle(`${prefix}-brake-toggle`, `${prefix}-brake`, charSelectId, moveSelectId);
+}
+
+function toggleFeint(toggleId, checkboxId, brakeToggleId, brakeCheckboxId, callback) {
+  const toggle = document.getElementById(toggleId);
+  const checkbox = document.getElementById(checkboxId);
+  if (toggle.classList.contains('disabled')) return;
+  checkbox.checked = !checkbox.checked;
+  toggle.classList.toggle('checked', checkbox.checked);
+  if (checkbox.checked) {
+    document.getElementById(brakeCheckboxId).checked = false;
+    document.getElementById(brakeToggleId).classList.remove('checked');
+  }
+  callback();
+}
+
+function toggleBrake(toggleId, checkboxId, feintToggleId, feintCheckboxId, callback) {
+  const toggle = document.getElementById(toggleId);
+  const checkbox = document.getElementById(checkboxId);
+  if (toggle.classList.contains('disabled')) return;
+  checkbox.checked = !checkbox.checked;
+  toggle.classList.toggle('checked', checkbox.checked);
+  if (checkbox.checked) {
+    document.getElementById(feintCheckboxId).checked = false;
+    document.getElementById(feintToggleId).classList.remove('checked');
+  }
+  callback();
+}
+
+// ── Move dropdowns ────────────────────────────────────────────
+function moveOpt(m) {
+  return `<option value="${m.move}">${throwDisplayName(m.move)}</option>`;
+}
+
+function populatePunisherMoves() {
+  const opp   = document.getElementById('p-opp').value;
+  const moves = DATA[opp] || [];
+  document.getElementById('p-move').innerHTML = moves.map(moveOpt).join('');
+  onMoveChange('p', 'p-opp', 'p-move');
+}
+
+function populateMoveDropdowns(prefix) {
+  const char  = document.getElementById(`${prefix}-char`).value;
+  const moves = DATA[char] || [];
+  const opts  = moves.map(moveOpt).join('');
+  document.getElementById(`${prefix}-m1`).innerHTML = opts;
+  document.getElementById(`${prefix}-m2`).innerHTML = opts;
+  if (moves.length > 1) document.getElementById(`${prefix}-m2`).selectedIndex = 1;
+  onMoveChange(prefix, `${prefix}-char`, `${prefix}-m1`);
+}
+
+// ── Tab switching ─────────────────────────────────────────────
+function showTab(id, btn) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+}
+
+// ── Data helpers ──────────────────────────────────────────────
+function getMoves(char) { return DATA[char] || []; }
+function getMove(char, name) { return getMoves(char).find(m => m.move === name); }
+
+function getEffectiveOnBlock(move, useFeint, useBrake) {
+  if (useBrake && move.on_block_brake !== undefined) return move.on_block_brake;
+  if (useFeint && move.on_block_feint !== undefined) return move.on_block_feint;
+  return move.on_block;
+}
+
+function numClass(n) { return n > 0 ? 'good' : n < 0 ? 'bad' : 'even'; }
+function numStr(n)   { return (n > 0 ? '+' : '') + n; }
+
+function modTag(useFeint, useBrake, sz) {
+  sz = sz || '0.75em';
+  if (useFeint) return ` <span style="color:var(--accent2);font-size:${sz};font-weight:700"> FEINT</span>`;
+  if (useBrake) return ` <span style="color:var(--brake);font-size:${sz};font-weight:700"> BRAKE</span>`;
+  return '';
+}
+
+// ── MOVE PUNISHER ─────────────────────────────────────────────
+function runPunisher() {
+  const char     = document.getElementById('p-char').value;
+  const opp      = document.getElementById('p-opp').value;
+  const moveName = document.getElementById('p-move').value;
+  const useFeint = document.getElementById('p-feint').checked;
+  const useBrake = document.getElementById('p-brake').checked;
+  const el       = document.getElementById('p-results');
+
+  const oppMove = getMove(opp, moveName);
+  if (!oppMove) { el.innerHTML = ''; return; }
+
+  const obValue = getEffectiveOnBlock(oppMove, useFeint, useBrake);
+  if (obValue === null || obValue === undefined) {
+    el.innerHTML = `<div class="result-box"><p class="empty">${t('no_ob_data')}</p></div>`;
+    return;
+  }
+
+  const vc = numClass(obValue);
+  const vs = numStr(obValue);
+
+  const notPunishableNote = obValue >= 0
+    ? `<div class="value-hero-note">${useFeint ? t('not_punishable_feint') : useBrake ? t('not_punishable_brake') : t('not_punishable')}</div>`
+    : '';
+
+  const overheadAlert = moveName === 'Full Combination Attack Overhead'
+    ? `<div class="value-hero-alert">${t('overhead_note')}</div>`
+    : '';
+
+  const heroBox = `
+    <div class="result-box">
+      <div class="value-hero">
+        <div class="value-hero-name">${opp} — ${throwDisplayName(moveName)}${modTag(useFeint, useBrake)}</div>
+        <div class="value-hero-label">${t('on_block')}</div>
+        <div class="value-hero-number ${vc}">${vs}</div>
+        ${notPunishableNote}
+        ${overheadAlert}
+      </div>
+    </div>`;
+
+  if (obValue >= 0) { el.innerHTML = heroBox; return; }
+
+  const threshold = Math.abs(obValue);
+  const punishers = getMoves(char)
+    .filter(m => m.startup !== null && m.startup <= threshold)
+    .sort((a, b) => a.startup - b.startup);
+
+  el.innerHTML = heroBox + `
+    <div class="result-box">
+      <h3>${t('punishing_moves', char, threshold)}</h3>
+      ${punishers.length ? `
+      <table>
+        <thead><tr><th class="left">${t('col_move')}</th><th>${t('col_startup')}</th></tr></thead>
+        <tbody>${punishers.map(m => `
+          <tr>
+            <td class="left"><strong>${m.move}</strong></td>
+            <td>${m.startup}f</td>
+          </tr>`).join('')}
+        </tbody>
+      </table>` : `<p class="empty">${t('no_punishers', char)}</p>`}
+    </div>`;
+}
+
+// ── FRAME TRAP CALCULATOR ─────────────────────────────────────
+function runTrapCalc() {
+  const char     = document.getElementById('tc-char').value;
+  const useFeint = document.getElementById('tc-feint').checked;
+  const useBrake = document.getElementById('tc-brake').checked;
+  const m1       = getMove(char, document.getElementById('tc-m1').value);
+  const m2       = getMove(char, document.getElementById('tc-m2').value);
+  const el       = document.getElementById('tc-results');
+
+  if (!m1 || !m2) { el.innerHTML = ''; return; }
+
+  const ob1 = getEffectiveOnBlock(m1, useFeint, useBrake);
+  if (ob1 === null || ob1 === undefined || m2.startup === null) {
+    el.innerHTML = `<p class="empty">${t('missing_data')}</p>`;
+    return;
+  }
+
+  const gap = m2.startup - ob1;
+  el.innerHTML = trapHeroHTML(m1, m2, gap, useFeint, useBrake) + trapDetailHTML(m1, m2, useFeint, useBrake);
+}
+
+// ── FRAME TRAP CHECKER ────────────────────────────────────────
+function runTrapCheck() {
+  const char     = document.getElementById('tck-char').value;
+  const opp      = document.getElementById('tck-opp').value;
+  const useFeint = document.getElementById('tck-feint').checked;
+  const useBrake = document.getElementById('tck-brake').checked;
+  const m1       = getMove(char, document.getElementById('tck-m1').value);
+  const m2       = getMove(char, document.getElementById('tck-m2').value);
+  const el       = document.getElementById('tck-results');
+
+  if (!m1 || !m2) { el.innerHTML = ''; return; }
+
+  const ob1 = getEffectiveOnBlock(m1, useFeint, useBrake);
+  if (ob1 === null || ob1 === undefined || m2.startup === null) {
+    el.innerHTML = `<p class="empty">${t('missing_data')}</p>`;
+    return;
+  }
+
+  const gap      = m2.startup - ob1;
+  const canInterrupt = getMoves(opp)
+    .filter(m => m.startup !== null)
+    .sort((a, b) => a.startup - b.startup)
+    .filter(m => m.startup <= gap);
+
+  const interruptTable = gap <= 0
+    ? `<div class="result-box">
+        <h3>${t('true_block_header', opp)}</h3>
+        <p class="empty">${t('no_interrupt_true')}</p>
+       </div>`
+    : `<div class="result-box">
+        <h3>${t('interrupt_header', opp, gap)}</h3>
+        ${canInterrupt.length ? `
+        <table>
+          <thead><tr><th class="left">${t('col_move')}</th><th>${t('col_startup')}</th></tr></thead>
+          <tbody>${canInterrupt.map(m => `
+            <tr>
+              <td class="left"><strong>${m.move}</strong></td>
+              <td>${m.startup}f</td>
+            </tr>`).join('')}
+          </tbody>
+        </table>` : `<p class="empty">${t('no_interrupt_fast')}</p>`}
+       </div>`;
+
+  el.innerHTML = trapHeroHTML(m1, m2, gap, useFeint, useBrake) + interruptTable + trapDetailHTML(m1, m2, useFeint, useBrake);
+}
+
+// ── Shared trap result blocks ─────────────────────────────────
+function trapHeroHTML(m1, m2, gap, useFeint, useBrake) {
+  let subText, subClass;
+  if (gap <= 0) {
+    subText  = t('true_blockstring_verdict');
+    subClass = 'warn';
+  } else if (gap <= 4) {
+    subText  = t('frame_trap_verdict', gap);
+    subClass = 'good';
+  } else {
+    subText  = t('interruptible_verdict', gap);
+    subClass = 'bad';
+  }
+
+  return `
+    <div class="result-box">
+      <div class="value-hero">
+        <div class="value-hero-name">${m1.move}${modTag(useFeint, useBrake)} → ${m2.move}</div>
+        <div class="value-hero-label">${t('gap_label')}</div>
+        <div class="value-hero-number ${gap <= 0 ? 'even' : gap <= 4 ? 'good' : 'bad'}">${gap > 0 ? '+' : ''}${gap}</div>
+        <div class="value-hero-sub ${subClass}">${subText}</div>
+      </div>
+    </div>`;
+}
+
+function trapDetailHTML(m1, m2, useFeint, useBrake) {
+  return `
+    <div class="result-box">
+      <h3>${t('move_details')}</h3>
+      <table>
+        <thead><tr><th class="left">${t('col_move')}</th><th>${t('col_startup')}</th></tr></thead>
+        <tbody>
+          <tr>
+            <td class="left"><strong>${m1.move}${modTag(useFeint, useBrake, '0.75em')}</strong></td>
+            <td>${m1.startup !== null ? m1.startup + 'f' : '—'}</td>
+          </tr>
+          <tr>
+            <td class="left"><strong>${m2.move}</strong></td>
+            <td>${m2.startup !== null ? m2.startup + 'f' : '—'}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>`;
+}
+// ── FRAME DATA ────────────────────────────────────────────────
+function fdColor(n) {
+  if (n === null || n === undefined) return 'var(--muted)';
+  if (n > 0)   return 'var(--good)';
+  if (n === 0) return 'var(--muted)';
+  if (n >= -3) return 'var(--warn)';
+  return 'var(--bad)';
+}
+
+function fdVal(main, feint, brake) {
+  if (main === null || main === undefined) {
+    return `<span style="color:var(--muted)">—</span>`;
+  }
+  const str = (main > 0 ? '+' : '') + main;
+  let sub = '';
+  if (feint !== undefined) {
+    const fs = (feint > 0 ? '+' : '') + feint;
+    sub = ` <span class="fd-sub">(<span style="color:${fdColor(feint)}">${fs}</span> <span style="color:var(--accent2)">feint</span>)</span>`;
+  } else if (brake !== undefined) {
+    const bs = (brake > 0 ? '+' : '') + brake;
+    sub = ` <span class="fd-sub">(<span style="color:${fdColor(brake)}">${bs}</span> <span style="color:var(--brake)">brake</span>)</span>`;
+  }
+  return `<span style="color:${fdColor(main)}">${str}</span>${sub}`;
+}
+
+function populateFdAttacks() {
+  const char  = document.getElementById('fd-char').value;
+  const moves = DATA[char] || [];
+  document.getElementById('fd-attack').innerHTML = moves.map(moveOpt).join('');
+}
+
+function runFrameData() {
+  const char     = document.getElementById('fd-char').value;
+  const moveName = document.getElementById('fd-attack').value;
+  const el       = document.getElementById('fd-result');
+  const move     = getMove(char, moveName);
+  if (!move) { el.innerHTML = ''; return; }
+
+  const render  = RENDER_MAP[char];
+  const bgStyle = render ? `background-image:url('renders/${render}');` : '';
+
+  const stLabel = t('col_startup');
+  const acLabel = t('fd_active');
+  const obLabel = t('on_block');
+  const ohLabel = t('fd_on_hit');
+
+  el.innerHTML = `
+    <div class="fd-card">
+      <div class="fd-render" style="${bgStyle}"></div>
+      <div class="fd-overlay"></div>
+      <div class="fd-content">
+        <div class="fd-move-name">${throwDisplayName(moveName)}</div>
+        <div class="fd-stats">
+          <div class="fd-stat-row">
+            <span class="fd-stat-label">${stLabel}</span>
+            <span class="fd-stat-value" style="color:var(--text)">${move.startup !== null ? move.startup + 'f' : '—'}</span>
+          </div>
+          <div class="fd-stat-row">
+            <span class="fd-stat-label">${acLabel}</span>
+            <span class="fd-stat-value" style="color:var(--brake)">${move.active !== null ? move.active + 'f' : '—'}</span>
+          </div>
+          <div class="fd-stat-row">
+            <span class="fd-stat-label">${obLabel}</span>
+            <span class="fd-stat-value">${fdVal(move.on_block, move.on_block_feint, move.on_block_brake)}</span>
+          </div>
+          <div class="fd-stat-row">
+            <span class="fd-stat-label">${ohLabel}</span>
+            <span class="fd-stat-value">${fdVal(move.on_hit, move.on_hit_feint, move.on_hit_brake)}</span>
+          </div>
+          ${moveName === 'Full Combination Attack Overhead'
+            ? `<div class="value-hero-alert" style="font-size:0.78rem;margin-top:16px;text-align:left;">${t('overhead_note')}</div>`
+            : ''}
+        </div>
+      </div>
+    </div>`;
+}
+</script>
+</body>
+</html>

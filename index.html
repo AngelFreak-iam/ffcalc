@@ -1003,7 +1003,7 @@ function trapHeroHTML(m1, m2, gap, useFeint, useBrake) {
       <div class="value-hero">
         <div class="value-hero-name">${m1.move}${modTag(useFeint, useBrake)} → ${m2.move}</div>
         <div class="value-hero-label">${t('gap_label')}</div>
-        <div class="value-hero-number ${gap <= 0 ? 'even' : gap <= 4 ? 'good' : 'bad'}">${gap > 0 ? '+' : ''}${gap}</div>
+        <div class="value-hero-number ${gap <= 0 ? 'even' : gap <= 4 ? 'good' : 'bad'}">${gap}</div>
         <div class="value-hero-sub ${subClass}">${subText}</div>
       </div>
     </div>`;

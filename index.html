@@ -618,6 +618,7 @@ const PORTRAIT_OFFSET = {
   'Salvatore Ganacci': -10,
   'Tizoc':             -10,
   'Vox Reaper':        -10,
+  'Wolfgang Krauser':  -20,
 };
 
 // ── Portrait map ───────────────────────────────────────────────
@@ -683,6 +684,7 @@ const PORTRAIT_MAP = {
   'Terry Bogard':      'terry.png',
   'Tizoc':             'tizoc.png',
   'Vox Reaper':        'vox.png',
+  'Wolfgang Krauser':  'character_index_krauser.webp',
 };
 
 // ── Bootstrap ─────────────────────────────────────────────────
@@ -700,9 +702,14 @@ fetch('output/frame_data_clean.json')
   });
 
 function populateAllCharDropdowns(chars) {
+  const blueMaryOpt = `<option value="Blue Mary" disabled style="color:var(--muted);font-style:italic;">Blue Mary — UNDER REVISION</option>`;
   const opts = chars.map(c => `<option value="${c}">${c}</option>`).join('');
+  const insertedOpts = opts.replace(
+    `<option value="Billy Kane">Billy Kane</option>`,
+    `<option value="Billy Kane">Billy Kane</option>${blueMaryOpt}`
+  );
   ['p-char','p-opp','tc-char','tck-char','tck-opp','fd-char'].forEach(id => {
-    document.getElementById(id).innerHTML = opts;
+    document.getElementById(id).innerHTML = insertedOpts;
   });
   ['p-opp','tck-opp'].forEach(id => {
     const el = document.getElementById(id);

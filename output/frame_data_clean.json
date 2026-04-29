@@ -9209,5 +9209,432 @@
       "on_block": -20,
       "on_hit": 31
     }
+  ],
+  "Wolfgang Krauser": [
+    {
+      "move": "cl.A",
+      "startup": 4,
+      "active": 4,
+      "on_block": 3,
+      "on_block_feint": -5,
+      "on_hit": 3,
+      "on_hit_feint": -3
+    },
+    {
+      "move": "cl.B",
+      "startup": 6,
+      "active": 5,
+      "on_block": 3,
+      "on_block_feint": -7,
+      "on_hit": 9,
+      "on_hit_feint": -1
+    },
+    {
+      "move": "cl.C",
+      "startup": 7,
+      "active": 6,
+      "on_block": -6,
+      "on_block_feint": 1,
+      "on_hit": 3,
+      "on_hit_feint": 10
+    },
+    {
+      "move": "cl.D",
+      "startup": 8,
+      "active": 5,
+      "on_block": -5,
+      "on_block_feint": 3,
+      "on_hit": 2,
+      "on_hit_feint": 10
+    },
+    {
+      "move": "f.A",
+      "startup": 7,
+      "active": 4,
+      "on_block": -3,
+      "on_hit": 3
+    },
+    {
+      "move": "f.B",
+      "startup": 7,
+      "active": 4,
+      "on_block": -5,
+      "on_block_feint": -5,
+      "on_hit": -2
+    },
+    {
+      "move": "f.C",
+      "startup": 10,
+      "active": 4,
+      "on_block": 1,
+      "on_block_feint": 0,
+      "on_hit": 5,
+      "on_hit_feint": 4
+    },
+    {
+      "move": "f.D",
+      "startup": 11,
+      "active": 1,
+      "on_block": -3,
+      "on_hit": 3
+    },
+    {
+      "move": "2A",
+      "startup": 6,
+      "active": 3,
+      "on_block": -1,
+      "on_block_feint": -7,
+      "on_hit": 1,
+      "on_hit_feint": -5
+    },
+    {
+      "move": "2B",
+      "startup": 5,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "2C",
+      "startup": 9,
+      "active": 3,
+      "on_block": -4,
+      "on_block_feint": 0,
+      "on_hit": -2,
+      "on_hit_feint": 3
+    },
+    {
+      "move": "2D",
+      "startup": 10,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 55
+    },
+    {
+      "move": "Combination Attack 1st Hit",
+      "startup": 12,
+      "active": 6,
+      "on_block": -2,
+      "on_hit": 0
+    },
+    {
+      "move": "Combination Attack 2nd Hit",
+      "startup": 8,
+      "active": 3,
+      "on_block": -4,
+      "on_hit": 0
+    },
+    {
+      "move": "Full Combination Attack Standing",
+      "startup": 12,
+      "active": 3,
+      "on_block": -8,
+      "on_hit": 71
+    },
+    {
+      "move": "Full Combination Attack Overhead",
+      "startup": 23,
+      "active": 4,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "Full Combination Attack Low",
+      "startup": 10,
+      "active": 4,
+      "on_block": -11,
+      "on_hit": 55
+    },
+    {
+      "move": "Front Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 46
+    },
+    {
+      "move": "Back Throw",
+      "startup": 5,
+      "active": 3,
+      "on_hit": 49
+    },
+    {
+      "move": "6A",
+      "startup": 21,
+      "active": 2,
+      "on_block": -6,
+      "on_hit": 6
+    },
+    {
+      "move": "6C",
+      "startup": 13,
+      "active": 4,
+      "on_block": -5,
+      "on_hit": 3
+    },
+    {
+      "move": "Command Combo (C>6C)",
+      "startup": 8,
+      "active": 3,
+      "on_block": -7,
+      "on_block_feint": 3,
+      "on_hit": 0,
+      "on_hit_feint": 9
+    },
+    {
+      "move": "CD",
+      "startup": 25,
+      "active": 4,
+      "on_block": -4,
+      "on_hit": 63
+    },
+    {
+      "move": "j.CD",
+      "startup": 19,
+      "active": null,
+      "on_block": -3,
+      "on_hit": 58
+    },
+    {
+      "move": "2C+REV",
+      "startup": 12,
+      "active": 3,
+      "on_block": -6,
+      "on_hit": -1,
+      "on_hit_feint": 5
+    },
+    {
+      "move": "5C+REV",
+      "startup": 23,
+      "active": 4,
+      "on_block": -2,
+      "on_hit": 3
+    },
+    {
+      "move": "214A",
+      "startup": 15,
+      "active": null,
+      "on_block": -4,
+      "on_hit": -2
+    },
+    {
+      "move": "214A Hold",
+      "startup": 27,
+      "active": null,
+      "on_block": 0,
+      "on_hit": 2
+    },
+    {
+      "move": "214C",
+      "startup": 17,
+      "active": null,
+      "on_block": -6,
+      "on_hit": -4
+    },
+    {
+      "move": "214C Hold",
+      "startup": 28,
+      "active": null,
+      "on_block": -3,
+      "on_hit": -1
+    },
+    {
+      "move": "214AC",
+      "startup": 18,
+      "active": null,
+      "on_block": 2,
+      "on_hit": 76
+    },
+    {
+      "move": "214AC Hold",
+      "startup": 30,
+      "active": null,
+      "on_block": 4,
+      "on_hit": 86
+    },
+    {
+      "move": "236B",
+      "startup": 23,
+      "active": 6,
+      "on_block": -2,
+      "on_hit": 2
+    },
+    {
+      "move": "236D",
+      "startup": 25,
+      "active": 6,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "236BD",
+      "startup": 24,
+      "active": 6,
+      "on_block": 2,
+      "on_hit": 2
+    },
+    {
+      "move": "632146B",
+      "startup": 22,
+      "active": 4,
+      "on_hit": 41
+    },
+    {
+      "move": "632146D",
+      "startup": 27,
+      "active": 4,
+      "on_hit": 41
+    },
+    {
+      "move": "632146BD",
+      "startup": 25,
+      "active": 4,
+      "on_hit": 63
+    },
+    {
+      "move": "623A",
+      "startup": 9,
+      "active": 5,
+      "on_hit": 52
+    },
+    {
+      "move": "623C",
+      "startup": 11,
+      "active": 5,
+      "on_hit": 52
+    },
+    {
+      "move": "623AC",
+      "startup": 11,
+      "active": 5,
+      "on_hit": 92
+    },
+    {
+      "move": "214B (Far)",
+      "startup": 11,
+      "active": 8,
+      "on_block": 2,
+      "on_hit": 4
+    },
+    {
+      "move": "214B (Close)",
+      "startup": 11,
+      "active": 8,
+      "on_block": -5,
+      "on_hit": -5
+    },
+    {
+      "move": "214B Follow Up",
+      "startup": 14,
+      "active": 3,
+      "on_block": -7,
+      "on_hit": 73
+    },
+    {
+      "move": "214D (Far)",
+      "startup": 19,
+      "active": 3,
+      "on_block": 1,
+      "on_hit": 84
+    },
+    {
+      "move": "214D (Close)",
+      "startup": 19,
+      "active": 3,
+      "on_block": -5,
+      "on_hit": 84
+    },
+    {
+      "move": "214D Follow Up",
+      "startup": 14,
+      "active": 3,
+      "on_block": -7,
+      "on_hit": 67
+    },
+    {
+      "move": "214BD (Far)",
+      "startup": 19,
+      "active": 8,
+      "on_block": 3,
+      "on_hit": 78
+    },
+    {
+      "move": "214BD (Close)",
+      "startup": 19,
+      "active": 8,
+      "on_block": -3,
+      "on_hit": 78
+    },
+    {
+      "move": "214BD Follow Up",
+      "startup": 14,
+      "active": 3,
+      "on_block": -7,
+      "on_block_brake": -3,
+      "on_hit": 90,
+      "on_hit_brake": 90
+    },
+    {
+      "move": "236236A Lvl1",
+      "startup": 10,
+      "active": null,
+      "on_block": -28,
+      "on_hit": 68
+    },
+    {
+      "move": "236236A Lvl2",
+      "startup": 45,
+      "active": null,
+      "on_block": -30,
+      "on_hit": 68
+    },
+    {
+      "move": "236236A Lvl3",
+      "startup": 120,
+      "active": null,
+      "on_block": -30,
+      "on_hit": 68
+    },
+    {
+      "move": "236236C Lvl1",
+      "startup": 9,
+      "active": null,
+      "on_block": -28,
+      "on_hit": 68
+    },
+    {
+      "move": "236236C Lvl2",
+      "startup": 45,
+      "active": null,
+      "on_block": -28,
+      "on_hit": 68
+    },
+    {
+      "move": "236236C Lvl3",
+      "startup": 120,
+      "active": null,
+      "on_block": -28,
+      "on_hit": 68
+    },
+    {
+      "move": "236236B",
+      "startup": 8,
+      "active": 2,
+      "on_block": -34,
+      "on_hit": 59
+    },
+    {
+      "move": "236236D",
+      "startup": 7,
+      "active": 2,
+      "on_block": -50,
+      "on_hit": 45
+    },
+    {
+      "move": "236236REV",
+      "startup": 6,
+      "active": 5,
+      "on_block": -37,
+      "on_hit": 23
+    }
   ]
 }
